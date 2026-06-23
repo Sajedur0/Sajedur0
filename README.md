@@ -115,10 +115,12 @@
 
 <br>
 
-## 🐍 **Contribution Snake**
+## 🐍 **Contribution Graph & Snake**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Sajedur0/Sajedur0/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  <img src="https://ghchart.rshah.org/Sajedur0" alt="Contribution Heatmap" width="100%" />
+  <br><br>
+  <img src="https://raw.githubusercontent.com/Sajedur0/Sajedur0/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" width="100%" />
 </div>
 
 <br>
