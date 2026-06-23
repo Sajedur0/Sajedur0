@@ -97,10 +97,20 @@
 
 <br>
 
-## 🏆 **GitHub Trophies**
+## 🏆 **GitHub Achievements**
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Sajedur0&theme=radical&no-frame=true&no-bg=false&margin-w=4&column=6" width="100%" />
+
+![Repos](https://img.shields.io/badge/Public%20Repos-12-2962FF?style=for-the-badge&logo=github)
+![Stars](https://img.shields.io/badge/Total%20Stars-26-00C853?style=for-the-badge&logo=github)
+![Forks](https://img.shields.io/badge/Total%20Forks-3-FF6D00?style=for-the-badge&logo=github)
+
+| 🏅 Achievement | 📌 Description |
+|:--------------:|:--------------:|
+| ⭐ **Starstruck** | Created a repo with 25+ stars |
+| 🤝 **Pair Extraordinaire** | Merged a PR via Pair Extraordinaire |
+| 🚀 **YOLO** | Merged a PR without review |
+
 </div>
 
 <br>
