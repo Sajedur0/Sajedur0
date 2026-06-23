@@ -100,7 +100,7 @@
 ## 🏆 **GitHub Trophies**
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Sajedur0&theme=radical&no-frame=true&no-bg=false&margin-w=4&row=2&column=4" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Sajedur0&theme=radical&no-frame=true&no-bg=false&margin-w=4&column=6" width="100%" />
 </div>
 
 <br>
@@ -108,10 +108,8 @@
 ## 🐍 **Contribution Snake**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/sallar/sallar/master/assets/snake/snake-dark.svg" width="100%" />
+  <img src="https://raw.githubusercontent.com/Sajedur0/Sajedur0/output/github-contribution-grid-snake-dark.svg" width="100%" />
 </div>
-
-> 🔄 *Set up a [GitHub Action](https://github.com/Platane/snk) to generate your own contribution snake!*
 
 <br>
 
