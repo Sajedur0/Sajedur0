@@ -5,7 +5,7 @@
 <br>
 
 <div align="center">
-  <img src="https://profile-counter.glitch.me/Sajedur0/count.svg?" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=Sajedur0&label=Profile%20Views&color=00E6FE&style=flat-square" alt="Profile Views" />
 </div>
 
 <br>
@@ -108,8 +108,10 @@
 ## 🐍 **Contribution Snake**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  <img src="https://raw.githubusercontent.com/sallar/sallar/master/assets/snake/snake-dark.svg" width="100%" />
 </div>
+
+> 🔄 *Set up a [GitHub Action](https://github.com/Platane/snk) to generate your own contribution snake!*
 
 <br>
 
@@ -121,9 +123,9 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sajedur0)
 [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Sajedur0)
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/sajedurrahman21)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sajedur0)
-[![Email](https://img.shields.io/badge/Email-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sajedur0@outlook.com)
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/Sajedur0)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/Sajedur0)
+[![Email](https://img.shields.io/badge/Email-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@sajedur0.com)
 
 </div>
 
