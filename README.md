@@ -8,7 +8,7 @@
 <!-- ══════════════════════ TYPING ANIMATION ══════════════════════ -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2200&pause=600&color=00E6FE&center=true&vCenter=true&random=false&width=700&height=60&lines=👋+Hi+there%2C+I'm+Roni!;🚀+Building+Flutter+Apps+with+Love;🐍+Automating+the+World+with+Python;📱+Crafting+Smooth+Mobile+Experiences;💡+Turning+Ideas+into+Real+Products;🔥+Code.+Learn.+Improve.+Repeat." alt="Typing Animation" />
 
-<br/><br/>
+<br/>
 
 <!-- ══════════════════════ BADGES ══════════════════════ -->
 <a href="https://github.com/Sajedur0">
@@ -16,10 +16,10 @@
 </a>
 &nbsp;
 <a href="https://github.com/Sajedur0?tab=followers">
-  <img src="https://img.shields.io/github/followers/Sajedur0?label=🤝+Followers&style=for-the-badge&color=7B2FBE&labelColor=0D1117" />
+  <img src="https://img.shields.io/github/followers/Sajedur0?label=🤝+Followers&style=for-the-badge&color=7B2FBE" />
 </a>
 &nbsp;
-<img src="https://img.shields.io/badge/💻+Open%20to%20Collaborate-YES-00C853?style=for-the-badge&labelColor=0D1117" />
+<img src="https://img.shields.io/badge/💻+Open%20to%20Collaborate-YES-00C853?style=for-the-badge" />
 
 </div>
 
@@ -29,7 +29,7 @@
 
 <!-- ══════════════════════ ABOUT ME ══════════════════════ -->
 
-<img align="right" alt="Coding GIF" width="380" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
+<img align="right" alt="Coding GIF" width="380" src="https://user-images.githubusercontent.com/74038190/212748830-4c709398-a386-4761-84d7-9e10b98fbe6e.gif"/>
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="28"/> About Me
 
@@ -46,7 +46,6 @@ Status   : Open to Collaboration 🚀
 - 💡 Passionate about **Mobile Apps & Automation**
 - 🎯 On a mission to write **clean, efficient code**
 - ⚡ Fun fact: **I love turning real-world problems into elegant solutions!**
-- 📫 Reach me at: **contact@sajedur0.com**
 
 <br clear="right"/>
 
@@ -92,13 +91,13 @@ Status   : Open to Collaboration 🚀
 
 | 🛠️ Project | 📝 Description | ⭐ Stars |
 |:---:|:---|:---:|
-| [**🗂️ Project-Backup-Tools**](https://github.com/Sajedur0/Project-Backup-Tools) | Flutter desktop app — one-click project backup solution | ![Stars](https://img.shields.io/github/stars/Sajedur0/Project-Backup-Tools?style=flat-square&color=00E6FE&labelColor=0D1117) |
-| [**🔓 FRP**](https://github.com/Sajedur0/FRP) | Android FRP Bypass Tool | ![Stars](https://img.shields.io/github/stars/Sajedur0/FRP?style=flat-square&color=00E6FE&labelColor=0D1117) |
-| [**📦 Android-SDK-Installer**](https://github.com/Sajedur0/Android-SDK-Installer) | One-click Android SDK installer | ![Stars](https://img.shields.io/github/stars/Sajedur0/Android-SDK-Installer?style=flat-square&color=00E6FE&labelColor=0D1117) |
-| [**💰 Payroll-Java**](https://github.com/Sajedur0/Payroll-Java) | Java-based payroll management system | ![Stars](https://img.shields.io/github/stars/Sajedur0/Payroll-Java?style=flat-square&color=00E6FE&labelColor=0D1117) |
-| [**🎨 Icon-Maker**](https://github.com/Sajedur0/Icon-Maker) | C++ icon creation tool | ![Stars](https://img.shields.io/github/stars/Sajedur0/Icon-Maker?style=flat-square&color=00E6FE&labelColor=0D1117) |
-| [**🕷️ Google-Play-Scrapping**](https://github.com/Sajedur0/Google-Play-Scrapping) | Play Store scraper built with TypeScript | ![Stars](https://img.shields.io/github/stars/Sajedur0/Google-Play-Scrapping?style=flat-square&color=00E6FE&labelColor=0D1117) |
-| [**🖼️ Google-Photos-Remover**](https://github.com/Sajedur0/Google-Photos-Remover) | Bulk Google Photos remover | ![Stars](https://img.shields.io/github/stars/Sajedur0/Google-Photos-Remover?style=flat-square&color=00E6FE&labelColor=0D1117) |
+| [**🗂️ Project-Backup-Tools**](https://github.com/Sajedur0/Project-Backup-Tools) | Flutter desktop app — one-click project backup solution | ![Stars](https://img.shields.io/github/stars/Sajedur0/Project-Backup-Tools?style=flat-square&color=00E6FE) |
+| [**🔓 FRP**](https://github.com/Sajedur0/FRP) | Android FRP Bypass Tool | ![Stars](https://img.shields.io/github/stars/Sajedur0/FRP?style=flat-square&color=00E6FE) |
+| [**📦 Android-SDK-Installer**](https://github.com/Sajedur0/Android-SDK-Installer) | One-click Android SDK installer | ![Stars](https://img.shields.io/github/stars/Sajedur0/Android-SDK-Installer?style=flat-square&color=00E6FE) |
+| [**💰 Payroll-Java**](https://github.com/Sajedur0/Payroll-Java) | Java-based payroll management system | ![Stars](https://img.shields.io/github/stars/Sajedur0/Payroll-Java?style=flat-square&color=00E6FE) |
+| [**🎨 Icon-Maker**](https://github.com/Sajedur0/Icon-Maker) | C++ icon creation tool | ![Stars](https://img.shields.io/github/stars/Sajedur0/Icon-Maker?style=flat-square&color=00E6FE) |
+| [**🕷️ Google-Play-Scrapping**](https://github.com/Sajedur0/Google-Play-Scrapping) | Play Store scraper built with TypeScript | ![Stars](https://img.shields.io/github/stars/Sajedur0/Google-Play-Scrapping?style=flat-square&color=00E6FE) |
+| [**🖼️ Google-Photos-Remover**](https://github.com/Sajedur0/Google-Photos-Remover) | Bulk Google Photos remover | ![Stars](https://img.shields.io/github/stars/Sajedur0/Google-Photos-Remover?style=flat-square&color=00E6FE) |
 
 </div>
 
@@ -150,11 +149,11 @@ Status   : Open to Collaboration 🚀
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/🗂️%20Public%20Repos-12-00E6FE?style=for-the-badge&labelColor=0D1117" />
+<img src="https://img.shields.io/badge/🗂️%20Public%20Repos-12-00E6FE?style=for-the-badge" />
 &nbsp;
-<img src="https://img.shields.io/badge/⭐%20Total%20Stars-26-FFD700?style=for-the-badge&labelColor=0D1117" />
+<img src="https://img.shields.io/badge/⭐%20Total%20Stars-26-FFD700?style=for-the-badge" />
 &nbsp;
-<img src="https://img.shields.io/badge/🍴%20Total%20Forks-3-FF6D00?style=for-the-badge&labelColor=0D1117" />
+<img src="https://img.shields.io/badge/🍴%20Total%20Forks-3-FF6D00?style=for-the-badge" />
 
 <br/><br/>
 
@@ -199,30 +198,24 @@ Status   : Open to Collaboration 🚀
 
 <!-- ══════════════════════ CONNECT ══════════════════════ -->
 
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30"/> Connect With Me
+## 🌐 Connect With Me
 
 <div align="center">
 
 <a href="https://github.com/Sajedur0">
-  <img src="https://img.shields.io/badge/GitHub-Sajedur0-%23181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white" />
 </a>
-&nbsp;
 <a href="https://twitter.com/Sajedur0">
-  <img src="https://img.shields.io/badge/Twitter-@Sajedur0-%231DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white" />
 </a>
-&nbsp;
-<a href="https://facebook.com/Sajedur0">
-  <img src="https://img.shields.io/badge/Facebook-Sajedur0-%231877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0D1117" />
-</a>
-
-<br/><br/>
-
 <a href="https://linkedin.com/in/Sajedur0">
-  <img src="https://img.shields.io/badge/LinkedIn-Sajedur0-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
-&nbsp;
+<a href="https://facebook.com/Sajedur0">
+  <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white" />
+</a>
 <a href="mailto:contact@sajedur0.com">
-  <img src="https://img.shields.io/badge/Email-contact@sajedur0.com-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/Email-D14836.svg?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 
 </div>
