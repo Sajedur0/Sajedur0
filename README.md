@@ -35,15 +35,21 @@
   <tr>
     <td valign="top" width="55%">
       <h3>👋 Welcome to my digital workspace!</h3>
-      <p>I'm a passionate <b>Flutter Developer</b> and <b>Python Enthusiast</b> dedicated to crafting high-performance mobile experiences and automating workflows with clean, maintainable code.</p>
+      <p>I'm a passionate developer dedicated to crafting high-performance mobile experiences and automating workflows with clean, maintainable code.</p>
       
-      <h4>⚡ Quick Details</h4>
-      <ul>
-        <li>📍 <b>Location:</b> Dhaka, Bangladesh 🇧🇩</li>
-        <li>💼 <b>Current Role:</b> Flutter & Mobile App Developer</li>
-        <li>🧠 <b>Core Focus:</b> Cross-platform applications & Automation</li>
-        <li>🤝 <b>Status:</b> Open to freelance & collaboration opportunities</li>
-      </ul>
+      <br/>
+      
+      <img src="https://img.shields.io/badge/Name-Sajedur%20Rahman%20Roni-00E6FE?style=for-the-badge&logo=github&logoColor=white" />
+      <br/>
+      <img src="https://img.shields.io/badge/Role-Flutter%20%26%20Python-7B2FBE?style=for-the-badge&logo=flutter&logoColor=white" />
+      <br/>
+      <img src="https://img.shields.io/badge/Location-Dhaka,%20Bangladesh-0055FF?style=for-the-badge&logo=googlemaps&logoColor=white" />
+      <br/>
+      <img src="https://img.shields.io/badge/Focus-Mobile%20%26%20Automation-1E1E2E?style=for-the-badge&logo=python&logoColor=white" />
+      <br/>
+      <img src="https://img.shields.io/badge/Status-Open%20To%20Collaborate-00C853?style=for-the-badge&logo=git&logoColor=white" />
+      
+      <br/><br/>
       
       <h4>🌱 What I'm Up To</h4>
       <ul>
