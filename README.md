@@ -31,38 +31,31 @@
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="28"/> About Me
 
-<table border="0">
-  <tr>
-    <td valign="top" width="55%">
-      <h3>👋 Welcome to my digital workspace!</h3>
-      <p>I'm a passionate developer dedicated to crafting high-performance mobile experiences and automating workflows with clean, maintainable code.</p>
-      
-      <br/>
-      
-      <img src="https://img.shields.io/badge/Name-Sajedur%20Rahman%20Roni-00E6FE?style=for-the-badge&logo=github&logoColor=white" />
-      <br/>
-      <img src="https://img.shields.io/badge/Role-Flutter%20%26%20Python-7B2FBE?style=for-the-badge&logo=flutter&logoColor=white" />
-      <br/>
-      <img src="https://img.shields.io/badge/Location-Dhaka,%20Bangladesh-0055FF?style=for-the-badge&logo=googlemaps&logoColor=white" />
-      <br/>
-      <img src="https://img.shields.io/badge/Focus-Mobile%20%26%20Automation-1E1E2E?style=for-the-badge&logo=python&logoColor=white" />
-      <br/>
-      <img src="https://img.shields.io/badge/Status-Open%20To%20Collaborate-00C853?style=for-the-badge&logo=git&logoColor=white" />
-      
-      <br/><br/>
-      
-      <h4>🌱 What I'm Up To</h4>
-      <ul>
-        <li>🔭 Currently building exciting <b>Flutter projects</b></li>
-        <li>📚 Leveling up in <b>Advanced Flutter & Python</b></li>
-        <li>💡 Finding elegant solutions to real-world complexity</li>
-      </ul>
-    </td>
-    <td valign="top" width="45%" align="center">
-      <img src="https://user-images.githubusercontent.com/74038190/212748830-4c709398-a386-4761-84d7-9e10b98fbe6e.gif" width="100%" style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,230,254,0.15);" alt="Coding GIF" />
-    </td>
-  </tr>
-</table>
+<img align="right" alt="Coding GIF" width="380" style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,230,254,0.15);" src="https://user-images.githubusercontent.com/74038190/212748830-4c709398-a386-4761-84d7-9e10b98fbe6e.gif"/>
+
+👋 **Welcome to my digital workspace!**
+I'm a passionate developer dedicated to crafting high-performance mobile experiences and automating workflows with clean, maintainable code.
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Name-Sajedur%20Rahman%20Roni-00E6FE?style=for-the-badge&logo=github&logoColor=white" />
+<br/>
+<img src="https://img.shields.io/badge/Role-Flutter%20%26%20Python-7B2FBE?style=for-the-badge&logo=flutter&logoColor=white" />
+<br/>
+<img src="https://img.shields.io/badge/Location-Dhaka,%20Bangladesh-0055FF?style=for-the-badge&logo=googlemaps&logoColor=white" />
+<br/>
+<img src="https://img.shields.io/badge/Focus-Mobile%20%26%20Automation-1E1E2E?style=for-the-badge&logo=python&logoColor=white" />
+<br/>
+<img src="https://img.shields.io/badge/Status-Open%20To%20Collaborate-00C853?style=for-the-badge&logo=git&logoColor=white" />
+
+<br/><br/>
+
+### 🌱 What I'm Up To
+- 🔭 Currently building exciting **Flutter projects**
+- 📚 Leveling up in **Advanced Flutter & Python**
+- 💡 Finding elegant solutions to real-world complexity
+
+<br clear="right"/>
 
 ---
 
