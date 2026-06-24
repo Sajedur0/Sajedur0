@@ -14,8 +14,8 @@ jobs:
         with:
           github_user_name: Sajedur0
           outputs: |
-            github-contribution-grid-snake.svg
-            github-contribution-grid-snake-dark.svg?palette=github-dark
+            "github-contribution-grid-snake.svg?color_snake=#7B2FBE&color_dots=#ebedf0,#a2d2ff,#bdb2ff,#ffc6ff,#7B2FBE"
+            "github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00E6FE&color_dots=#161b22,#0055ff,#7b2fbe,#00e6fe,#ffffff"
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update contribution snake SVG"

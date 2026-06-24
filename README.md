@@ -6,20 +6,20 @@
 <br/>
 
 <!-- ══════════════════════ TYPING ANIMATION ══════════════════════ -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2200&pause=600&color=00E6FE&center=true&vCenter=true&random=false&width=700&height=60&lines=👋+Hi+there%2C+I'm+Roni!;🚀+Building+Flutter+Apps+with+Love;🐍+Automating+the+World+with+Python;📱+Crafting+Smooth+Mobile+Experiences;💡+Turning+Ideas+into+Real+Products;🔥+Code.+Learn.+Improve.+Repeat." alt="Typing Animation" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2200&pause=600&color=00E6FE&center=true&vCenter=true&random=false&width=700&height=60&lines=%F0%9F%91%8B%20Hi%20there%2C%20I%27m%20Roni%21%3B%F0%9F%9A%80%20Building%20Flutter%20Apps%20with%20Love%3B%F0%9F%90%8D%20Automating%20the%20World%20with%20Python%3B%F0%9F%93%B1%20Crafting%20Smooth%20Mobile%20Experiences%3B%F0%9F%92%A1%20Turning%20Ideas%20into%20Real%20Products%3B%F0%9F%94%A5%20Code.%20Learn.%20Improve.%20Repeat." alt="Typing Animation" />
 
 <br/>
 
 <!-- ══════════════════════ BADGES ══════════════════════ -->
-<a href="https://github.com/Sajedur0">
-  <img src="https://komarev.com/ghpvc/?username=Sajedur0&label=👁️+Profile+Views&color=00E6FE&style=for-the-badge" />
+<a href="https://github.com/Sajedur0" target="_blank">
+  <img src="https://komarev.com/ghpvc/?username=Sajedur0&label=Profile+Views&color=00E6FE&style=for-the-badge" alt="Profile Views" />
 </a>
 &nbsp;
-<a href="https://github.com/Sajedur0?tab=followers">
-  <img src="https://img.shields.io/github/followers/Sajedur0?label=🤝+Followers&style=for-the-badge&color=7B2FBE" />
+<a href="https://github.com/Sajedur0?tab=followers" target="_blank">
+  <img src="https://img.shields.io/github/followers/Sajedur0?label=Followers&style=for-the-badge&color=7B2FBE&logo=github&logoColor=white" alt="Followers" />
 </a>
 &nbsp;
-<img src="https://img.shields.io/badge/💻+Open%20to%20Collaborate-YES-00C853?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Open%20to%20Collaborate-YES-00C853?style=for-the-badge" alt="Open to Collaborate" />
 
 </div>
 
@@ -29,25 +29,34 @@
 
 <!-- ══════════════════════ ABOUT ME ══════════════════════ -->
 
-<img align="right" alt="Coding GIF" width="380" src="https://user-images.githubusercontent.com/74038190/212748830-4c709398-a386-4761-84d7-9e10b98fbe6e.gif"/>
-
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="28"/> About Me
 
-```yaml
-Name     : Sajedur Rahman Roni
-Location : Dhaka, Bangladesh 🇧🇩
-Role     : Flutter Developer & Python Enthusiast
-Focus    : Mobile App Development & Automation
-Status   : Open to Collaboration 🚀
-```
-
-- 🔭 Currently building exciting **Flutter projects**
-- 🌱 Leveling up in **Advanced Flutter & Python**
-- 💡 Passionate about **Mobile Apps & Automation**
-- 🎯 On a mission to write **clean, efficient code**
-- ⚡ Fun fact: **I love turning real-world problems into elegant solutions!**
-
-<br clear="right"/>
+<table border="0">
+  <tr>
+    <td valign="top" width="55%">
+      <h3>👋 Welcome to my digital workspace!</h3>
+      <p>I'm a passionate <b>Flutter Developer</b> and <b>Python Enthusiast</b> dedicated to crafting high-performance mobile experiences and automating workflows with clean, maintainable code.</p>
+      
+      <h4>⚡ Quick Details</h4>
+      <ul>
+        <li>📍 <b>Location:</b> Dhaka, Bangladesh 🇧🇩</li>
+        <li>💼 <b>Current Role:</b> Flutter & Mobile App Developer</li>
+        <li>🧠 <b>Core Focus:</b> Cross-platform applications & Automation</li>
+        <li>🤝 <b>Status:</b> Open to freelance & collaboration opportunities</li>
+      </ul>
+      
+      <h4>🌱 What I'm Up To</h4>
+      <ul>
+        <li>🔭 Currently building exciting <b>Flutter projects</b></li>
+        <li>📚 Leveling up in <b>Advanced Flutter & Python</b></li>
+        <li>💡 Finding elegant solutions to real-world complexity</li>
+      </ul>
+    </td>
+    <td valign="top" width="45%" align="center">
+      <img src="https://user-images.githubusercontent.com/74038190/212748830-4c709398-a386-4761-84d7-9e10b98fbe6e.gif" width="100%" style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,230,254,0.15);" alt="Coding GIF" />
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -133,7 +142,7 @@ Status   : Open to Collaboration 🚀
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Sajedur0&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" width="100%" />
+  <img src="https://github-profile-trophy-fork-two.vercel.app/?username=Sajedur0&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" width="100%" alt="GitHub Trophies" />
 </div>
 
 ---
@@ -201,23 +210,25 @@ Status   : Open to Collaboration 🚀
 ## 🌐 Connect With Me
 
 <div align="center">
-
-<a href="https://github.com/Sajedur0">
-  <img src="https://img.shields.io/badge/GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-<a href="https://twitter.com/Sajedur0">
-  <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white" />
-</a>
-<a href="https://linkedin.com/in/Sajedur0">
-  <img src="https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="https://facebook.com/Sajedur0">
-  <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white" />
-</a>
-<a href="mailto:contact@sajedur0.com">
-  <img src="https://img.shields.io/badge/Email-D14836.svg?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
+  <a href="https://github.com/Sajedur0" target="_blank">
+    <img src="https://skillicons.dev/icons?i=github" alt="GitHub" width="45" height="45" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://linkedin.com/in/Sajedur0" target="_blank">
+    <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" width="45" height="45" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://twitter.com/Sajedur0" target="_blank">
+    <img src="https://skillicons.dev/icons?i=twitter" alt="Twitter" width="45" height="45" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://facebook.com/Sajedur0" target="_blank">
+    <img src="https://skillicons.dev/icons?i=facebook" alt="Facebook" width="45" height="45" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:contact@sajedur0.com">
+    <img src="https://skillicons.dev/icons?i=gmail" alt="Email" width="45" height="45" />
+  </a>
 </div>
 
 ---
@@ -228,7 +239,7 @@ Status   : Open to Collaboration 🚀
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2200&pause=500&color=00E6FE&center=true&vCenter=true&random=false&width=550&height=45&lines=✨+Thanks+for+visiting+my+profile!;💖+Let's+connect+and+build+together!;🔥+Code.+Learn.+Improve.+Repeat.;🚀+See+you+in+the+commit+history!" alt="Footer Typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2200&pause=500&color=00E6FE&center=true&vCenter=true&random=false&width=550&height=45&lines=%E2%9C%A8%20Thanks%20for%20visiting%20my%20profile%21%3B%F0%9F%92%96%20Let%27s%20connect%20and%20build%20together%21%3B%F0%9F%94%A5%20Code.%20Learn.%20Improve.%20Repeat.%3B%F0%9F%9A%80%20See%20you%20in%20the%20commit%20history%21" alt="Footer Typing" />
 
 <br/><br/>
 
