@@ -52,7 +52,7 @@ I'm a passionate developer dedicated to crafting high-performance mobile experie
 
 <!-- ══════════════════════ ANIMATED DIVIDER ══════════════════════ -->
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+  <img src="divider.svg" width="100%" />
 </div>
 
 <!-- ══════════════════════ TECH STACK ══════════════════════ -->
@@ -79,7 +79,7 @@ I'm a passionate developer dedicated to crafting high-performance mobile experie
 
 <!-- ══════════════════════ ANIMATED DIVIDER ══════════════════════ -->
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+  <img src="divider.svg" width="100%" />
 </div>
 
 <!-- ══════════════════════ FEATURED PROJECTS ══════════════════════ -->
@@ -104,7 +104,7 @@ I'm a passionate developer dedicated to crafting high-performance mobile experie
 
 <!-- ══════════════════════ ANIMATED DIVIDER ══════════════════════ -->
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+  <img src="divider.svg" width="100%" />
 </div>
 
 <!-- ══════════════════════ GITHUB ANALYTICS ══════════════════════ -->
@@ -139,7 +139,7 @@ I'm a passionate developer dedicated to crafting high-performance mobile experie
 
 <!-- ══════════════════════ ANIMATED DIVIDER ══════════════════════ -->
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+  <img src="divider.svg" width="100%" />
 </div>
 
 <!-- ══════════════════════ ACHIEVEMENTS ══════════════════════ -->
@@ -178,7 +178,7 @@ I'm a passionate developer dedicated to crafting high-performance mobile experie
 
 <!-- ══════════════════════ ANIMATED DIVIDER ══════════════════════ -->
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+  <img src="divider.svg" width="100%" />
 </div>
 
 <!-- ══════════════════════ CONTRIBUTION SNAKE ══════════════════════ -->
