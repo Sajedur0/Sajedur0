@@ -1,238 +1,292 @@
 <div align="center">
 
-<!-- ══════════════════════ ANIMATED HEADER ══════════════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:00E6FE,50:0055FF,100:7B2FBE&height=220&section=header&text=Sajedur%20Rahman%20Roni&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=55&desc=Flutter%20Developer%20%7C%20Python%20Enthusiast%20%7C%20Open%20Source%20Learner&descAlignY=75&descSize=17&descColor=00E6FE" width="100%" />
+<img src="header.svg" width="100%" alt="Sajedur Rahman Roni — Flutter Developer · Python Enthusiast · Open Source Learner" />
 
 <br/>
 
-<!-- ══════════════════════ TYPING ANIMATION ══════════════════════ -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2200&pause=600&color=00E6FE&center=true&vCenter=true&random=false&width=700&height=60&lines=%F0%9F%91%8B%20Hi%20there%2C%20I%27m%20Roni%21%3B%F0%9F%9A%80%20Building%20Flutter%20Apps%20with%20Love%3B%F0%9F%90%8D%20Automating%20the%20World%20with%20Python%3B%F0%9F%93%B1%20Crafting%20Smooth%20Mobile%20Experiences%3B%F0%9F%92%A1%20Turning%20Ideas%20into%20Real%20Products%3B%F0%9F%94%A5%20Code.%20Learn.%20Improve.%20Repeat." alt="Typing Animation" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2200&pause=700&color=00E6FE&center=true&vCenter=true&multiline=true&repeat=true&width=740&height=70&lines=%F0%9F%91%8B+Hi+there%2C+I%27m+Roni!;%F0%9F%9A%80+Building+Flutter+apps+with+care;%F0%9F%90%8D+Automating+the+boring+parts+with+Python;%F0%9F%92%A1+Turning+ideas+into+real+products;%F0%9F%94%A5+Code.+Learn.+Improve.+Repeat." alt="Typing headline" />
 
 <br/>
 
-<!-- ══════════════════════ BADGES ══════════════════════ -->
-<a href="https://github.com/Sajedur0" target="_blank">
-  <img src="https://komarev.com/ghpvc/?username=Sajedur0&label=Profile+Views&color=00E6FE&style=for-the-badge" alt="Profile Views" />
+<a href="https://github.com/Sajedur0">
+  <img src="https://komarev.com/ghpvc/?username=Sajedur0&label=Profile%20Views&color=00E6FE&style=for-the-badge" alt="Profile views" />
 </a>
 &nbsp;
-<a href="https://github.com/Sajedur0?tab=followers" target="_blank">
-  <img src="https://img.shields.io/github/followers/Sajedur0?label=Followers&style=for-the-badge&color=7B2FBE&logo=github&logoColor=white" alt="Followers" />
+<a href="https://github.com/Sajedur0?tab=followers">
+  <img src="https://img.shields.io/github/followers/Sajedur0?label=Followers&style=for-the-badge&logo=github&logoColor=white&color=7B2FBE" alt="Followers" />
 </a>
 &nbsp;
-<img src="https://img.shields.io/badge/Open%20to%20Collaborate-YES-00C853?style=for-the-badge" alt="Open to Collaborate" />
+<img src="https://img.shields.io/badge/Hireable-YES-00C853?style=for-the-badge" alt="Available for hire" />
+&nbsp;
+<a href="https://www.sajedur0.online">
+  <img src="https://img.shields.io/badge/Portfolio-sajedur0.online-0055FF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+</a>
 
 </div>
 
 <br/>
 
----
+<div align="center">
+  <img src="divider.svg" width="100%" alt="" />
+</div>
 
-<!-- ══════════════════════ ABOUT ME ══════════════════════ -->
+## 👋 About Me
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="28"/> About Me
+<img align="right" alt="Sajedur Rahman Roni" width="280" src="profile-frame.svg"/>
 
-<img align="right" alt="Profile Frame" width="300" src="profile-frame.svg"/>
+**Welcome to my digital workspace.**  
+I am a Flutter developer from Bangladesh who ships mobile apps, desktop tools, and small automations that make everyday work feel lighter. I care about clean architecture, fast UX, and code that still makes sense six months later.
 
-👋 **Welcome to my digital workspace!**
-I'm a passionate developer dedicated to crafting high-performance mobile experiences and automating workflows with clean, maintainable code.
-
-- 🔭 Currently building exciting **Flutter projects**
-- 🌱 Leveling up in **Advanced Flutter & Python**
-- 💡 Passionate about **Mobile Apps & Automation**
-- 🎯 On a mission to write **clean, efficient code**
-- ⚡ Fun fact: **I love turning real-world problems into elegant solutions!**
+- 🔭 Building **Flutter apps & plugins** — currently **[ZeroMind](https://github.com/Sajedur0/ZeroMind)** and **[ZeroKit](https://github.com/Sajedur0/ZeroKit)**
+- 🌱 Leveling up in **advanced Flutter**, **Python**, and a little **Rust**
+- 💡 Drawn to **developer tools**, **Play Store apps**, and **workflow automation**
+- 🎯 On a mission to write **clean, efficient, shippable code**
+- ⚡ Fun fact: I love turning messy real-world problems into elegant one-click solutions
+- 🌐 Portfolio → **[sajedur0.online](https://www.sajedur0.online)**
 
 <br/>
 
-<img src="https://img.shields.io/badge/Location-Dhaka,%20Bangladesh-0055FF?style=for-the-badge&logo=googlemaps&logoColor=white" />
+<img src="https://img.shields.io/badge/Location-Bangladesh-0055FF?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Bangladesh" />
+&nbsp;
+<img src="https://img.shields.io/badge/Focus-Flutter%20%7C%20Python%20%7C%20Tools-00E6FE?style=for-the-badge" alt="Focus" />
+&nbsp;
+<img src="https://img.shields.io/badge/Open%20to-Collaborate-7B2FBE?style=for-the-badge" alt="Open to collaborate" />
 
 <br clear="right"/>
 
----
-
-<!-- ══════════════════════ ANIMATED DIVIDER ══════════════════════ -->
 <div align="center">
-  <img src="divider.svg" width="100%" />
+  <img src="divider.svg" width="100%" alt="" />
 </div>
 
-<!-- ══════════════════════ TECH STACK ══════════════════════ -->
-
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="36"/> Tech Stack
+## 🛠️ What I Build
 
 <div align="center">
 
-### 🗣️ Languages
-
-<p>
-  <img src="https://skillicons.dev/icons?i=dart,python,javascript,typescript,html,css,cpp,java&theme=dark&perline=8" />
-</p>
-
-### ⚙️ Frameworks & Tools
-
-<p>
-  <img src="https://skillicons.dev/icons?i=flutter,firebase,git,github,vscode,androidstudio,nodejs&theme=dark&perline=8" />
-</p>
+| 📱 Mobile Experiences | 🧰 Developer Tools | 🤖 Automation |
+| :---: | :---: | :---: |
+| Smooth Flutter apps with Firebase, Play Core updates, and thoughtful UX | One-click SDK installers, project backup, icon pipelines, and utility kits | Python & TypeScript scripts that scrape, clean, and save hours of busywork |
+| *Ship it to the store* | *Make the workflow disappear* | *Let the machine do the boring bits* |
 
 </div>
 
----
-
-<!-- ══════════════════════ ANIMATED DIVIDER ══════════════════════ -->
 <div align="center">
-  <img src="divider.svg" width="100%" />
+  <img src="divider.svg" width="100%" alt="" />
 </div>
 
-<!-- ══════════════════════ FEATURED PROJECTS ══════════════════════ -->
-
-## 🚀 Featured Projects
+## 💻 Tech Stack
 
 <div align="center">
 
-| 🛠️ Project | 📝 Description | ⭐ Stars |
-|:---:|:---|:---:|
-| [**🗂️ Project-Backup-Tools**](https://github.com/Sajedur0/Project-Backup-Tools) | Flutter desktop app — one-click project backup solution | ![Stars](https://img.shields.io/github/stars/Sajedur0/Project-Backup-Tools?style=flat-square&color=00E6FE) |
-| [**🔓 FRP**](https://github.com/Sajedur0/FRP) | Android FRP Bypass Tool | ![Stars](https://img.shields.io/github/stars/Sajedur0/FRP?style=flat-square&color=00E6FE) |
-| [**📦 Android-SDK-Installer**](https://github.com/Sajedur0/Android-SDK-Installer) | One-click Android SDK installer | ![Stars](https://img.shields.io/github/stars/Sajedur0/Android-SDK-Installer?style=flat-square&color=00E6FE) |
-| [**💰 Payroll-Java**](https://github.com/Sajedur0/Payroll-Java) | Java-based payroll management system | ![Stars](https://img.shields.io/github/stars/Sajedur0/Payroll-Java?style=flat-square&color=00E6FE) |
-| [**🎨 Icon-Maker**](https://github.com/Sajedur0/Icon-Maker) | C++ icon creation tool | ![Stars](https://img.shields.io/github/stars/Sajedur0/Icon-Maker?style=flat-square&color=00E6FE) |
-| [**🕷️ Google-Play-Scrapping**](https://github.com/Sajedur0/Google-Play-Scrapping) | Play Store scraper built with TypeScript | ![Stars](https://img.shields.io/github/stars/Sajedur0/Google-Play-Scrapping?style=flat-square&color=00E6FE) |
-| [**🖼️ Google-Photos-Remover**](https://github.com/Sajedur0/Google-Photos-Remover) | Bulk Google Photos remover | ![Stars](https://img.shields.io/github/stars/Sajedur0/Google-Photos-Remover?style=flat-square&color=00E6FE) |
+### Languages
+
+<img src="https://skillicons.dev/icons?i=dart,python,javascript,typescript,html,css,cpp,java,rust&theme=dark&perline=9" alt="Languages" />
+
+### Frameworks & Platforms
+
+<img src="https://skillicons.dev/icons?i=flutter,firebase,androidstudio,nodejs,linux&theme=dark&perline=8" alt="Frameworks" />
+
+### Tooling
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,bash,sqlite,figma&theme=dark&perline=8" alt="Tools" />
+
+<br/>
+
+`Dart` `Flutter` `Python` `Firebase` `TypeScript` `Rust` `C++` `Git` `Android`
 
 </div>
 
----
-
-<!-- ══════════════════════ ANIMATED DIVIDER ══════════════════════ -->
 <div align="center">
-  <img src="divider.svg" width="100%" />
+  <img src="divider.svg" width="100%" alt="" />
 </div>
 
-<!-- ══════════════════════ GITHUB ANALYTICS ══════════════════════ -->
-
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="32"/> GitHub Analytics
+## 🚀 Featured Work
 
 <div align="center">
 
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Sajedur0&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&border_radius=12&hide_border=true&bg_color=0D1117&title_color=00E6FE&icon_color=7B2FBE&text_color=ffffff" />
-  &nbsp;
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sajedur0&layout=compact&langs_count=8&theme=tokyonight&border_radius=12&hide_border=true&bg_color=0D1117&title_color=00E6FE&text_color=ffffff" />
+<a href="https://github.com/Sajedur0/FRP">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Sajedur0&repo=FRP&theme=tokyonight&hide_border=true&bg_color=0B1221&title_color=00E6FE&icon_color=7B2FBE&text_color=C9D6E8&border_radius=12" alt="FRP" />
+</a>
+<a href="https://github.com/Sajedur0/ZeroMind">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Sajedur0&repo=ZeroMind&theme=tokyonight&hide_border=true&bg_color=0B1221&title_color=00E6FE&icon_color=7B2FBE&text_color=C9D6E8&border_radius=12" alt="ZeroMind" />
+</a>
+
+<a href="https://github.com/Sajedur0/ZeroKit">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Sajedur0&repo=ZeroKit&theme=tokyonight&hide_border=true&bg_color=0B1221&title_color=00E6FE&icon_color=7B2FBE&text_color=C9D6E8&border_radius=12" alt="ZeroKit" />
+</a>
+<a href="https://github.com/Sajedur0/Project-Backup-Tools">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Sajedur0&repo=Project-Backup-Tools&theme=tokyonight&hide_border=true&bg_color=0B1221&title_color=00E6FE&icon_color=7B2FBE&text_color=C9D6E8&border_radius=12" alt="Project Backup Tools" />
+</a>
+
+<a href="https://github.com/Sajedur0/in_app_update_android">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Sajedur0&repo=in_app_update_android&theme=tokyonight&hide_border=true&bg_color=0B1221&title_color=00E6FE&icon_color=7B2FBE&text_color=C9D6E8&border_radius=12" alt="in_app_update_android" />
+</a>
+<a href="https://github.com/Sajedur0/Icon-Maker">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Sajedur0&repo=Icon-Maker&theme=tokyonight&hide_border=true&bg_color=0B1221&title_color=00E6FE&icon_color=7B2FBE&text_color=C9D6E8&border_radius=12" alt="Icon Maker" />
+</a>
 
 </div>
 
 <br/>
 
+<details>
+<summary><b>More repositories</b></summary>
+
+<br/>
+
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=Sajedur0&theme=tokyonight-duo&hide_border=true&border_radius=12&background=0D1117&ring=00E6FE&fire=FF6D00&currStreakLabel=00E6FE&sideLabels=00E6FE&dates=888888" width="75%" />
+
+| Project | What it is |
+| :--- | :--- |
+| [**Android-SDK-Installer**](https://github.com/Sajedur0/Android-SDK-Installer) | One-click Android SDK installer |
+| [**Payroll-Java**](https://github.com/Sajedur0/Payroll-Java) | Java payroll management system |
+| [**Google-Play-Scrapping**](https://github.com/Sajedur0/Google-Play-Scrapping) | Play Store scraper in TypeScript |
+| [**Google-Photos-Remover**](https://github.com/Sajedur0/Google-Photos-Remover) | Bulk Google Photos cleaner |
+| [**Icon-Converter**](https://github.com/Sajedur0/Icon-Converter) | Icon conversion pipeline in Rust |
+| [**Python-Tools**](https://github.com/Sajedur0/Python-Tools) | Personal Python utilities |
+
 </div>
 
----
-
-<!-- ══════════════════════ GITHUB TROPHIES ══════════════════════ -->
-
-## 🏆 GitHub Trophies
+</details>
 
 <div align="center">
-  <img src="https://github-profile-trophy-fork-two.vercel.app/?username=Sajedur0&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" width="100%" alt="GitHub Trophies" />
+  <img src="divider.svg" width="100%" alt="" />
 </div>
 
----
+## 📊 GitHub Analytics
 
-<!-- ══════════════════════ ANIMATED DIVIDER ══════════════════════ -->
 <div align="center">
-  <img src="divider.svg" width="100%" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Sajedur0&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0B1221&title_color=00E6FE&icon_color=7B2FBE&text_color=C9D6E8&ring_color=00E6FE&border_radius=12" alt="GitHub stats" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sajedur0&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0B1221&title_color=00E6FE&text_color=C9D6E8&border_radius=12" alt="Top languages" />
 </div>
 
-<!-- ══════════════════════ ACHIEVEMENTS ══════════════════════ -->
+<br/>
 
-## 🎖️ Achievements
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=Sajedur0&theme=tokyonight-duo&hide_border=true&border_radius=12&background=0B1221&ring=00E6FE&fire=FF6D00&currStreakLabel=00E6FE&sideLabels=00E6FE&dates=8B9BB4&stroke=7B2FBE" width="78%" alt="GitHub streak" />
+</div>
+
+<br/>
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/🗂️%20Public%20Repos-12-00E6FE?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Public%20Repos-19-00E6FE?style=for-the-badge&logo=github&logoColor=white" alt="19 public repos" />
 &nbsp;
-<img src="https://img.shields.io/badge/⭐%20Total%20Stars-26-FFD700?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Total%20Stars-27-FFD700?style=for-the-badge&logo=apachesolr&logoColor=white" alt="27 stars" />
 &nbsp;
-<img src="https://img.shields.io/badge/🍴%20Total%20Forks-3-FF6D00?style=for-the-badge" />
-
-<br/><br/>
-
-| 🏅 Achievement | 📌 Description |
-|:---:|:---|
-| ⭐ **Starstruck** | Created a repo with 25+ stars |
-| 🤝 **Pair Extraordinaire** | Merged a PR via collaborative pair programming |
-| 🚀 **YOLO** | Merged a PR without a review — living dangerously! |
+<img src="https://img.shields.io/badge/Total%20Forks-3-FF6D00?style=for-the-badge&logo=git&logoColor=white" alt="3 forks" />
 
 </div>
-
----
-
-<!-- ══════════════════════ ACTIVITY GRAPH ══════════════════════ -->
-
-## 📈 Activity Graph
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sajedur0&theme=tokyo-night&bg_color=0D1117&color=00E6FE&line=7B2FBE&point=00E6FE&area=true&area_color=00E6FE&hide_border=true" width="100%" />
+  <img src="divider.svg" width="100%" alt="" />
 </div>
 
----
+## 🏆 Trophies & Highlights
 
-<!-- ══════════════════════ ANIMATED DIVIDER ══════════════════════ -->
 <div align="center">
-  <img src="divider.svg" width="100%" />
+  <img src="https://github-profile-trophy-fork-two.vercel.app/?username=Sajedur0&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&margin-h=8&row=1&column=7" width="100%" alt="GitHub trophies" />
 </div>
 
-<!-- ══════════════════════ CONTRIBUTION SNAKE ══════════════════════ -->
+<br/>
 
-## 🐍 Contribution Snake
+<div align="center">
+
+| Highlight | Why it matters |
+| :---: | :--- |
+| ⭐ **Starstruck** | Shipped a repo that crossed **25+ stars** |
+| 🤝 **Pair Extraordinaire** | Merged a pull request through real pair programming |
+| 🚀 **YOLO** | Merged without a review — sometimes you just ship |
+
+</div>
+
+<div align="center">
+  <img src="divider.svg" width="100%" alt="" />
+</div>
+
+## 📈 Activity
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sajedur0&theme=tokyo-night&bg_color=0B1221&color=00E6FE&line=7B2FBE&point=00E6FE&area=true&area_color=0055FF&hide_border=true" width="100%" alt="Contribution activity graph" />
+</div>
+
+<br/>
+
+### 🐍 Contribution Snake
 
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sajedur0/Sajedur0/main/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sajedur0/Sajedur0/main/github-contribution-grid-snake.svg" />
-    <img alt="Contribution Snake" src="https://raw.githubusercontent.com/Sajedur0/Sajedur0/main/github-contribution-grid-snake-dark.svg" width="100%" />
+    <img alt="Snake eating contribution squares" src="https://raw.githubusercontent.com/Sajedur0/Sajedur0/main/github-contribution-grid-snake-dark.svg" width="100%" />
   </picture>
 </div>
 
----
-
-<!-- ══════════════════════ CONNECT ══════════════════════ -->
-
-## 🌐 Connect With Me
-
 <div align="center">
-  <a href="https://github.com/Sajedur0" target="_blank">
-    <img src="https://skillicons.dev/icons?i=github" alt="GitHub" width="45" height="45" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://linkedin.com/in/Sajedur0" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" width="45" height="45" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://twitter.com/Sajedur0" target="_blank">
-    <img src="https://skillicons.dev/icons?i=twitter" alt="Twitter" width="45" height="45" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://facebook.com/Sajedur0" target="_blank">
-    <img src="https://skillicons.dev/icons?i=facebook" alt="Facebook" width="45" height="45" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="mailto:contact@sajedur0.com">
-    <img src="https://skillicons.dev/icons?i=gmail" alt="Email" width="45" height="45" />
-  </a>
+  <img src="divider.svg" width="100%" alt="" />
 </div>
 
----
+## 🌐 Connect
 
-<!-- ══════════════════════ FOOTER ══════════════════════ -->
+<p align="center">Always happy to talk Flutter, tooling, or a wild product idea. Drop a line.</p>
 
 <div align="center">
 
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2200&pause=500&color=00E6FE&center=true&vCenter=true&random=false&width=550&height=45&lines=%E2%9C%A8%20Thanks%20for%20visiting%20my%20profile%21%3B%F0%9F%92%96%20Let%27s%20connect%20and%20build%20together%21%3B%F0%9F%94%A5%20Code.%20Learn.%20Improve.%20Repeat.%3B%F0%9F%9A%80%20See%20you%20in%20the%20commit%20history%21" alt="Footer Typing" />
+<a href="https://www.sajedur0.online" target="_blank">
+  <img src="https://img.shields.io/badge/Website-sajedur0.online-0055FF?style=for-the-badge&logo=safari&logoColor=white" alt="Website" />
+</a>
+&nbsp;
+<a href="https://github.com/Sajedur0" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-Sajedur0-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</a>
+&nbsp;
+<a href="https://twitter.com/Sajedur0" target="_blank">
+  <img src="https://img.shields.io/badge/X-Sajedur0-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
+</a>
+&nbsp;
+<a href="https://linkedin.com/in/Sajedur0" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-Sajedur0-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+&nbsp;
+<a href="https://facebook.com/Sajedur0" target="_blank">
+  <img src="https://img.shields.io/badge/Facebook-Sajedur0-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+</a>
+&nbsp;
+<a href="mailto:contact@sajedur0.com">
+  <img src="https://img.shields.io/badge/Email-contact%40sajedur0.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7B2FBE,50:0055FF,100:00E6FE&height=120&section=footer&animation=twinkling" width="100%" />
+<a href="https://github.com/Sajedur0">
+  <img src="https://skillicons.dev/icons?i=github" alt="GitHub" />
+</a>
+&nbsp;&nbsp;
+<a href="https://linkedin.com/in/Sajedur0">
+  <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" />
+</a>
+&nbsp;&nbsp;
+<a href="https://twitter.com/Sajedur0">
+  <img src="https://skillicons.dev/icons?i=twitter" alt="Twitter" />
+</a>
+&nbsp;&nbsp;
+<a href="https://facebook.com/Sajedur0">
+  <img src="https://skillicons.dev/icons?i=facebook" alt="Facebook" />
+</a>
+&nbsp;&nbsp;
+<a href="mailto:contact@sajedur0.com">
+  <img src="https://skillicons.dev/icons?i=gmail" alt="Email" />
+</a>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2400&pause=600&color=00E6FE&center=true&vCenter=true&width=560&height=40&lines=%E2%9C%A8+Thanks+for+stopping+by.;Let%27s+build+something+people+love.;See+you+in+the+commit+history." alt="Thanks for visiting" />
+
+<br/>
+
+<img src="footer-wave.svg" width="100%" alt="" />
 
 </div>

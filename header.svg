@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 460" width="1600" height="460" role="img" aria-label="Sajedur Rahman Roni — Flutter Developer">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050814"/>
+      <stop offset="45%" stop-color="#0B1221"/>
+      <stop offset="100%" stop-color="#12081F"/>
+    </linearGradient>
+    <radialGradient id="orbCyan" cx="18%" cy="30%" r="42%">
+      <stop offset="0%" stop-color="#00E6FE" stop-opacity="0.38"/>
+      <stop offset="100%" stop-color="#00E6FE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbViolet" cx="82%" cy="20%" r="46%">
+      <stop offset="0%" stop-color="#7B2FBE" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#7B2FBE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbBlue" cx="58%" cy="88%" r="38%">
+      <stop offset="0%" stop-color="#0055FF" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#0055FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="55%" stop-color="#E8FBFF"/>
+      <stop offset="100%" stop-color="#00E6FE"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E6FE" stop-opacity="0"/>
+      <stop offset="18%" stop-color="#00E6FE"/>
+      <stop offset="50%" stop-color="#A78BFA"/>
+      <stop offset="82%" stop-color="#0055FF"/>
+      <stop offset="100%" stop-color="#0055FF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="pillStroke" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E6FE"/>
+      <stop offset="100%" stop-color="#7B2FBE"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#00E6FE" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1" fill="#ffffff" fill-opacity="0.05"/>
+    </pattern>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="14" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="frame">
+      <rect width="1600" height="460" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1600" height="460" fill="url(#bg)"/>
+    <rect width="1600" height="460" fill="url(#grid)"/>
+    <rect width="1600" height="460" fill="url(#dots)"/>
+    <ellipse cx="260" cy="120" rx="340" ry="220" fill="url(#orbCyan)">
+      <animate attributeName="cx" values="260;310;260" dur="12s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="1320" cy="90" rx="380" ry="240" fill="url(#orbViolet)">
+      <animate attributeName="cy" values="90;140;90" dur="14s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="900" cy="430" rx="420" ry="180" fill="url(#orbBlue)"/>
+
+    <!-- faint code brackets -->
+    <text x="70" y="270" font-family="Georgia, 'Times New Roman', serif" font-size="220" fill="#00E6FE" opacity="0.05">{ }</text>
+    <text x="1280" y="310" font-family="Georgia, 'Times New Roman', serif" font-size="180" fill="#7B2FBE" opacity="0.07">&lt;/&gt;</text>
+
+    <!-- left accent -->
+    <rect x="0" y="70" width="8" height="320" rx="4" fill="url(#lineGrad)" filter="url(#glow)"/>
+
+    <!-- kicker -->
+    <g transform="translate(90, 118)">
+      <rect width="168" height="2" y="8" fill="#00E6FE" opacity="0.9"/>
+      <text x="184" y="14" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" letter-spacing="6" fill="#00E6FE" font-weight="700">GITHUB PROFILE</text>
+    </g>
+
+    <!-- name -->
+    <text x="90" y="210" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="64" font-weight="800" fill="url(#nameGrad)" letter-spacing="1.2" filter="url(#glow)">Sajedur Rahman Roni</text>
+
+    <!-- underline -->
+    <rect x="90" y="232" width="620" height="3" rx="2" fill="url(#lineGrad)"/>
+
+    <!-- tagline -->
+    <text x="90" y="278" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" fill="#C9D6E8">Flutter Developer  ·  Python Enthusiast  ·  Open Source Learner</text>
+
+    <!-- pills -->
+    <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.4">
+      <g transform="translate(90, 318)">
+        <rect width="168" height="42" rx="21" fill="#00E6FE" fill-opacity="0.08" stroke="url(#pillStroke)" stroke-width="1.4"/>
+        <text x="84" y="27" text-anchor="middle" fill="#E8FBFF">FLUTTER APPS</text>
+      </g>
+      <g transform="translate(274, 318)">
+        <rect width="188" height="42" rx="21" fill="#7B2FBE" fill-opacity="0.12" stroke="url(#pillStroke)" stroke-width="1.4"/>
+        <text x="94" y="27" text-anchor="middle" fill="#E8FBFF">PYTHON TOOLS</text>
+      </g>
+      <g transform="translate(478, 318)">
+        <rect width="210" height="42" rx="21" fill="#0055FF" fill-opacity="0.10" stroke="url(#pillStroke)" stroke-width="1.4"/>
+        <text x="105" y="27" text-anchor="middle" fill="#E8FBFF">AVAILABLE TO HIRE</text>
+      </g>
+    </g>
+
+    <!-- right decorative ring -->
+    <g transform="translate(1288, 230)" filter="url(#softGlow)">
+      <circle r="108" fill="none" stroke="#00E6FE" stroke-opacity="0.28" stroke-width="1.5"/>
+      <circle r="84" fill="none" stroke="#7B2FBE" stroke-opacity="0.45" stroke-width="2">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="22s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="58" fill="none" stroke="#0055FF" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="12 10">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="16s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="10" fill="#00E6FE" opacity="0.9"/>
+    </g>
+
+    <!-- bottom hairline -->
+    <rect x="0" y="456" width="1600" height="4" fill="url(#lineGrad)"/>
+  </g>
+</svg>

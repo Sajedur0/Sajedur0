@@ -1,11 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 160" width="1440" height="160" role="img" aria-hidden="true">
   <defs>
-    <linearGradient id="wave-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00E6FE" stop-opacity="0.3"/>
-      <stop offset="50%" stop-color="#00E6FE" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#00E6FE" stop-opacity="0.3"/>
+    <linearGradient id="w1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E6FE" stop-opacity="0.22"/>
+      <stop offset="50%" stop-color="#7B2FBE" stop-opacity="0.38"/>
+      <stop offset="100%" stop-color="#0055FF" stop-opacity="0.22"/>
+    </linearGradient>
+    <linearGradient id="w2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0055FF" stop-opacity="0.28"/>
+      <stop offset="50%" stop-color="#00E6FE" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#7B2FBE" stop-opacity="0.28"/>
+    </linearGradient>
+    <linearGradient id="w3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7B2FBE" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#00E6FE" stop-opacity="0.55"/>
     </linearGradient>
   </defs>
-  <path d="M0,40 C240,100 480,0 720,40 C960,80 1200,0 1440,40 L1440,100 L0,100 Z" fill="url(#wave-gradient)"/>
-  <path d="M0,60 C240,20 480,80 720,40 C960,0 1200,60 1440,40 L1440,100 L0,100 Z" fill="url(#wave-gradient)" opacity="0.5"/>
+  <path d="M0,70 C240,130 480,20 720,70 C960,120 1200,30 1440,70 L1440,160 L0,160 Z" fill="url(#w1)">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite"
+      values="M0,70 C240,130 480,20 720,70 C960,120 1200,30 1440,70 L1440,160 L0,160 Z;
+              M0,80 C240,20 480,120 720,60 C960,10 1200,110 1440,80 L1440,160 L0,160 Z;
+              M0,70 C240,130 480,20 720,70 C960,120 1200,30 1440,70 L1440,160 L0,160 Z"/>
+  </path>
+  <path d="M0,96 C240,50 480,130 720,90 C960,50 1200,130 1440,90 L1440,160 L0,160 Z" fill="url(#w2)">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite"
+      values="M0,96 C240,50 480,130 720,90 C960,50 1200,130 1440,90 L1440,160 L0,160 Z;
+              M0,88 C240,140 480,40 720,100 C960,150 1200,50 1440,88 L1440,160 L0,160 Z;
+              M0,96 C240,50 480,130 720,90 C960,50 1200,130 1440,90 L1440,160 L0,160 Z"/>
+  </path>
+  <path d="M0,122 C240,150 480,100 720,128 C960,156 1200,104 1440,128 L1440,160 L0,160 Z" fill="url(#w3)"/>
 </svg>
