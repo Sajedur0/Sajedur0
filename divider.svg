@@ -1,28 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 36" width="1200" height="36" role="img" aria-hidden="true">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="32" viewBox="0 0 1200 32" fill="none" aria-hidden="true">
   <defs>
-    <linearGradient id="beam" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00E6FE" stop-opacity="0"/>
-      <stop offset="22%" stop-color="#00E6FE" stop-opacity="0.95"/>
-      <stop offset="50%" stop-color="#C4B5FD" stop-opacity="1"/>
-      <stop offset="78%" stop-color="#0055FF" stop-opacity="0.95"/>
-      <stop offset="100%" stop-color="#0055FF" stop-opacity="0"/>
+    <linearGradient id="line" x1="0" y1="16" x2="1200" y2="16" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#71DED2" stop-opacity="0"/>
+      <stop offset=".25" stop-color="#71DED2" stop-opacity=".35"/>
+      <stop offset=".75" stop-color="#A6A0EF" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#A6A0EF" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="gem" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00E6FE"/>
-      <stop offset="50%" stop-color="#7B2FBE"/>
-      <stop offset="100%" stop-color="#0055FF"/>
-    </linearGradient>
-    <filter id="g" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3.5" result="b"/>
-      <feMerge>
-        <feMergeNode in="b"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
-  <rect x="40" y="16" width="1120" height="4" rx="2" fill="url(#beam)"/>
-  <g transform="translate(600, 18)" filter="url(#g)">
-    <polygon points="0,-11 11,0 0,11 -11,0" fill="#0D1117" stroke="url(#gem)" stroke-width="2"/>
-    <polygon points="0,-5 5,0 0,5 -5,0" fill="url(#gem)"/>
-  </g>
+  <path d="M0 16H1200" stroke="url(#line)"/>
 </svg>
