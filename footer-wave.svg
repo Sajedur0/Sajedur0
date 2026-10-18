@@ -1,11 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="100" viewBox="0 0 1200 100" fill="none" aria-hidden="true">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" fill="none" aria-hidden="true">
   <defs>
-    <linearGradient id="wave" x1="0" y1="0" x2="1200" y2="100" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#71DED2" stop-opacity=".12"/>
-      <stop offset="1" stop-color="#A6A0EF" stop-opacity=".16"/>
+    <linearGradient id="waveGrad1" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.16"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.16"/>
+    </linearGradient>
+
+    <linearGradient id="waveGrad2" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.20"/>
+      <stop offset="50%" stop-color="#00F2FE" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#A6A0EF" stop-opacity="0.22"/>
+    </linearGradient>
+
+    <linearGradient id="waveGrad3" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#081226" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#131836" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#081226" stop-opacity="0.85"/>
+    </linearGradient>
+
+    <linearGradient id="crestStroke" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.1"/>
+      <stop offset="25%" stop-color="#00F2FE" stop-opacity="0.75"/>
+      <stop offset="50%" stop-color="#A6A0EF" stop-opacity="0.9"/>
+      <stop offset="75%" stop-color="#3B82F6" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.1"/>
     </linearGradient>
   </defs>
-  <path d="M0 48C200 98 400 0 600 48S1000 98 1200 48V100H0Z" fill="url(#wave)"/>
-  <path d="M0 72C200 22 400 110 600 72S1000 22 1200 72V100H0Z" fill="url(#wave)"/>
-  <path d="M0 48C200 98 400 0 600 48S1000 98 1200 48" stroke="#71DED2" stroke-opacity=".25"/>
+
+  <!-- Deep Background Wave (Layer 1) -->
+  <path fill="url(#waveGrad1)" d="M 0 58 C 200 110 400 12 600 58 C 800 104 1000 18 1200 58 L 1200 150 L 0 150 Z">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite"
+      values="M 0 58 C 200 110 400 12 600 58 C 800 104 1000 18 1200 58 L 1200 150 L 0 150 Z;
+              M 0 68 C 200 16 400 108 600 52 C 800 8 1000 106 1200 64 L 1200 150 L 0 150 Z;
+              M 0 58 C 200 110 400 12 600 58 C 800 104 1000 18 1200 58 L 1200 150 L 0 150 Z"/>
+  </path>
+
+  <!-- Mid Aurora Wave (Layer 2) -->
+  <path fill="url(#waveGrad2)" d="M 0 82 C 240 34 440 120 640 76 C 840 32 1020 118 1200 78 L 1200 150 L 0 150 Z">
+    <animate attributeName="d" dur="12s" repeatCount="indefinite"
+      values="M 0 82 C 240 34 440 120 640 76 C 840 32 1020 118 1200 78 L 1200 150 L 0 150 Z;
+              M 0 72 C 240 118 440 38 640 86 C 840 124 1020 40 1200 84 L 1200 150 L 0 150 Z;
+              M 0 82 C 240 34 440 120 640 76 C 840 32 1020 118 1200 78 L 1200 150 L 0 150 Z"/>
+  </path>
+
+  <!-- Glowing Animated Crest Line -->
+  <path fill="none" stroke="url(#crestStroke)" stroke-width="2" d="M 0 58 C 200 110 400 12 600 58 C 800 104 1000 18 1200 58">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite"
+      values="M 0 58 C 200 110 400 12 600 58 C 800 104 1000 18 1200 58;
+              M 0 68 C 200 16 400 108 600 52 C 800 8 1000 106 1200 64;
+              M 0 58 C 200 110 400 12 600 58 C 800 104 1000 18 1200 58"/>
+  </path>
+
+  <!-- Foreground Horizon Wave (Layer 3) -->
+  <path fill="url(#waveGrad3)" d="M 0 108 C 300 136 520 88 760 112 C 960 132 1100 96 1200 110 L 1200 150 L 0 150 Z">
+    <animate attributeName="d" dur="15s" repeatCount="indefinite"
+      values="M 0 108 C 300 136 520 88 760 112 C 960 132 1100 96 1200 110 L 1200 150 L 0 150 Z;
+              M 0 114 C 300 90 520 134 760 104 C 960 88 1100 128 1200 106 L 1200 150 L 0 150 Z;
+              M 0 108 C 300 136 520 88 760 112 C 960 132 1100 96 1200 110 L 1200 150 L 0 150 Z"/>
+  </path>
+
+  <!-- Rising Bioluminescent Particles -->
+  <g>
+    <circle cx="180" cy="110" r="2" fill="#00F2FE">
+      <animate attributeName="cy" values="125;25;125" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.85;0" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="390" cy="100" r="2.5" fill="#A6A0EF">
+      <animate attributeName="cy" values="130;20;130" dur="7.5s" begin="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.9;0" dur="7.5s" begin="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="95" r="2" fill="#71DED2">
+      <animate attributeName="cy" values="120;18;120" dur="5.5s" begin="0.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.85;0" dur="5.5s" begin="0.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="820" cy="105" r="2.5" fill="#3B82F6">
+      <animate attributeName="cy" values="130;24;130" dur="6.8s" begin="2.1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.9;0" dur="6.8s" begin="2.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1030" cy="112" r="2" fill="#00F2FE">
+      <animate attributeName="cy" values="125;28;125" dur="6.2s" begin="1.7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0" dur="6.2s" begin="1.7s" repeatCount="indefinite"/>
+    </circle>
+  </g>
 </svg>

@@ -49,8 +49,9 @@ class ProfileChecks(unittest.TestCase):
                 self.assertTrue(image["alt"].strip())
 
     def test_svg_integrity(self):
-        for path in ROOT.glob("*.svg"):
-            with self.subTest(path=path.name):
+        svg_paths = sorted(list(ROOT.glob("*.svg")) + list((ROOT / "assets").glob("*.svg")))
+        for path in svg_paths:
+            with self.subTest(path=str(path.relative_to(ROOT))):
                 root = ET.parse(path).getroot()
                 self.assertEqual(root.tag, SVG_NS + "svg")
                 self.assertEqual(len(root.attrib["viewBox"].split()), 4)
@@ -67,6 +68,30 @@ class ProfileChecks(unittest.TestCase):
         }
         for target in re.findall(r"\]\(#([^)]*)\)", README):
             self.assertIn(target, headings)
+
+    def test_custom_svgs_have_animations(self):
+        animated_svgs = [
+            "header.svg",
+            "profile-frame.svg",
+            "divider.svg",
+            "footer-wave.svg",
+            "assets/typing-banner.svg",
+            "assets/card-zeromind.svg",
+            "assets/card-backup-tools.svg",
+            "assets/card-in-app-update.svg",
+            "assets/card-icon-converter.svg",
+            "assets/toolkit-matrix.svg",
+        ]
+        anim_tags = {
+            SVG_NS + "animate",
+            SVG_NS + "animateTransform",
+            SVG_NS + "animateMotion",
+        }
+        for rel_path in animated_svgs:
+            with self.subTest(svg=rel_path):
+                root = ET.parse(ROOT / rel_path).getroot()
+                found = [el for el in root.iter() if el.tag in anim_tags]
+                self.assertGreater(len(found), 0, f"Expected animations in {rel_path}")
 
     def test_avatar_is_a_jpeg(self):
         data = (ROOT / "assets/avatar.jpg").read_bytes()
