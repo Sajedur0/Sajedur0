@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="220" viewBox="0 0 580 220" fill="none" role="img" aria-labelledby="pbTitle pbDesc">
+  <title id="pbTitle">Project Backup Tools — One-Click Flutter Desktop Backup Utility</title>
+  <desc id="pbDesc">A Flutter desktop application for backing up development projects with one click, without the busywork.</desc>
+
+  <defs>
+    <linearGradient id="pbBg" x1="0" y1="0" x2="580" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#091526"/>
+      <stop offset="100%" stop-color="#0A1122"/>
+    </linearGradient>
+
+    <linearGradient id="pbBorder" x1="0" y1="0" x2="580" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#71DED2" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#A6A0EF" stop-opacity="0.55"/>
+    </linearGradient>
+
+    <linearGradient id="pbBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#71DED2" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#71DED2"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="pbAura" cx="85%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#71DED2" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#71DED2" stop-opacity="0"/>
+    </radialGradient>
+
+    <clipPath id="pbClip">
+      <rect x="1" y="1" width="578" height="218" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#pbClip)">
+    <rect width="580" height="220" fill="url(#pbBg)"/>
+    <rect width="580" height="220" fill="url(#pbAura)"/>
+
+    <!-- Top Animated Shimmer Line -->
+    <rect x="-200" y="1" width="240" height="3" fill="url(#pbBeam)">
+      <animate attributeName="x" values="580;-240;580" dur="6.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Animated Syncing Vault Icon -->
+    <g transform="translate(46, 48)">
+      <rect x="-22" y="-22" width="44" height="44" rx="12" fill="#0D2538" stroke="#71DED2" stroke-opacity="0.45" stroke-width="1.2"/>
+      <circle r="13" fill="none" stroke="#71DED2" stroke-width="1.6" stroke-dasharray="16 8" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="8s" repeatCount="indefinite"/>
+      </circle>
+      <rect x="-6" y="-6" width="12" height="12" rx="3" fill="#34D399">
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- Category Badge -->
+    <g transform="translate(422, 28)">
+      <rect width="132" height="26" rx="13" fill="#0F2638" stroke="#71DED2" stroke-opacity="0.35" stroke-width="1"/>
+      <circle cx="14" cy="13" r="3" fill="#34D399">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="24" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#86EFAC" letter-spacing="0.8">DESKTOP UTILITY</text>
+    </g>
+
+    <!-- Card Typography -->
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+      <text x="82" y="45" fill="#F8FAFC" font-size="21" font-weight="800" letter-spacing="-0.4">Project Backup Tools <tspan fill="#71DED2" font-size="18">↗</tspan></text>
+      <text x="82" y="67" fill="#71DED2" font-size="13.5" font-weight="600">Project backups, without the busywork.</text>
+
+      <text x="26" y="108" fill="#B0C0D6" font-size="13.5">A Flutter desktop application engineered for snapshotting and</text>
+      <text x="26" y="130" fill="#94A8C4" font-size="13.5">backing up development workspaces cleanly with a single click.</text>
+
+      <!-- Tech Stack Pills -->
+      <g transform="translate(26, 162)" font-size="11.5" font-weight="700">
+        <rect x="0" y="0" width="68" height="28" rx="8" fill="#10253A" stroke="#234B6E"/>
+        <text x="34" y="18" text-anchor="middle" fill="#67E8F9">Flutter</text>
+
+        <rect x="78" y="0" width="74" height="28" rx="8" fill="#122832" stroke="#23535D"/>
+        <text x="115" y="18" text-anchor="middle" fill="#86EFAC">Desktop</text>
+
+        <rect x="162" y="0" width="114" height="28" rx="8" fill="#1E1B3A" stroke="#433878"/>
+        <text x="219" y="18" text-anchor="middle" fill="#C4B5FD">Developer Tools</text>
+      </g>
+
+      <text x="554" y="181" text-anchor="end" fill="#71DED2" font-size="12" font-weight="700">Source →</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="578" height="218" rx="18" stroke="url(#pbBorder)" stroke-width="1.5"/>
+</svg>

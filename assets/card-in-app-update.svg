@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="220" viewBox="0 0 580 220" fill="none" role="img" aria-labelledby="iauTitle iauDesc">
+  <title id="iauTitle">Android In-App Update — Flutter Plugin for Google Play Core</title>
+  <desc id="iauDesc">A Flutter plugin that integrates the Google Play Core In-App Update API on Android.</desc>
+
+  <defs>
+    <linearGradient id="iauBg" x1="0" y1="0" x2="580" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0D1128"/>
+      <stop offset="100%" stop-color="#091324"/>
+    </linearGradient>
+
+    <linearGradient id="iauBorder" x1="0" y1="0" x2="580" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#A6A0EF" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#00F2FE" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.55"/>
+    </linearGradient>
+
+    <linearGradient id="iauBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A6A0EF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#A6A0EF"/>
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="iauAura" cx="85%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#A6A0EF" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#A6A0EF" stop-opacity="0"/>
+    </radialGradient>
+
+    <clipPath id="iauClip">
+      <rect x="1" y="1" width="578" height="218" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#iauClip)">
+    <rect width="580" height="220" fill="url(#iauBg)"/>
+    <rect width="580" height="220" fill="url(#iauAura)"/>
+
+    <!-- Top Animated Shimmer Line -->
+    <rect x="-200" y="1" width="240" height="3" fill="url(#iauBeam)">
+      <animate attributeName="x" values="-240;580;-240" dur="7s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Animated Plugin Module Icon -->
+    <g transform="translate(46, 48)">
+      <rect x="-22" y="-22" width="44" height="44" rx="12" fill="#191838" stroke="#A6A0EF" stroke-opacity="0.45" stroke-width="1.2"/>
+      <circle r="13" fill="none" stroke="#A6A0EF" stroke-width="1.4" opacity="0.5">
+        <animate attributeName="r" values="9;15;9" dur="2.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.8;0.15;0.8" dur="2.8s" repeatCount="indefinite"/>
+      </circle>
+      <path d="M 0 8 V -8 M -6 -2 L 0 -8 L 6 -2" stroke="#00F2FE" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <animateTransform attributeName="transform" type="translate" values="0,2; 0,-2; 0,2" dur="1.8s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- Category Badge -->
+    <g transform="translate(422, 28)">
+      <rect width="132" height="26" rx="13" fill="#1A183B" stroke="#A6A0EF" stroke-opacity="0.4" stroke-width="1"/>
+      <circle cx="14" cy="13" r="3" fill="#A6A0EF">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="24" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#DDD6FE" letter-spacing="0.8">FLUTTER PLUGIN</text>
+    </g>
+
+    <!-- Card Typography -->
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+      <text x="82" y="45" fill="#F8FAFC" font-size="21" font-weight="800" letter-spacing="-0.4">Android In-App Update <tspan fill="#A6A0EF" font-size="18">↗</tspan></text>
+      <text x="82" y="67" fill="#C4B5FD" font-size="13.5" font-weight="600">In-app updates for Flutter on Android.</text>
+
+      <text x="26" y="108" fill="#B0C0D6" font-size="13.5">A native-bridged Flutter plugin integrating the official Google Play</text>
+      <text x="26" y="130" fill="#94A8C4" font-size="13.5">Core In-App Update API for flexible and immediate release flows.</text>
+
+      <!-- Tech Stack Pills -->
+      <g transform="translate(26, 162)" font-size="11.5" font-weight="700">
+        <rect x="0" y="0" width="56" height="28" rx="8" fill="#16203B" stroke="#2D3F6E"/>
+        <text x="28" y="18" text-anchor="middle" fill="#93C5FD">Dart</text>
+
+        <rect x="66" y="0" width="104" height="28" rx="8" fill="#1E1B3A" stroke="#433878"/>
+        <text x="118" y="18" text-anchor="middle" fill="#C4B5FD">Flutter Plugin</text>
+
+        <rect x="180" y="0" width="74" height="28" rx="8" fill="#122832" stroke="#23535D"/>
+        <text x="217" y="18" text-anchor="middle" fill="#86EFAC">Android</text>
+      </g>
+
+      <text x="554" y="181" text-anchor="end" fill="#C4B5FD" font-size="12" font-weight="700">Source →</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="578" height="218" rx="18" stroke="url(#iauBorder)" stroke-width="1.5"/>
+</svg>

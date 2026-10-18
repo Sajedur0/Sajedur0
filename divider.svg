@@ -1,11 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="32" viewBox="0 0 1200 32" fill="none" aria-hidden="true">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="40" viewBox="0 0 1200 40" fill="none" aria-hidden="true">
   <defs>
-    <linearGradient id="line" x1="0" y1="16" x2="1200" y2="16" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#71DED2" stop-opacity="0"/>
-      <stop offset=".25" stop-color="#71DED2" stop-opacity=".35"/>
-      <stop offset=".75" stop-color="#A6A0EF" stop-opacity=".35"/>
-      <stop offset="1" stop-color="#A6A0EF" stop-opacity="0"/>
+    <linearGradient id="trackGrad" x1="0" y1="20" x2="1200" y2="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0"/>
+      <stop offset="18%" stop-color="#00F2FE" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#A6A0EF" stop-opacity="0.85"/>
+      <stop offset="82%" stop-color="#3B82F6" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
     </linearGradient>
+
+    <linearGradient id="pulseBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00F2FE" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#A6A0EF" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="prismGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE"/>
+      <stop offset="50%" stop-color="#A6A0EF"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+
+    <filter id="divGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="trackClip">
+      <rect x="40" y="17" width="1120" height="6" rx="3"/>
+    </clipPath>
   </defs>
-  <path d="M0 16H1200" stroke="url(#line)"/>
+
+  <!-- Main Gradient Track -->
+  <path d="M 20 20 H 1180" stroke="url(#trackGrad)" stroke-width="1.8"/>
+
+  <!-- Sweeping Light Pulses -->
+  <g clip-path="url(#trackClip)">
+    <rect x="-220" y="18" width="220" height="4" rx="2" fill="url(#pulseBeam)">
+      <animate attributeName="x" values="-220;1200;-220" dur="7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Flanking Constellation Nodes -->
+  <circle cx="520" cy="20" r="2" fill="#00F2FE">
+    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="556" cy="20" r="2.8" fill="#71DED2">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" begin="0.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="644" cy="20" r="2.8" fill="#A6A0EF">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" begin="0.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="680" cy="20" r="2" fill="#3B82F6">
+    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.4s" begin="1.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Center Animated Quantum Prism -->
+  <g transform="translate(600, 20)" filter="url(#divGlow)">
+    <circle r="14" fill="#070D19" stroke="url(#prismGrad)" stroke-width="1" stroke-dasharray="6 4">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <polygon points="0,-10 10,0 0,10 -10,0" fill="#0A1326" stroke="url(#prismGrad)" stroke-width="1.8">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="8s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="0,-4.5 4.5,0 0,4.5 -4.5,0" fill="#00F2FE">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
 </svg>
