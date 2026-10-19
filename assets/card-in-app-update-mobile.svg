@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300" fill="none" role="img" aria-labelledby="iaumTitle iaumDesc">
+  <title id="iaumTitle">Android In-App Update — Flutter Plugin for Google Play Core</title>
+  <desc id="iaumDesc">A Flutter plugin that integrates the Google Play Core In-App Update API on Android. Compact tile for small screens.</desc>
+
+  <defs>
+    <linearGradient id="iaumBg" x1="0" y1="0" x2="300" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0D1128"/>
+      <stop offset="100%" stop-color="#091324"/>
+    </linearGradient>
+
+    <linearGradient id="iaumBorder" x1="0" y1="0" x2="300" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#A6A0EF" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#00F2FE" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.55"/>
+    </linearGradient>
+
+    <linearGradient id="iaumBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A6A0EF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#A6A0EF"/>
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="iaumAura" cx="85%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#A6A0EF" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#A6A0EF" stop-opacity="0"/>
+    </radialGradient>
+
+    <clipPath id="iaumClip">
+      <rect x="1" y="1" width="298" height="298" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#iaumClip)">
+    <rect width="300" height="300" fill="url(#iaumBg)"/>
+    <rect width="300" height="300" fill="url(#iaumAura)"/>
+
+    <!-- Top Animated Shimmer Line -->
+    <rect x="-160" y="1" width="160" height="4" fill="url(#iaumBeam)">
+      <animate attributeName="x" values="-160;300;-160" dur="7s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Animated Plugin Module Icon -->
+    <g transform="translate(150, 60)">
+      <rect x="-24" y="-24" width="48" height="48" rx="12" fill="#191838" stroke="#A6A0EF" stroke-opacity="0.45" stroke-width="1.2"/>
+      <circle r="13" fill="none" stroke="#A6A0EF" stroke-width="1.4" opacity="0.5">
+        <animate attributeName="r" values="9;15;9" dur="2.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.8;0.15;0.8" dur="2.8s" repeatCount="indefinite"/>
+      </circle>
+      <path d="M 0 8 V -8 M -6 -2 L 0 -8 L 6 -2" stroke="#00F2FE" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <animateTransform attributeName="transform" type="translate" values="0,2; 0,-2; 0,2" dur="1.8s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- Tile Typography -->
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" text-anchor="middle">
+      <text x="150" y="132" fill="#F8FAFC" font-size="28" font-weight="800" letter-spacing="-0.5">In-App Update</text>
+      <text x="150" y="166" fill="#C4B5FD" font-size="18" font-weight="600">Google Play Core API</text>
+
+      <!-- Hairline Separator -->
+      <path d="M 70 190 H 230" stroke="#1E2D45" stroke-width="1.2"/>
+
+      <!-- Tech Stack Chips -->
+      <g transform="translate(65.5, 206)" font-size="15" font-weight="700">
+        <rect x="0" y="0" width="66" height="34" rx="11" fill="#16203B" stroke="#2D3F6E"/>
+        <text x="33" y="23" text-anchor="middle" fill="#93C5FD">Dart</text>
+        <rect x="76" y="0" width="93" height="34" rx="11" fill="#122832" stroke="#23535D"/>
+        <text x="122.5" y="23" text-anchor="middle" fill="#86EFAC">Android</text>
+      </g>
+
+      <text x="150" y="274" fill="#C4B5FD" font-size="15" font-weight="700">View source →</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="298" height="298" rx="18" stroke="url(#iaumBorder)" stroke-width="1.5"/>
+</svg>
