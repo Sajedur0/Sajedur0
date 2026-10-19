@@ -8,7 +8,7 @@
 <br/>
 
 <picture>
-  <source media="(max-width: 640px)" srcset="assets/typing-banner-mobile.svg" />
+  <source media="(max-width: 768px)" srcset="assets/typing-banner-mobile.svg" />
   <img src="assets/typing-banner.svg" width="100%" alt="Interactive terminal cycling through Flutter apps, Python and Rust automation, and clean architecture focus." />
 </picture>
 
@@ -65,22 +65,22 @@ Handcrafted projects spanning AI chat interfaces, desktop workflow utilities, na
 <div align="center">
 
 <a href="https://github.com/Sajedur0/ZeroMind"><picture>
-  <source media="(max-width: 640px)" srcset="assets/card-zeromind-mobile.svg" />
+  <source media="(max-width: 768px)" srcset="assets/card-zeromind-mobile.svg" />
   <img src="assets/card-zeromind.svg" width="49%" alt="ZeroMind — An AI chat client built with Flutter, powered by OpenRouter with model selection, multilingual chat, dark mode, and local-only storage." />
 </picture></a>
 <a href="https://github.com/Sajedur0/Project-Backup-Tools"><picture>
-  <source media="(max-width: 640px)" srcset="assets/card-backup-tools-mobile.svg" />
+  <source media="(max-width: 768px)" srcset="assets/card-backup-tools-mobile.svg" />
   <img src="assets/card-backup-tools.svg" width="49%" alt="Project Backup Tools — A Flutter desktop application for backing up development projects with one click." />
 </picture></a>
 
 <br/>
 
 <a href="https://github.com/Sajedur0/in_app_update_android"><picture>
-  <source media="(max-width: 640px)" srcset="assets/card-in-app-update-mobile.svg" />
+  <source media="(max-width: 768px)" srcset="assets/card-in-app-update-mobile.svg" />
   <img src="assets/card-in-app-update.svg" width="49%" alt="Android In-App Update — A Flutter plugin integrating the Google Play Core In-App Update API." />
 </picture></a>
 <a href="https://github.com/Sajedur0/Icon-Converter"><picture>
-  <source media="(max-width: 640px)" srcset="assets/card-icon-converter-mobile.svg" />
+  <source media="(max-width: 768px)" srcset="assets/card-icon-converter-mobile.svg" />
   <img src="assets/card-icon-converter.svg" width="49%" alt="Icon Converter — A high-speed icon conversion utility written in Rust." />
 </picture></a>
 
@@ -116,14 +116,14 @@ Handcrafted projects spanning AI chat interfaces, desktop workflow utilities, na
 <div align="center">
 
 <picture>
-  <source media="(max-width: 640px)" srcset="assets/toolkit-matrix-mobile.svg" />
+  <source media="(max-width: 768px)" srcset="assets/toolkit-matrix-mobile.svg" />
   <img src="assets/toolkit-matrix.svg" width="100%" alt="Animated developer toolkit pipeline across Apps and UI, AI and Cloud, Automation Scripts, and Systems Lab." />
 </picture>
 
 <br/>
 
 <picture>
-  <source media="(max-width: 640px)" srcset="https://skillicons.dev/icons?i=flutter,dart,python,rust,ts,js,cpp,cs,firebase,androidstudio,vscode,git,github,linux&amp;theme=dark&amp;perline=7" />
+  <source media="(max-width: 768px)" srcset="https://skillicons.dev/icons?i=flutter,dart,python,rust,ts,js,cpp,cs,firebase,androidstudio,vscode,git,github,linux&amp;theme=dark&amp;perline=7" />
   <img src="https://skillicons.dev/icons?i=flutter,dart,python,rust,ts,js,cpp,cs,firebase,androidstudio,vscode,git,github,linux&amp;theme=dark&amp;perline=14" alt="Technology icons: Flutter, Dart, Python, Rust, TypeScript, JavaScript, C++, C#, Firebase, Android Studio, VS Code, Git, GitHub, and Linux" />
 </picture>
 

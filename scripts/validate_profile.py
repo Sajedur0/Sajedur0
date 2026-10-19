@@ -24,18 +24,23 @@ SVG_NS = "{http://www.w3.org/2000/svg}"
 PHONE_COLUMN_PX = 358
 DESKTOP_COLUMN_PX = 890
 
+# desktop artwork: (desktop share, compact share, breakpoint in CSS px)
+#
+# The hero and the rules only need help on phones, so they switch at 640. The
+# text-dense pieces (terminal strip, toolkit grid, project cards) drop below
+# ~10 px type somewhere between 640 and 768, so they switch at the tablet
+# breakpoint instead.
 RESPONSIVE_ART = {
-    # desktop artwork: (desktop share, mobile share)
-    "header.svg": (1.0, 1.0),
-    "divider.svg": (1.0, 1.0),
-    "assets/typing-banner.svg": (1.0, 1.0),
-    "assets/toolkit-matrix.svg": (1.0, 1.0),
+    "header.svg": (1.0, 1.0, 640),
+    "divider.svg": (1.0, 1.0, 640),
+    "assets/typing-banner.svg": (1.0, 1.0, 768),
+    "assets/toolkit-matrix.svg": (1.0, 1.0, 768),
     # The project grid stays two-up on phones, so the compact tiles are drawn
     # for the same 49% slot rather than for the full column.
-    "assets/card-zeromind.svg": (0.49, 0.49),
-    "assets/card-backup-tools.svg": (0.49, 0.49),
-    "assets/card-in-app-update.svg": (0.49, 0.49),
-    "assets/card-icon-converter.svg": (0.49, 0.49),
+    "assets/card-zeromind.svg": (0.49, 0.49, 768),
+    "assets/card-backup-tools.svg": (0.49, 0.49, 768),
+    "assets/card-in-app-update.svg": (0.49, 0.49, 768),
+    "assets/card-icon-converter.svg": (0.49, 0.49, 768),
 }
 
 # Type should never shrink below this when rendered on a phone.
@@ -280,7 +285,7 @@ class ProfileChecks(unittest.TestCase):
     # ------------------------------------------------------------------
 
     def test_mobile_variants_exist(self):
-        for rel_path in RESPONSIVE_ART:
+        for rel_path, (_desktop, _mobile, _bp) in RESPONSIVE_ART.items():
             variant = mobile_variant(rel_path)
             with self.subTest(svg=variant):
                 self.assertTrue((ROOT / variant).is_file(), f"Missing compact artwork: {variant}")
@@ -294,11 +299,16 @@ class ProfileChecks(unittest.TestCase):
                 self.assertLess(width, desktop_width)
 
     def test_readme_uses_picture_sources_for_responsive_art(self):
-        referenced = {s["srcset"] for s in self.html.sources}
-        for rel_path, _ in RESPONSIVE_ART.items():
+        media_by_srcset = {s["srcset"]: s.get("media") for s in self.html.sources}
+        for rel_path, (_desktop, _mobile, breakpoint_px) in RESPONSIVE_ART.items():
             variant = mobile_variant(rel_path)
             with self.subTest(svg=rel_path):
-                self.assertIn(variant, referenced, f"{variant} is never served to small screens")
+                self.assertIn(variant, media_by_srcset, f"{variant} is never served to small screens")
+                self.assertEqual(
+                    media_by_srcset.get(variant),
+                    f"(max-width: {breakpoint_px}px)",
+                    f"{variant} should be served below {breakpoint_px}px",
+                )
                 self.assertIn(rel_path, [i["src"] for i in self.html.images], f"{rel_path} lost its fallback <img>")
 
         # Every <picture> must fall back to a plain image and offer a media condition.
@@ -311,7 +321,7 @@ class ProfileChecks(unittest.TestCase):
 
     def test_mobile_artwork_stays_legible_on_a_phone(self):
         """Compact art must render its smallest label at least as large as the desktop art."""
-        for rel_path, (desktop_share, mobile_share) in RESPONSIVE_ART.items():
+        for rel_path, (desktop_share, mobile_share, _bp) in RESPONSIVE_ART.items():
             variant = mobile_variant(rel_path)
             desktop_width, _ = viewbox_size(ROOT / rel_path)
             mobile_width, _ = viewbox_size(ROOT / variant)
