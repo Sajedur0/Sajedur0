@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 440" width="420" height="440" fill="none" role="img" aria-labelledby="avatarTitle avatarDesc">
   <title id="avatarTitle">Portrait of Sajedur Rahman Roni</title>
-  <desc id="avatarDesc">Animated orbital portrait frame featuring Sajedur Rahman Roni, Flutter developer from Bangladesh.</desc>
+  <desc id="avatarDesc">Animated orbital portrait frame featuring Sajedur Rahman Roni, open source tools and software builder from Bangladesh.</desc>
 
   <defs>
     <linearGradient id="ringGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -91,6 +91,6 @@
       <animate attributeName="r" values="4;9;4" dur="2s" repeatCount="indefinite"/>
     </circle>
     <circle cx="26" cy="20" r="4" fill="#34D399"/>
-    <text x="114" y="25" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#F1F5F9" letter-spacing="1.4">RONI · FLUTTER DEV</text>
+    <text x="114" y="25" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#F1F5F9" letter-spacing="1.4">RONI · OPEN SOURCE</text>
   </g>
 </svg>

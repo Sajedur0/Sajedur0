@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="544" viewBox="0 0 720 544" fill="none" role="img" aria-labelledby="tkTitle tkDesc">
   <title id="tkTitle">Engineering Architecture &amp; Toolkit Pipeline</title>
-  <desc id="tkDesc">Animated four-stage developer toolkit architecture connecting Apps and Interfaces, AI and Cloud, Scripts and Web, and Systems and Tooling. Two column layout for small screens.</desc>
+  <desc id="tkDesc">Animated four-stage toolkit architecture connecting Apps and Interfaces, Web and Cloud, Scripts and Automation, and Systems and Tools. Two column layout for small screens.</desc>
 
   <defs>
     <linearGradient id="tkBg" x1="0" y1="0" x2="720" y2="544" gradientUnits="userSpaceOnUse">
@@ -65,15 +65,15 @@
       </rect>
     </g>
 
-    <!-- ==================== NODE 02: AI & BACKEND ==================== -->
+    <!-- ==================== NODE 02: WEB & CLOUD ==================== -->
     <g transform="translate(372, 28)">
       <rect width="324" height="220" rx="16" fill="#0B162C" stroke="#71DED2" stroke-opacity="0.45" stroke-width="1.4"/>
       <circle cx="28" cy="34" r="5" fill="#71DED2">
         <animate attributeName="opacity" values="1;0.3;1" dur="2s" begin="0.5s" repeatCount="indefinite"/>
       </circle>
-      <text x="44" y="40" fill="#71DED2" font-size="17" font-weight="700" letter-spacing="1.6">02 // AI &amp; CLOUD</text>
+      <text x="44" y="40" fill="#71DED2" font-size="17" font-weight="700" letter-spacing="1.6">02 // WEB &amp; CLOUD</text>
       <text x="26" y="84" fill="#F8FAFC" font-size="25" font-weight="800">Connected Services</text>
-      <text x="26" y="122" fill="#94A8C4" font-size="17">Firebase · OpenRouter API</text>
+      <text x="26" y="122" fill="#94A8C4" font-size="17">Firebase · REST APIs · Web</text>
       <text x="26" y="150" fill="#94A8C4" font-size="17">Play Core · Local Persistence</text>
       <rect x="26" y="182" width="272" height="8" rx="4" fill="#15233E"/>
       <rect x="26" y="182" width="230" height="8" rx="4" fill="url(#tkBarGrad)">
@@ -104,7 +104,7 @@
         <animate attributeName="opacity" values="1;0.3;1" dur="2s" begin="1.5s" repeatCount="indefinite"/>
       </circle>
       <text x="44" y="40" fill="#93C5FD" font-size="17" font-weight="700" letter-spacing="1.6">04 // SYSTEMS LAB</text>
-      <text x="26" y="84" fill="#F8FAFC" font-size="25" font-weight="800">Native &amp; DevOps</text>
+      <text x="26" y="84" fill="#F8FAFC" font-size="25" font-weight="800">Native &amp; Tools</text>
       <text x="26" y="122" fill="#94A8C4" font-size="17">Rust · C++ · C# · MS SQL</text>
       <text x="26" y="150" fill="#94A8C4" font-size="17">Git · GitHub Actions · Linux</text>
       <rect x="26" y="182" width="272" height="8" rx="4" fill="#15233E"/>

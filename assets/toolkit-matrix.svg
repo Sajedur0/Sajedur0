@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" fill="none" role="img" aria-labelledby="tkTitle tkDesc">
   <title id="tkTitle">Engineering Architecture &amp; Toolkit Pipeline</title>
-  <desc id="tkDesc">Animated four-stage developer toolkit architecture connecting Apps and Interfaces, AI and Cloud, Scripts and Web, and Systems and Tooling.</desc>
+  <desc id="tkDesc">Animated four-stage toolkit architecture connecting Apps and Interfaces, Web and Cloud, Scripts and Automation, and Systems and Tools.</desc>
 
   <defs>
     <linearGradient id="tkBg" x1="0" y1="0" x2="1200" y2="210" gradientUnits="userSpaceOnUse">
@@ -65,15 +65,15 @@
       </rect>
     </g>
 
-    <!-- ==================== NODE 02: AI & BACKEND ==================== -->
+    <!-- ==================== NODE 02: WEB & CLOUD ==================== -->
     <g transform="translate(320, 24)">
       <rect width="264" height="162" rx="14" fill="#0B162C" stroke="#71DED2" stroke-opacity="0.45" stroke-width="1.2"/>
       <circle cx="24" cy="26" r="4" fill="#71DED2">
         <animate attributeName="opacity" values="1;0.3;1" dur="2s" begin="0.5s" repeatCount="indefinite"/>
       </circle>
-      <text x="36" y="30" fill="#71DED2" font-size="11" font-weight="700" letter-spacing="1.4">02 // AI &amp; CLOUD</text>
+      <text x="36" y="30" fill="#71DED2" font-size="11" font-weight="700" letter-spacing="1.4">02 // WEB &amp; CLOUD</text>
       <text x="20" y="60" fill="#F8FAFC" font-size="17" font-weight="800">Connected Services</text>
-      <text x="20" y="86" fill="#94A8C4" font-size="12.5">Firebase · OpenRouter API</text>
+      <text x="20" y="86" fill="#94A8C4" font-size="12.5">Firebase · REST APIs · Web</text>
       <text x="20" y="106" fill="#94A8C4" font-size="12.5">Play Core · Local Persistence</text>
       <rect x="20" y="132" width="224" height="6" rx="3" fill="#15233E"/>
       <rect x="20" y="132" width="188" height="6" rx="3" fill="url(#tkBarGrad)">
@@ -104,7 +104,7 @@
         <animate attributeName="opacity" values="1;0.3;1" dur="2s" begin="1.5s" repeatCount="indefinite"/>
       </circle>
       <text x="36" y="30" fill="#93C5FD" font-size="11" font-weight="700" letter-spacing="1.4">04 // SYSTEMS LAB</text>
-      <text x="20" y="60" fill="#F8FAFC" font-size="17" font-weight="800">Native &amp; DevOps</text>
+      <text x="20" y="60" fill="#F8FAFC" font-size="17" font-weight="800">Native &amp; Tools</text>
       <text x="20" y="86" fill="#94A8C4" font-size="12.5">Rust · C++ · C# · MS SQL</text>
       <text x="20" y="106" fill="#94A8C4" font-size="12.5">Git · GitHub Actions · Linux</text>
       <rect x="20" y="132" width="224" height="6" rx="3" fill="#15233E"/>
