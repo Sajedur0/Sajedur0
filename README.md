@@ -2,14 +2,14 @@
 
 <picture>
   <source media="(max-width: 640px)" srcset="header-mobile.svg" />
-  <img src="header.svg" width="100%" alt="Sajedur Rahman Roni — Flutter developer from Bangladesh, building thoughtful apps and useful tools." />
+  <img src="header.svg" width="100%" alt="Sajedur Rahman Roni — Software, tools, and web builder from Bangladesh · Open Source enthusiast." />
 </picture>
 
 <br/>
 
 <picture>
   <source media="(max-width: 768px)" srcset="assets/typing-banner-mobile.svg" />
-  <img src="assets/typing-banner.svg" width="100%" alt="Interactive terminal cycling through Flutter apps, Python and Rust automation, and clean architecture focus." />
+  <img src="assets/typing-banner.svg" width="100%" alt="Interactive terminal cycling through software, tools, web utilities, and open source projects." />
 </picture>
 
 <br/><br/>
@@ -42,13 +42,16 @@
 
 ### Hi, I'm Roni 👋
 
-A **Flutter developer from Bangladesh**, building polished mobile experiences, desktop utilities, and developer automations that make everyday engineering feel lighter.
+I love **building practical software, useful tools, and web solutions** from Bangladesh. I am not a professional developer or coding specialist — I simply enjoy crafting handy tools, utilities, and software that make everyday digital tasks easier.
 
-I care deeply about thoughtful interfaces, maintainable architecture, and solving real-world friction without unnecessary complexity.
+I am an **Open Source** enthusiast passionate about creating accessible desktop applications, web utilities, and automation scripts.
 
-- 🔭 **Building:** [**ZeroMind**](https://github.com/Sajedur0/ZeroMind), a multi-model Flutter AI chat client, alongside practical desktop and developer tools.
-- 🌱 **Leveling up in:** advanced Flutter architecture, Python automation, and native tooling with **Rust**.
-- 💡 **Focused on:** cross-platform apps, Android plugin ecosystems, and one-click workflow utilities.
+- 🛠️ **What I work with:**
+  - **Desktop & Mobile Apps:** Building software utilities and apps using **Flutter** and **Dart**.
+  - **Web & Automation:** Creating scrapers, web tools, and scripts with **Python**, **JavaScript**, **TypeScript**, and **PowerShell**.
+  - **Systems & Native Tools:** Crafting fast desktop utilities with **Rust**, **C++**, and **C#**.
+- 🔭 **Current Focus:** Practical tools like [**Project Backup Tools**](https://github.com/Sajedur0/Project-Backup-Tools), Android utilities, and web scrapers.
+- 💡 **Core Mindset:** Simple solutions, zero friction, and sharing useful tools openly (**Open Source**).
 - 🌐 **Digital home:** [**sajedur0.online**](https://www.sajedur0.online)
 
 <br clear="right"/>
@@ -60,17 +63,17 @@ I care deeply about thoughtful interfaces, maintainable architecture, and solvin
 
 ## Selected work
 
-Handcrafted projects spanning AI chat interfaces, desktop workflow utilities, native Android plugins, and systems tools. Click any card to inspect the source code and documentation.
+Handcrafted open-source projects spanning desktop workflow utilities, cross-platform apps, native Android plugins, and systems tools. Click any card to inspect the source code and documentation.
 
 <div align="center">
 
 <a href="https://github.com/Sajedur0/ZeroMind"><picture>
   <source media="(max-width: 768px)" srcset="assets/card-zeromind-mobile.svg" />
-  <img src="assets/card-zeromind.svg" width="49%" alt="ZeroMind — An AI chat client built with Flutter, powered by OpenRouter with model selection, multilingual chat, dark mode, and local-only storage." />
+  <img src="assets/card-zeromind.svg" width="49%" alt="ZeroMind — A cross-platform chat application built with Flutter featuring multilingual conversations, customizable themes, dark mode, and local-only storage." />
 </picture></a>
 <a href="https://github.com/Sajedur0/Project-Backup-Tools"><picture>
   <source media="(max-width: 768px)" srcset="assets/card-backup-tools-mobile.svg" />
-  <img src="assets/card-backup-tools.svg" width="49%" alt="Project Backup Tools — A Flutter desktop application for backing up development projects with one click." />
+  <img src="assets/card-backup-tools.svg" width="49%" alt="Project Backup Tools — A Flutter desktop application for backing up project workspaces with one click." />
 </picture></a>
 
 <br/>
@@ -117,7 +120,7 @@ Handcrafted projects spanning AI chat interfaces, desktop workflow utilities, na
 
 <picture>
   <source media="(max-width: 768px)" srcset="assets/toolkit-matrix-mobile.svg" />
-  <img src="assets/toolkit-matrix.svg" width="100%" alt="Animated developer toolkit pipeline across Apps and UI, AI and Cloud, Automation Scripts, and Systems Lab." />
+  <img src="assets/toolkit-matrix.svg" width="100%" alt="Animated toolkit architecture across Apps and UI, Web and Cloud, Automation Scripts, and Systems and Tools." />
 </picture>
 
 <br/>
@@ -136,7 +139,7 @@ Handcrafted projects spanning AI chat interfaces, desktop workflow utilities, na
 | **Apps & interfaces** | `Flutter` · `Dart` · `Firebase` · `Android` · `Desktop UI` |
 | **Scripts & web** | `Python` · `TypeScript` · `JavaScript` · `HTML5` · `CSS3` · `PowerShell` |
 | **Systems & native** | `Rust` · `C++` · `C#` · `MS SQL` |
-| **Development workflow** | `Git` · `GitHub Actions` · `VS Code` · `Android Studio` · `Linux` |
+| **Tools & workflow** | `Git` · `GitHub Actions` · `VS Code` · `Android Studio` · `Linux` |
 
 <picture>
   <source media="(max-width: 640px)" srcset="divider-mobile.svg" />
@@ -174,7 +177,7 @@ Live snapshots of my public GitHub activity and contribution graph. *(External s
 
 ## Connect
 
-Have a Flutter question, a developer tool idea, or an open-source collaboration in mind? **Let's build something great together.**
+Have an idea for a useful tool, software, web utility, or open-source collaboration? **Let's build something great together.**
 
 <div align="center">
 
@@ -190,7 +193,7 @@ Have a Flutter question, a developer tool idea, or an open-source collaboration 
 
 <br/><br/>
 
-**Thoughtful apps. Useful tools. Always learning.**
+**Useful software. Practical tools. Open source.**
 
 *Thanks for stopping by — see you in the commit history.*
 

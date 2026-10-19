@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="580" height="220" viewBox="0 0 580 220" fill="none" role="img" aria-labelledby="icTitle icDesc">
   <title id="icTitle">Icon Converter — Rust Utility for Working with Icons</title>
-  <desc id="icDesc">An icon conversion project written in Rust, exploring practical native tooling beyond the Flutter ecosystem.</desc>
+  <desc id="icDesc">An icon conversion project written in Rust, exploring practical native utilities and tools.</desc>
 
   <defs>
     <linearGradient id="icBg" x1="0" y1="0" x2="580" y2="220" gradientUnits="userSpaceOnUse">
@@ -65,7 +65,7 @@
       <text x="82" y="67" fill="#93C5FD" font-size="13.5" font-weight="600">A utility for working with icons.</text>
 
       <text x="26" y="108" fill="#B0C0D6" font-size="13.5">An icon conversion project written in Rust, exploring high-speed</text>
-      <text x="26" y="130" fill="#94A8C4" font-size="13.5">native developer tooling beyond the Flutter and Dart ecosystem.</text>
+      <text x="26" y="130" fill="#94A8C4" font-size="13.5">native tools and utilities beyond the Flutter and Dart ecosystem.</text>
 
       <!-- Tech Stack Pills -->
       <g transform="translate(26, 162)" font-size="11.5" font-weight="700">

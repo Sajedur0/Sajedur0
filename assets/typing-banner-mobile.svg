@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="100" viewBox="0 0 720 100" fill="none" role="img" aria-labelledby="termTitle termDesc">
   <title id="termTitle">Interactive Status Terminal — Sajedur Rahman Roni</title>
-  <desc id="termDesc">Animated command bar cycling through Flutter app development, Python and Rust automation, and clean architecture focus. Compact layout for small screens.</desc>
+  <desc id="termDesc">Animated command bar cycling through software tools, web utilities, automation, and open source projects. Compact layout for small screens.</desc>
 
   <defs>
     <linearGradient id="termBg" x1="0" y1="0" x2="720" y2="100" gradientUnits="userSpaceOnUse">
@@ -42,7 +42,7 @@
       <g opacity="1">
         <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;1" keyTimes="0;0.28;0.33;0.61;0.66;0.94;0.98;0.99;1" dur="12s" repeatCount="indefinite"/>
         <text x="222" y="57" fill="#E2E8F0">
-          <tspan fill="#C4B5FD">ship_apps</tspan>(<tspan fill="#67E8F9">'ZeroMind'</tspan>, <tspan fill="#67E8F9">'Tools'</tspan>);
+          <tspan fill="#C4B5FD">build_tools</tspan>(<tspan fill="#67E8F9">'Software'</tspan>, <tspan fill="#67E8F9">'Tools'</tspan>);
         </text>
       </g>
 

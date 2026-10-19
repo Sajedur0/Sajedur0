@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300" fill="none" role="img" aria-labelledby="pbmTitle pbmDesc">
   <title id="pbmTitle">Project Backup Tools — One-Click Flutter Desktop Backup Utility</title>
-  <desc id="pbmDesc">A Flutter desktop application for backing up development projects with one click, without the busywork. Compact tile for small screens.</desc>
+  <desc id="pbmDesc">A Flutter desktop application for backing up projects with one click, without the busywork. Compact tile for small screens.</desc>
 
   <defs>
     <linearGradient id="pbmBg" x1="0" y1="0" x2="300" y2="300" gradientUnits="userSpaceOnUse">

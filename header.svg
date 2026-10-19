@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" fill="none" role="img" aria-labelledby="title desc">
-  <title id="title">Sajedur Rahman Roni — Flutter Developer, Python &amp; Rust Builder</title>
-  <desc id="desc">Animated hero banner for Sajedur Rahman Roni (Sajedur0), a Flutter developer from Bangladesh building thoughtful mobile apps, AI clients, desktop utilities, and developer tools.</desc>
+  <title id="title">Sajedur Rahman Roni — Software, Tools &amp; Web Builder · Open Source</title>
+  <desc id="desc">Animated hero banner for Sajedur Rahman Roni (Sajedur0) from Bangladesh, building software, desktop utilities, web solutions, and open-source tools.</desc>
 
   <defs>
     <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="460" gradientUnits="userSpaceOnUse">
@@ -176,7 +176,7 @@
       </g>
 
       <text x="108" y="54" fill="#E2E8F0" font-size="13" font-weight="700" letter-spacing="2.5">SAJEDUR0 / GITHUB</text>
-      <text x="108" y="71" fill="#71DED2" font-size="11" font-weight="500" letter-spacing="1.2" opacity="0.85">FLUTTER · AI · AUTOMATION · OPEN SOURCE</text>
+      <text x="108" y="71" fill="#71DED2" font-size="11" font-weight="500" letter-spacing="1.2" opacity="0.85">SOFTWARE · TOOLS · WEB · OPEN SOURCE</text>
 
       <!-- Live Telemetry Status Pill (Top Right) -->
       <g transform="translate(918, 40)">
@@ -225,11 +225,11 @@
       </g>
 
       <!-- Role Subtitle -->
-      <text x="56" y="216" fill="#71DED2" font-size="20" font-weight="600">Flutter Developer  ·  Curious Builder  ·  Toolmaker</text>
+      <text x="56" y="216" fill="#71DED2" font-size="20" font-weight="600">Software &amp; Tools Builder  ·  Web  ·  Open Source</text>
 
       <!-- Value Proposition -->
-      <text x="56" y="254" fill="#B0C0D6" font-size="16.5">Building thoughtful mobile apps, AI clients, and desktop tools.</text>
-      <text x="56" y="280" fill="#94A8C4" font-size="16.5">Focused on clean architecture, zero-friction UX, automation.</text>
+      <text x="56" y="254" fill="#B0C0D6" font-size="16.5">Building useful software, practical desktop utilities, and web tools.</text>
+      <text x="56" y="280" fill="#94A8C4" font-size="16.5">Passionate about open-source projects, smooth UX, and automation.</text>
 
       <!-- Animated Tech Stack Pills -->
       <g transform="translate(56, 310)" font-size="12.5" font-weight="700" letter-spacing="0.4">
@@ -248,7 +248,7 @@
             <animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="1s" repeatCount="indefinite"/>
           </rect>
           <circle cx="18" cy="18" r="4" fill="#A6A0EF"/>
-          <text x="30" y="23" fill="#EDE9FE">AI &amp; OpenRouter</text>
+          <text x="30" y="23" fill="#EDE9FE">Tools &amp; Web</text>
         </g>
 
         <!-- Pill 3 -->
@@ -291,7 +291,7 @@
       <text x="106" y="29" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" font-weight="600" fill="#E2E8F0">the_builder.dart</text>
 
       <!-- Inactive Tab -->
-      <text x="236" y="29" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#64748B">zeromind_ai.dart</text>
+      <text x="236" y="29" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#64748B">tools_config.dart</text>
 
       <!-- Live Compile Indicator -->
       <circle cx="412" cy="21" r="3.5" fill="#34D399">
@@ -316,11 +316,11 @@
           <text x="32" y="227">07</text>
         </g>
 
-        <text x="48" y="71" fill="#C4B5FD">final class <tspan fill="#71DED2" font-weight="700">Roni</tspan> <tspan fill="#C4B5FD">extends</tspan> <tspan fill="#93C5FD">FlutterBuilder</tspan> <tspan fill="#E2E8F0">{</tspan></text>
+        <text x="48" y="71" fill="#C4B5FD">final class <tspan fill="#71DED2" font-weight="700">Roni</tspan> <tspan fill="#C4B5FD">extends</tspan> <tspan fill="#93C5FD">ToolBuilder</tspan> <tspan fill="#E2E8F0">{</tspan></text>
         <text x="66" y="97" fill="#94A3B8">location: <tspan fill="#86EFAC">'Dhaka, Bangladesh'</tspan>,</text>
-        <text x="66" y="123" fill="#94A3B8">coreStack: <tspan fill="#67E8F9">['Flutter', 'Dart', 'Python']</tspan>,</text>
-        <text x="66" y="149" fill="#94A3B8">exploring: <tspan fill="#C4B5FD">['Rust', 'AI Agents', 'C++']</tspan>,</text>
-        <text x="66" y="175" fill="#94A3B8">featured:  <tspan fill="#FDE68A">'ZeroMind AI Client'</tspan>,</text>
+        <text x="66" y="123" fill="#94A3B8">building:  <tspan fill="#67E8F9">['Software', 'Tools', 'Web']</tspan>,</text>
+        <text x="66" y="149" fill="#94A3B8">utilities: <tspan fill="#C4B5FD">['Python', 'Rust', 'C++']</tspan>,</text>
+        <text x="66" y="175" fill="#94A3B8">featured:  <tspan fill="#FDE68A">'Project Backup Tools'</tspan>,</text>
         <text x="66" y="201" fill="#94A3B8">philosophy:<tspan fill="#86EFAC">'Less friction. Better UX.'</tspan>,</text>
         <text x="48" y="227" fill="#E2E8F0">}</text>
 
@@ -352,8 +352,8 @@
             <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="7s" repeatCount="indefinite"/>
           </polygon>
         </g>
-        <text x="62" y="31" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#F8FAFC">ZeroMind UI</text>
-        <text x="62" y="47" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" fill="#71DED2">OpenRouter · Ready</text>
+        <text x="62" y="31" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#F8FAFC">Backup Tools</text>
+        <text x="62" y="47" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" fill="#71DED2">Desktop · Ready</text>
         <rect x="62" y="54" width="72" height="4" rx="2" fill="#1E293B"/>
         <rect x="62" y="54" width="54" height="4" rx="2" fill="url(#titleBarGrad)">
           <animate attributeName="width" values="24;68;24" dur="3.5s" repeatCount="indefinite"/>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="580" height="220" viewBox="0 0 580 220" fill="none" role="img" aria-labelledby="zmTitle zmDesc">
-  <title id="zmTitle">ZeroMind — AI Chat Client built with Flutter</title>
-  <desc id="zmDesc">Powered by OpenRouter, with model selection, multilingual chat, dark mode, and local-only data storage.</desc>
+  <title id="zmTitle">ZeroMind — Cross-Platform Chat Application built with Flutter</title>
+  <desc id="zmDesc">A cross-platform chat application with dark mode, clean interface, and local-only data storage.</desc>
 
   <defs>
     <linearGradient id="zmBg" x1="0" y1="0" x2="580" y2="220" gradientUnits="userSpaceOnUse">
@@ -39,7 +39,7 @@
       <animate attributeName="x" values="-240;580;-240" dur="6s" repeatCount="indefinite"/>
     </rect>
 
-    <!-- Animated AI Neural Core Icon -->
+    <!-- Animated Geometric Core Icon -->
     <g transform="translate(46, 48)">
       <rect x="-22" y="-22" width="44" height="44" rx="12" fill="#0E223D" stroke="#00F2FE" stroke-opacity="0.45" stroke-width="1.2"/>
       <circle r="13" fill="none" stroke="#00F2FE" stroke-width="1.4" stroke-dasharray="6 4">
@@ -60,16 +60,16 @@
       <circle cx="14" cy="13" r="3" fill="#00F2FE">
         <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
       </circle>
-      <text x="24" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#71DED2" letter-spacing="0.8">FEATURED AI APP</text>
+      <text x="24" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#71DED2" letter-spacing="0.8">OPEN SOURCE</text>
     </g>
 
     <!-- Card Typography -->
     <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
       <text x="82" y="45" fill="#F8FAFC" font-size="21" font-weight="800" letter-spacing="-0.4">ZeroMind <tspan fill="#00F2FE" font-size="18">↗</tspan></text>
-      <text x="82" y="67" fill="#71DED2" font-size="13.5" font-weight="600">An AI chat client built with Flutter.</text>
+      <text x="82" y="67" fill="#71DED2" font-size="13.5" font-weight="600">A cross-platform chat application.</text>
 
-      <text x="26" y="108" fill="#B0C0D6" font-size="13.5">Powered by OpenRouter with multi-model selection, multilingual</text>
-      <text x="26" y="130" fill="#94A8C4" font-size="13.5">conversations, sleek dark mode, and privacy-first local storage.</text>
+      <text x="26" y="108" fill="#B0C0D6" font-size="13.5">A modern cross-platform chat application with multilingual support,</text>
+      <text x="26" y="130" fill="#94A8C4" font-size="13.5">sleek dark mode interface, and privacy-first local storage.</text>
 
       <!-- Tech Stack Pills -->
       <g transform="translate(26, 162)" font-size="11.5" font-weight="700">
@@ -79,11 +79,11 @@
         <rect x="78" y="0" width="56" height="28" rx="8" fill="#16203B" stroke="#2D3F6E"/>
         <text x="106" y="18" text-anchor="middle" fill="#93C5FD">Dart</text>
 
-        <rect x="144" y="0" width="96" height="28" rx="8" fill="#1E1B3A" stroke="#433878"/>
-        <text x="192" y="18" text-anchor="middle" fill="#C4B5FD">OpenRouter</text>
+        <rect x="144" y="0" width="100" height="28" rx="8" fill="#1E1B3A" stroke="#433878"/>
+        <text x="194" y="18" text-anchor="middle" fill="#C4B5FD">Open Source</text>
 
-        <rect x="250" y="0" width="84" height="28" rx="8" fill="#122832" stroke="#23535D"/>
-        <text x="292" y="18" text-anchor="middle" fill="#86EFAC">Local DB</text>
+        <rect x="254" y="0" width="84" height="28" rx="8" fill="#122832" stroke="#23535D"/>
+        <text x="296" y="18" text-anchor="middle" fill="#86EFAC">Local DB</text>
       </g>
 
       <!-- Action Indicator -->

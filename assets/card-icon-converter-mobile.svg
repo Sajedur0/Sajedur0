@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300" fill="none" role="img" aria-labelledby="icmTitle icmDesc">
   <title id="icmTitle">Icon Converter — Rust Utility for Working with Icons</title>
-  <desc id="icmDesc">An icon conversion project written in Rust, exploring practical native tooling beyond the Flutter ecosystem. Compact tile for small screens.</desc>
+  <desc id="icmDesc">An icon conversion project written in Rust, exploring practical native utilities and tools. Compact tile for small screens.</desc>
 
   <defs>
     <linearGradient id="icmBg" x1="0" y1="0" x2="300" y2="300" gradientUnits="userSpaceOnUse">
