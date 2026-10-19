@@ -1,10 +1,16 @@
 <div align="center">
 
-<img src="header.svg" width="100%" alt="Sajedur Rahman Roni — Flutter developer from Bangladesh, building thoughtful apps and useful tools." />
+<picture>
+  <source media="(max-width: 640px)" srcset="header-mobile.svg" />
+  <img src="header.svg" width="100%" alt="Sajedur Rahman Roni — Flutter developer from Bangladesh, building thoughtful apps and useful tools." />
+</picture>
 
-<br/><br/>
+<br/>
 
-<img src="assets/typing-banner.svg" width="100%" alt="Interactive terminal cycling through Flutter apps, Python and Rust automation, and clean architecture focus." />
+<picture>
+  <source media="(max-width: 768px)" srcset="assets/typing-banner-mobile.svg" />
+  <img src="assets/typing-banner.svg" width="100%" alt="Interactive terminal cycling through Flutter apps, Python and Rust automation, and clean architecture focus." />
+</picture>
 
 <br/><br/>
 
@@ -22,11 +28,17 @@
 
 <br/>
 
-<img src="divider.svg" width="100%" alt="" />
+<picture>
+  <source media="(max-width: 640px)" srcset="divider-mobile.svg" />
+  <img src="divider.svg" width="100%" alt="" />
+</picture>
 
 ## About
 
-<img src="profile-frame.svg" align="right" width="230" alt="Animated orbital portrait of Sajedur Rahman Roni" />
+<picture align="right">
+  <source media="(max-width: 640px)" srcset="profile-frame-mobile.svg" />
+  <img src="profile-frame.svg" align="right" width="28%" alt="Animated orbital portrait of Sajedur Rahman Roni" />
+</picture>
 
 ### Hi, I'm Roni 👋
 
@@ -41,7 +53,10 @@ I care deeply about thoughtful interfaces, maintainable architecture, and solvin
 
 <br clear="right"/>
 
-<img src="divider.svg" width="100%" alt="" />
+<picture>
+  <source media="(max-width: 640px)" srcset="divider-mobile.svg" />
+  <img src="divider.svg" width="100%" alt="" />
+</picture>
 
 ## Selected work
 
@@ -49,13 +64,25 @@ Handcrafted projects spanning AI chat interfaces, desktop workflow utilities, na
 
 <div align="center">
 
-<a href="https://github.com/Sajedur0/ZeroMind"><img src="assets/card-zeromind.svg" width="49%" alt="ZeroMind — An AI chat client built with Flutter, powered by OpenRouter with model selection, multilingual chat, dark mode, and local-only storage." /></a>
-<a href="https://github.com/Sajedur0/Project-Backup-Tools"><img src="assets/card-backup-tools.svg" width="49%" alt="Project Backup Tools — A Flutter desktop application for backing up development projects with one click." /></a>
+<a href="https://github.com/Sajedur0/ZeroMind"><picture>
+  <source media="(max-width: 768px)" srcset="assets/card-zeromind-mobile.svg" />
+  <img src="assets/card-zeromind.svg" width="49%" alt="ZeroMind — An AI chat client built with Flutter, powered by OpenRouter with model selection, multilingual chat, dark mode, and local-only storage." />
+</picture></a>
+<a href="https://github.com/Sajedur0/Project-Backup-Tools"><picture>
+  <source media="(max-width: 768px)" srcset="assets/card-backup-tools-mobile.svg" />
+  <img src="assets/card-backup-tools.svg" width="49%" alt="Project Backup Tools — A Flutter desktop application for backing up development projects with one click." />
+</picture></a>
 
-<br/><br/>
+<br/>
 
-<a href="https://github.com/Sajedur0/in_app_update_android"><img src="assets/card-in-app-update.svg" width="49%" alt="Android In-App Update — A Flutter plugin integrating the Google Play Core In-App Update API." /></a>
-<a href="https://github.com/Sajedur0/Icon-Converter"><img src="assets/card-icon-converter.svg" width="49%" alt="Icon Converter — A high-speed icon conversion utility written in Rust." /></a>
+<a href="https://github.com/Sajedur0/in_app_update_android"><picture>
+  <source media="(max-width: 768px)" srcset="assets/card-in-app-update-mobile.svg" />
+  <img src="assets/card-in-app-update.svg" width="49%" alt="Android In-App Update — A Flutter plugin integrating the Google Play Core In-App Update API." />
+</picture></a>
+<a href="https://github.com/Sajedur0/Icon-Converter"><picture>
+  <source media="(max-width: 768px)" srcset="assets/card-icon-converter-mobile.svg" />
+  <img src="assets/card-icon-converter.svg" width="49%" alt="Icon Converter — A high-speed icon conversion utility written in Rust." />
+</picture></a>
 
 </div>
 
@@ -79,17 +106,26 @@ Handcrafted projects spanning AI chat interfaces, desktop workflow utilities, na
 
 <p align="right"><a href="https://github.com/Sajedur0?tab=repositories"><b>Browse all repositories →</b></a></p>
 
-<img src="divider.svg" width="100%" alt="" />
+<picture>
+  <source media="(max-width: 640px)" srcset="divider-mobile.svg" />
+  <img src="divider.svg" width="100%" alt="" />
+</picture>
 
 ## Toolkit
 
 <div align="center">
 
-<img src="assets/toolkit-matrix.svg" width="100%" alt="Animated developer toolkit pipeline across Apps and UI, AI and Cloud, Automation Scripts, and Systems Lab." />
+<picture>
+  <source media="(max-width: 768px)" srcset="assets/toolkit-matrix-mobile.svg" />
+  <img src="assets/toolkit-matrix.svg" width="100%" alt="Animated developer toolkit pipeline across Apps and UI, AI and Cloud, Automation Scripts, and Systems Lab." />
+</picture>
 
-<br/><br/>
+<br/>
 
-<img src="https://skillicons.dev/icons?i=flutter,dart,python,rust,ts,js,cpp,cs,firebase,androidstudio,vscode,git,github,linux&amp;theme=dark&amp;perline=14" alt="Technology icons: Flutter, Dart, Python, Rust, TypeScript, JavaScript, C++, C#, Firebase, Android Studio, VS Code, Git, GitHub, and Linux" />
+<picture>
+  <source media="(max-width: 768px)" srcset="https://skillicons.dev/icons?i=flutter,dart,python,rust,ts,js,cpp,cs,firebase,androidstudio,vscode,git,github,linux&amp;theme=dark&amp;perline=7" />
+  <img src="https://skillicons.dev/icons?i=flutter,dart,python,rust,ts,js,cpp,cs,firebase,androidstudio,vscode,git,github,linux&amp;theme=dark&amp;perline=14" alt="Technology icons: Flutter, Dart, Python, Rust, TypeScript, JavaScript, C++, C#, Firebase, Android Studio, VS Code, Git, GitHub, and Linux" />
+</picture>
 
 </div>
 
@@ -102,7 +138,10 @@ Handcrafted projects spanning AI chat interfaces, desktop workflow utilities, na
 | **Systems & native** | `Rust` · `C++` · `C#` · `MS SQL` |
 | **Development workflow** | `Git` · `GitHub Actions` · `VS Code` · `Android Studio` · `Linux` |
 
-<img src="divider.svg" width="100%" alt="" />
+<picture>
+  <source media="(max-width: 640px)" srcset="divider-mobile.svg" />
+  <img src="divider.svg" width="100%" alt="" />
+</picture>
 
 ## Activity
 
@@ -110,8 +149,13 @@ Live snapshots of my public GitHub activity and contribution graph. *(External s
 
 <div align="center">
 
-<a href="https://github.com/Sajedur0?tab=repositories"><img width="49%" src="https://github-readme-stats.vercel.app/api?username=Sajedur0&amp;show_icons=true&amp;hide_border=true&amp;bg_color=091224&amp;title_color=00F2FE&amp;icon_color=A6A0EF&amp;text_color=B8C7DC&amp;border_radius=14" alt="Live GitHub statistics for Sajedur0" /></a>
-<a href="https://github.com/Sajedur0?tab=repositories"><img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sajedur0&amp;layout=compact&amp;langs_count=6&amp;hide_border=true&amp;bg_color=091224&amp;title_color=00F2FE&amp;text_color=B8C7DC&amp;border_radius=14" alt="Top languages across public repositories for Sajedur0" /></a>
+<!--
+  No width attribute on purpose: the live stat cards keep their intrinsic
+  ~467px size, so they sit side by side on a wide desktop column and stack
+  full-width (and stay readable) on a phone.
+-->
+<a href="https://github.com/Sajedur0?tab=repositories"><img src="https://github-readme-stats.vercel.app/api?username=Sajedur0&amp;show_icons=true&amp;hide_border=true&amp;bg_color=091224&amp;title_color=00F2FE&amp;icon_color=A6A0EF&amp;text_color=B8C7DC&amp;border_radius=14" alt="Live GitHub statistics for Sajedur0" /></a>
+<a href="https://github.com/Sajedur0?tab=repositories"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sajedur0&amp;layout=compact&amp;langs_count=6&amp;hide_border=true&amp;bg_color=091224&amp;title_color=00F2FE&amp;text_color=B8C7DC&amp;border_radius=14" alt="Top languages across public repositories for Sajedur0" /></a>
 
 <br/><br/>
 
@@ -123,7 +167,10 @@ Live snapshots of my public GitHub activity and contribution graph. *(External s
 
 </div>
 
-<img src="divider.svg" width="100%" alt="" />
+<picture>
+  <source media="(max-width: 640px)" srcset="divider-mobile.svg" />
+  <img src="divider.svg" width="100%" alt="" />
+</picture>
 
 ## Connect
 

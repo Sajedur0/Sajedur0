@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="544" viewBox="0 0 720 544" fill="none" role="img" aria-labelledby="tkTitle tkDesc">
+  <title id="tkTitle">Engineering Architecture &amp; Toolkit Pipeline</title>
+  <desc id="tkDesc">Animated four-stage developer toolkit architecture connecting Apps and Interfaces, AI and Cloud, Scripts and Web, and Systems and Tooling. Two column layout for small screens.</desc>
+
+  <defs>
+    <linearGradient id="tkBg" x1="0" y1="0" x2="720" y2="544" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#060B18"/>
+      <stop offset="50%" stop-color="#0B1428"/>
+      <stop offset="100%" stop-color="#090F22"/>
+    </linearGradient>
+
+    <linearGradient id="tkStroke" x1="0" y1="0" x2="720" y2="544" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#A6A0EF" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.45"/>
+    </linearGradient>
+
+    <linearGradient id="tkBarGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE"/>
+      <stop offset="50%" stop-color="#71DED2"/>
+      <stop offset="100%" stop-color="#A6A0EF"/>
+    </linearGradient>
+
+    <filter id="tkGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Outer Container -->
+  <rect x="1" y="1" width="718" height="542" rx="20" fill="url(#tkBg)" stroke="url(#tkStroke)" stroke-width="1.5"/>
+
+  <!-- Connecting Data Conduits Between Nodes -->
+  <g stroke="#1E3A5F" stroke-width="2.4" stroke-dasharray="6 6">
+    <path d="M 350 138 H 370"/>
+    <path d="M 350 402 H 370"/>
+    <path d="M 120 270 H 600" stroke-opacity="0.55"/>
+  </g>
+
+  <!-- Animated Data Packets Traveling Along The Conduit -->
+  <circle r="5" fill="#00F2FE" filter="url(#tkGlow)">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M 120 270 L 600 270"/>
+  </circle>
+  <circle r="5" fill="#A6A0EF" filter="url(#tkGlow)">
+    <animateMotion dur="6s" begin="3s" repeatCount="indefinite" path="M 600 270 L 120 270"/>
+  </circle>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <!-- ==================== NODE 01: APPS & INTERFACES ==================== -->
+    <g transform="translate(24, 28)">
+      <rect width="324" height="220" rx="16" fill="#0B162C" stroke="#00F2FE" stroke-opacity="0.45" stroke-width="1.4"/>
+      <circle cx="28" cy="34" r="5" fill="#00F2FE">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="44" y="40" fill="#00F2FE" font-size="17" font-weight="700" letter-spacing="1.6">01 // APPS &amp; UI</text>
+      <text x="26" y="84" fill="#F8FAFC" font-size="25" font-weight="800">Mobile &amp; Desktop</text>
+      <text x="26" y="122" fill="#94A8C4" font-size="17">Flutter · Dart · Android</text>
+      <text x="26" y="150" fill="#94A8C4" font-size="17">Cross-platform UI · State Mgmt</text>
+      <rect x="26" y="182" width="272" height="8" rx="4" fill="#15233E"/>
+      <rect x="26" y="182" width="250" height="8" rx="4" fill="url(#tkBarGrad)">
+        <animate attributeName="width" values="220;262;220" dur="4s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- ==================== NODE 02: AI & BACKEND ==================== -->
+    <g transform="translate(372, 28)">
+      <rect width="324" height="220" rx="16" fill="#0B162C" stroke="#71DED2" stroke-opacity="0.45" stroke-width="1.4"/>
+      <circle cx="28" cy="34" r="5" fill="#71DED2">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="44" y="40" fill="#71DED2" font-size="17" font-weight="700" letter-spacing="1.6">02 // AI &amp; CLOUD</text>
+      <text x="26" y="84" fill="#F8FAFC" font-size="25" font-weight="800">Connected Services</text>
+      <text x="26" y="122" fill="#94A8C4" font-size="17">Firebase · OpenRouter API</text>
+      <text x="26" y="150" fill="#94A8C4" font-size="17">Play Core · Local Persistence</text>
+      <rect x="26" y="182" width="272" height="8" rx="4" fill="#15233E"/>
+      <rect x="26" y="182" width="230" height="8" rx="4" fill="url(#tkBarGrad)">
+        <animate attributeName="width" values="198;242;198" dur="4.2s" begin="0.5s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- ==================== NODE 03: SCRIPTS & AUTOMATION ==================== -->
+    <g transform="translate(24, 292)">
+      <rect width="324" height="220" rx="16" fill="#0B162C" stroke="#A6A0EF" stroke-opacity="0.45" stroke-width="1.4"/>
+      <circle cx="28" cy="34" r="5" fill="#A6A0EF">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2s" begin="1s" repeatCount="indefinite"/>
+      </circle>
+      <text x="44" y="40" fill="#C4B5FD" font-size="17" font-weight="700" letter-spacing="1.6">03 // AUTOMATION</text>
+      <text x="26" y="84" fill="#F8FAFC" font-size="25" font-weight="800">Scripts &amp; Web</text>
+      <text x="26" y="122" fill="#94A8C4" font-size="17">Python · TypeScript · JS</text>
+      <text x="26" y="150" fill="#94A8C4" font-size="17">HTML5 · CSS3 · PowerShell</text>
+      <rect x="26" y="182" width="272" height="8" rx="4" fill="#15233E"/>
+      <rect x="26" y="182" width="238" height="8" rx="4" fill="url(#tkBarGrad)">
+        <animate attributeName="width" values="204;248;204" dur="3.8s" begin="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- ==================== NODE 04: SYSTEMS & TOOLING ==================== -->
+    <g transform="translate(372, 292)">
+      <rect width="324" height="220" rx="16" fill="#0B162C" stroke="#60A5FA" stroke-opacity="0.45" stroke-width="1.4"/>
+      <circle cx="28" cy="34" r="5" fill="#60A5FA">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2s" begin="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="44" y="40" fill="#93C5FD" font-size="17" font-weight="700" letter-spacing="1.6">04 // SYSTEMS LAB</text>
+      <text x="26" y="84" fill="#F8FAFC" font-size="25" font-weight="800">Native &amp; DevOps</text>
+      <text x="26" y="122" fill="#94A8C4" font-size="17">Rust · C++ · C# · MS SQL</text>
+      <text x="26" y="150" fill="#94A8C4" font-size="17">Git · GitHub Actions · Linux</text>
+      <rect x="26" y="182" width="272" height="8" rx="4" fill="#15233E"/>
+      <rect x="26" y="182" width="218" height="8" rx="4" fill="url(#tkBarGrad)">
+        <animate attributeName="width" values="186;234;186" dur="4.5s" begin="1.5s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+</svg>

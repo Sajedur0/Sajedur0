@@ -228,8 +228,8 @@
       <text x="56" y="216" fill="#71DED2" font-size="20" font-weight="600">Flutter Developer  ·  Curious Builder  ·  Toolmaker</text>
 
       <!-- Value Proposition -->
-      <text x="56" y="254" fill="#B0C0D6" font-size="16.5">Building thoughtful mobile experiences, AI chat clients, and desktop utilities.</text>
-      <text x="56" y="280" fill="#94A8C4" font-size="16.5">Focused on clean architecture, zero-friction UX, and practical automation.</text>
+      <text x="56" y="254" fill="#B0C0D6" font-size="16.5">Building thoughtful mobile apps, AI clients, and desktop tools.</text>
+      <text x="56" y="280" fill="#94A8C4" font-size="16.5">Focused on clean architecture, zero-friction UX, automation.</text>
 
       <!-- Animated Tech Stack Pills -->
       <g transform="translate(56, 310)" font-size="12.5" font-weight="700" letter-spacing="0.4">

@@ -1,0 +1,326 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="880" viewBox="0 0 720 880" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Sajedur Rahman Roni — Flutter Developer, Python &amp; Rust Builder</title>
+  <desc id="desc">Animated hero banner for Sajedur Rahman Roni (Sajedur0), a Flutter developer from Bangladesh building thoughtful mobile apps, AI clients, desktop utilities, and developer tools. Stacked layout for small screens.</desc>
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="720" y2="880" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#050914"/>
+      <stop offset="50%" stop-color="#0A1224"/>
+      <stop offset="100%" stop-color="#0F1026"/>
+    </linearGradient>
+
+    <radialGradient id="orbCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.22"/>
+      <stop offset="55%" stop-color="#71DED2" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="orbViolet" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.26"/>
+      <stop offset="60%" stop-color="#A6A0EF" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="orbBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="accentBeam" x1="0" y1="0" x2="720" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#00F2FE"/>
+      <stop offset="50%" stop-color="#A6A0EF"/>
+      <stop offset="80%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="nameGrad" x1="40" y1="170" x2="560" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="45%" stop-color="#E2F8F6"/>
+      <stop offset="100%" stop-color="#C4B5FD"/>
+    </linearGradient>
+
+    <linearGradient id="titleBarGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE"/>
+      <stop offset="50%" stop-color="#71DED2"/>
+      <stop offset="100%" stop-color="#A6A0EF"/>
+    </linearGradient>
+
+    <linearGradient id="scanBeam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00F2FE" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#A6A0EF" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="cardBg" x1="0" y1="0" x2="640" y2="204" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1325" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#080E1C" stop-opacity="0.98"/>
+    </linearGradient>
+
+    <linearGradient id="cardStroke" x1="0" y1="0" x2="640" y2="204" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#A6A0EF" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.5"/>
+    </linearGradient>
+
+    <linearGradient id="pillCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0.04"/>
+    </linearGradient>
+
+    <linearGradient id="pillViolet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A6A0EF" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.05"/>
+    </linearGradient>
+
+    <linearGradient id="pillBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#1D4ED8" stop-opacity="0.05"/>
+    </linearGradient>
+
+    <pattern id="techGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#8FA8C8" stroke-width="0.7" stroke-opacity="0.06"/>
+      <circle cx="40" cy="40" r="1" fill="#71DED2" fill-opacity="0.12"/>
+    </pattern>
+
+    <filter id="softGlow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="bannerClip">
+      <rect x="1" y="1" width="718" height="878" rx="22"/>
+    </clipPath>
+
+    <clipPath id="underlineClip">
+      <rect x="40" y="308" width="400" height="5" rx="2.5"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#bannerClip)">
+    <!-- Base Deep Space Canvas -->
+    <rect width="720" height="880" fill="url(#bgGrad)"/>
+
+    <!-- Animated Aurora Nebulae -->
+    <ellipse cx="150" cy="150" rx="290" ry="210" fill="url(#orbCyan)">
+      <animate attributeName="cx" values="150;230;150" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="150;200;150" dur="11s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="580" cy="420" rx="280" ry="230" fill="url(#orbViolet)">
+      <animate attributeName="cx" values="580;510;580" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="420;370;420" dur="13s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="360" cy="800" rx="320" ry="170" fill="url(#orbBlue)">
+      <animate attributeName="rx" values="320;380;320" dur="12s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- Perspective Grid & Scanning Horizon -->
+    <rect width="720" height="880" fill="url(#techGrid)"/>
+    <rect x="0" y="-160" width="720" height="160" fill="url(#scanBeam)">
+      <animate attributeName="y" values="-160;880;-160" dur="12s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Background Circuit Traces with Traveling Data Pulses -->
+    <g opacity="0.35">
+      <path d="M 0 640 L 150 640 L 180 610 L 420 610" stroke="#1E3A5F" stroke-width="1.4" fill="none"/>
+      <circle r="3" fill="#00F2FE" filter="url(#softGlow)">
+        <animateMotion dur="7s" repeatCount="indefinite" path="M 0 640 L 150 640 L 180 610 L 420 610"/>
+      </circle>
+
+      <path d="M 720 108 L 540 108 L 510 78 L 300 78" stroke="#2A2456" stroke-width="1.4" fill="none"/>
+      <circle r="3" fill="#A6A0EF" filter="url(#softGlow)">
+        <animateMotion dur="8.5s" repeatCount="indefinite" path="M 720 108 L 540 108 L 510 78 L 300 78"/>
+      </circle>
+    </g>
+
+    <!-- Twinkling Starfield Nodes -->
+    <g fill="#71DED2">
+      <circle cx="560" cy="180" r="2.4">
+        <animate attributeName="opacity" values="0.15;0.95;0.15" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="648" cy="300" r="2.8">
+        <animate attributeName="opacity" values="0.8;0.15;0.8" dur="4.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="60" cy="520" r="2.2">
+        <animate attributeName="opacity" values="0.2;0.85;0.2" dur="3.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="676" cy="596" r="2.6">
+        <animate attributeName="opacity" values="0.9;0.2;0.9" dur="5.1s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="486" cy="470" r="2" fill="#A6A0EF">
+        <animate attributeName="opacity" values="0.2;1;0.2" dur="2.9s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- Top & Bottom Luminous Border Beams -->
+    <path d="M 40 2 H 680" stroke="url(#accentBeam)" stroke-width="3"/>
+    <path d="M 40 878 H 680" stroke="url(#accentBeam)" stroke-width="2" opacity="0.6"/>
+
+    <!-- ==================== TOP IDENTITY BAR ==================== -->
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+      <!-- Rotating Halo around Monogram -->
+      <g transform="translate(72, 62)">
+        <circle r="27" fill="none" stroke="#00F2FE" stroke-opacity="0.35" stroke-width="1.4" stroke-dasharray="6 5">
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="16s" repeatCount="indefinite"/>
+        </circle>
+        <rect x="-21" y="-21" width="42" height="42" rx="13" fill="#0D2235" stroke="#00F2FE" stroke-opacity="0.5" stroke-width="1.4"/>
+        <text x="0" y="8" text-anchor="middle" fill="#00F2FE" font-size="22" font-weight="800">R.</text>
+      </g>
+
+      <text x="116" y="57" fill="#E2E8F0" font-size="19" font-weight="700" letter-spacing="3">SAJEDUR0 / GITHUB</text>
+      <text x="116" y="80" fill="#71DED2" font-size="16.5" font-weight="500" letter-spacing="1.4" opacity="0.85">FLUTTER · AI · OPEN SOURCE</text>
+
+      <!-- ==================== HERO ==================== -->
+      <!-- Kicker -->
+      <text x="40" y="146" fill="#00F2FE" font-size="17" font-weight="700" letter-spacing="3">✦ HELLO WORLD, I AM</text>
+
+      <!-- Main Name (stacked for narrow screens) -->
+      <text x="40" y="212" fill="url(#nameGrad)" font-size="56" font-weight="800" letter-spacing="-1.4">Sajedur</text>
+      <text x="40" y="282" fill="url(#nameGrad)" font-size="56" font-weight="800" letter-spacing="-1.4">Rahman Roni</text>
+
+      <!-- Animated Laser Underline -->
+      <g clip-path="url(#underlineClip)">
+        <rect x="40" y="308" width="400" height="5" rx="2.5" fill="#16243B"/>
+        <rect x="40" y="308" width="160" height="5" rx="2.5" fill="url(#titleBarGrad)">
+          <animate attributeName="x" values="-120;410;-120" dur="6s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+      <!-- Role Subtitle -->
+      <text x="40" y="358" fill="#71DED2" font-size="25" font-weight="600">Flutter Developer · Curious Builder</text>
+
+      <!-- Value Proposition -->
+      <text x="40" y="400" fill="#B0C0D6" font-size="20">Building thoughtful mobile apps, AI clients,</text>
+      <text x="40" y="430" fill="#94A8C4" font-size="20">and desktop tools with clean architecture,</text>
+      <text x="40" y="460" fill="#94A8C4" font-size="20">zero-friction UX, and real automation.</text>
+
+      <!-- Animated Tech Stack Pills (2 x 2 grid) -->
+      <g transform="translate(40, 486)" font-size="17" font-weight="700" letter-spacing="0.4">
+        <!-- Pill 1 -->
+        <g>
+          <rect x="0" y="0" width="306" height="48" rx="14" fill="url(#pillCyan)" stroke="#00F2FE" stroke-opacity="0.45" stroke-width="1.4">
+            <animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" repeatCount="indefinite"/>
+          </rect>
+          <circle cx="26" cy="24" r="5" fill="#00F2FE"/>
+          <text x="44" y="31" fill="#E2F8F6">Flutter &amp; Dart</text>
+        </g>
+
+        <!-- Pill 2 -->
+        <g transform="translate(334, 0)">
+          <rect x="0" y="0" width="306" height="48" rx="14" fill="url(#pillViolet)" stroke="#A6A0EF" stroke-opacity="0.45" stroke-width="1.4">
+            <animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="1s" repeatCount="indefinite"/>
+          </rect>
+          <circle cx="26" cy="24" r="5" fill="#A6A0EF"/>
+          <text x="44" y="31" fill="#EDE9FE">AI &amp; OpenRouter</text>
+        </g>
+
+        <!-- Pill 3 -->
+        <g transform="translate(0, 60)">
+          <rect x="0" y="0" width="306" height="48" rx="14" fill="url(#pillBlue)" stroke="#60A5FA" stroke-opacity="0.45" stroke-width="1.4">
+            <animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="2s" repeatCount="indefinite"/>
+          </rect>
+          <circle cx="26" cy="24" r="5" fill="#60A5FA"/>
+          <text x="44" y="31" fill="#DBEAFE">Python &amp; Rust</text>
+        </g>
+
+        <!-- Pill 4 -->
+        <g transform="translate(334, 60)">
+          <rect x="0" y="0" width="306" height="48" rx="14" fill="url(#pillCyan)" stroke="#71DED2" stroke-opacity="0.45" stroke-width="1.4">
+            <animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="4s" begin="3s" repeatCount="indefinite"/>
+          </rect>
+          <circle cx="26" cy="24" r="5" fill="#34D399"/>
+          <text x="44" y="31" fill="#D1FAE5">Open Source</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- ==================== ANIMATED IDE CARD ==================== -->
+    <g transform="translate(40, 618)">
+      <!-- Ambient Backdrop Glow behind IDE -->
+      <rect x="-6" y="-6" width="652" height="216" rx="20" fill="none" stroke="url(#cardStroke)" stroke-width="1" opacity="0.35"/>
+
+      <!-- Main Editor Card -->
+      <rect width="640" height="204" rx="16" fill="url(#cardBg)" stroke="url(#cardStroke)" stroke-width="1.5"/>
+
+      <!-- Editor Header Bar -->
+      <path d="M 0 44 H 640" stroke="#1E2D45" stroke-width="1.4"/>
+      <circle cx="26" cy="22" r="6" fill="#FF5F56"/>
+      <circle cx="46" cy="22" r="6" fill="#FFBD2E"/>
+      <circle cx="66" cy="22" r="6" fill="#27C93F"/>
+
+      <!-- Active Tab -->
+      <rect x="88" y="7" width="200" height="32" rx="9" fill="#111E36" stroke="#263B59" stroke-width="1"/>
+      <circle cx="108" cy="23" r="4" fill="#00F2FE"/>
+      <text x="122" y="29" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="17" font-weight="600" fill="#E2E8F0">the_builder.dart</text>
+
+      <!-- Live Compile Indicator -->
+      <circle cx="546" cy="22" r="4.5" fill="#34D399">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="614" y="28" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="700" fill="#34D399" letter-spacing="0.8">60 FPS</text>
+
+      <!-- Animated Active Code Line Scanner -->
+      <rect x="10" y="56" width="620" height="26" rx="5" fill="#00F2FE" fill-opacity="0.06">
+        <animate attributeName="y" values="56;84;112;140;168;56" dur="10s" calcMode="discrete" repeatCount="indefinite"/>
+      </rect>
+
+      <!-- Dart Code Content -->
+      <g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="18">
+        <g fill="#475569" text-anchor="end" font-size="17">
+          <text x="44" y="74">01</text>
+          <text x="44" y="102">02</text>
+          <text x="44" y="130">03</text>
+          <text x="44" y="158">04</text>
+          <text x="44" y="186">05</text>
+        </g>
+
+        <text x="60" y="74" fill="#C4B5FD">class <tspan fill="#71DED2" font-weight="700">Roni</tspan> <tspan fill="#C4B5FD">extends</tspan> <tspan fill="#93C5FD">Builder</tspan> <tspan fill="#E2E8F0">{</tspan></text>
+        <text x="82" y="102" fill="#94A3B8">location: <tspan fill="#86EFAC">'Dhaka, BD'</tspan>,</text>
+        <text x="82" y="130" fill="#94A3B8">coreStack: <tspan fill="#67E8F9">['Flutter', 'Dart']</tspan>,</text>
+        <text x="82" y="158" fill="#94A3B8">featured:  <tspan fill="#FDE68A">'ZeroMind AI'</tspan>,</text>
+        <text x="60" y="186" fill="#E2E8F0">}</text>
+
+        <!-- Blinking Cursor -->
+        <rect x="352" y="143" width="9" height="18" rx="2" fill="#00F2FE">
+          <animate attributeName="opacity" values="1;0;1" dur="1.05s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g>
+
+    <!-- ==================== FOOTER BAR ==================== -->
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+      <!-- Location Beacon -->
+      <circle cx="52" cy="852" r="9" fill="#00F2FE" opacity="0.25">
+        <animate attributeName="r" values="5;12;5" dur="2.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.5;0.05;0.5" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="52" cy="852" r="5" fill="#71DED2"/>
+      <text x="74" y="858" fill="#94A8C4" font-size="17" font-weight="500">Based in Bangladesh</text>
+
+      <!-- Website Link Display -->
+      <text x="680" y="858" text-anchor="end" fill="#71DED2" font-size="17" font-weight="600" letter-spacing="0.5">sajedur0.online ↗</text>
+
+      <!-- Center Animated Pulse Dots -->
+      <g transform="translate(332, 872)">
+        <circle cx="0" cy="0" r="3" fill="#00F2FE">
+          <animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" begin="0s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="18" cy="0" r="3" fill="#71DED2">
+          <animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" begin="0.3s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="36" cy="0" r="3" fill="#A6A0EF">
+          <animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" begin="0.6s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="54" cy="0" r="3" fill="#60A5FA">
+          <animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" begin="0.9s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+    </g>
+  </g>
+
+  <!-- Outer Frame Border -->
+  <rect x="1" y="1" width="718" height="878" rx="22" stroke="#24354F" stroke-width="1.5"/>
+</svg>
