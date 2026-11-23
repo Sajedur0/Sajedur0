@@ -24,10 +24,6 @@ PHONE_COLUMN_PX = 358
 DESKTOP_COLUMN_PX = 890
 
 GRID_CARDS = [
-    "assets/app-apk-organizer.svg",
-    "assets/app-disk-calc.svg",
-    "assets/app-mic-to-speaker.svg",
-    "assets/app-pinsaver.svg",
     "assets/card-zeromind.svg",
     "assets/card-backup-tools.svg",
     "assets/card-temp-cleaner.svg",
@@ -44,10 +40,17 @@ GRID_CARDS = [
     "assets/card-privacy-hub.svg",
 ]
 
+PLAY_STORE_ICONS = {
+    "assets/icons/router-page-setup.png": "Router Page Setup",
+    "assets/icons/apk-organizer.png": "APK Organizer",
+    "assets/icons/disk-partition-calculator.png": "Disk Partition Calculator",
+    "assets/icons/mic-to-speaker.png": "Mic to Speaker",
+    "assets/icons/pinsaver.png": "PinSaver",
+}
+
 RESPONSIVE_ART = {
     "header.svg": (1.0, 1.0, 640),
     "divider.svg": (1.0, 1.0, 640),
-    "assets/app-router-page-setup.svg": (1.0, 1.0, 768),
     **{path: (0.49, 0.49, 768) for path in GRID_CARDS},
 }
 
@@ -245,12 +248,28 @@ class ProfileChecks(unittest.TestCase):
 
     def test_no_orphan_svgs(self):
         raw_used = {i["src"] for i in self.html.images} | {s["srcset"] for s in self.html.sources}
-        used = {s for s in raw_used if not urlsplit(s).scheme}
+        used = {s for s in raw_used if not urlsplit(s).scheme and s.endswith(".svg")}
         all_svgs = {
             str(p.relative_to(ROOT))
             for p in list(ROOT.glob("*.svg")) + list((ROOT / "assets").glob("*.svg"))
         }
         self.assertEqual(all_svgs, used, f"Unused SVGs in repo: {sorted(all_svgs - used)}")
+
+    def test_google_play_apps_use_clickable_png_icons(self):
+        self.assertEqual(list((ROOT / "assets").glob("app-*.svg")), [])
+        for icon_path, app_name in PLAY_STORE_ICONS.items():
+            with self.subTest(app=app_name):
+                data = (ROOT / icon_path).read_bytes()
+                self.assertTrue(data.startswith(b"\x89PNG\r\n\x1a\n"))
+                width = int.from_bytes(data[16:20], "big")
+                height = int.from_bytes(data[20:24], "big")
+                self.assertEqual((width, height), (256, 256))
+                pattern = (
+                    r'<a href="https://play\.google\.com/store/apps/[^"]+">'
+                    r'<img src="' + re.escape(icon_path) + r'"[^>]+/>'
+                    r"<br /><b>" + re.escape(app_name) + r"</b></a>"
+                )
+                self.assertRegex(README, pattern)
 
     def test_images_have_alt_text(self):
         for image in self.html.images:

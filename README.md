@@ -28,44 +28,35 @@
 
 ## Google Play Apps
 
-Android applications published on Google Play — fast, private, and made for everyday tasks.
-
 <div align="center">
 
-<a href="https://play.google.com/store/apps/details?id=com.routerpagesetup"><picture>
-  <source media="(max-width: 768px)" srcset="assets/app-router-page-setup-mobile.svg" />
-  <img src="assets/app-router-page-setup.svg" width="100%" alt="Router Page Setup — Auto-detect your Wi-Fi gateway and open router settings instantly, with live signal monitoring and ping tests." />
-</picture></a>
-
-<br/>
-
-<a href="https://play.google.com/store/apps/details?id=com.apkorganizer"><picture>
-  <source media="(max-width: 768px)" srcset="assets/app-apk-organizer-mobile.svg" />
-  <img src="assets/app-apk-organizer.svg" width="49%" alt="APK Organizer — Scan, inspect, organize, back up, and manage APK, XAPK, APKS, and AAB files locally on Android." />
-</picture></a>
-<a href="https://play.google.com/store/apps/details?id=com.diskcalc"><picture>
-  <source media="(max-width: 768px)" srcset="assets/app-disk-calc-mobile.svg" />
-  <img src="assets/app-disk-calc.svg" width="49%" alt="Disk Partition Calculator — Calculate exact NTFS, FAT32, and exFAT drive partition sizes with saved history." />
-</picture></a>
-
-<br/>
-
-<a href="https://play.google.com/store/apps/details?id=com.mictospeaker"><picture>
-  <source media="(max-width: 768px)" srcset="assets/app-mic-to-speaker-mobile.svg" />
-  <img src="assets/app-mic-to-speaker.svg" width="49%" alt="Mic to Speaker — Stream live microphone audio to Bluetooth, AUX, or USB speakers with optional WAV recording." />
-</picture></a>
-<a href="https://play.google.com/store/apps/dev?id=5574132061091657048"><picture>
-  <source media="(max-width: 768px)" srcset="assets/app-pinsaver-mobile.svg" />
-  <img src="assets/app-pinsaver.svg" width="49%" alt="PinSaver — Save publicly shared Pinterest videos directly to your phone for offline viewing." />
-</picture></a>
-
-</div>
+<table>
+  <tr>
+    <td align="center" width="172">
+      <a href="https://play.google.com/store/apps/details?id=com.routerpagesetup"><img src="assets/icons/router-page-setup.png" width="72" height="72" alt="Router Page Setup app icon" /><br /><b>Router Page Setup</b></a>
+    </td>
+    <td align="center" width="172">
+      <a href="https://play.google.com/store/apps/details?id=com.apkorganizer"><img src="assets/icons/apk-organizer.png" width="72" height="72" alt="APK Organizer app icon" /><br /><b>APK Organizer</b></a>
+    </td>
+    <td align="center" width="172">
+      <a href="https://play.google.com/store/apps/details?id=com.diskcalc"><img src="assets/icons/disk-partition-calculator.png" width="72" height="72" alt="Disk Partition Calculator app icon" /><br /><b>Disk Partition Calculator</b></a>
+    </td>
+    <td align="center" width="172">
+      <a href="https://play.google.com/store/apps/details?id=com.mictospeaker"><img src="assets/icons/mic-to-speaker.png" width="72" height="72" alt="Mic to Speaker app icon" /><br /><b>Mic to Speaker</b></a>
+    </td>
+    <td align="center" width="172">
+      <a href="https://play.google.com/store/apps/dev?id=5574132061091657048"><img src="assets/icons/pinsaver.png" width="72" height="72" alt="PinSaver app icon" /><br /><b>PinSaver</b></a>
+    </td>
+  </tr>
+</table>
 
 <p align="right">
   <a href="https://play.google.com/store/apps/dev?id=5574132061091657048"><b>Google Play Store Profile →</b></a>
   &nbsp; · &nbsp;
   <a href="https://sajedur0.github.io/Privacy-Policies/"><b>App Privacy Policies →</b></a>
 </p>
+
+</div>
 
 <picture>
   <source media="(max-width: 640px)" srcset="divider-mobile.svg" />
