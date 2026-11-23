@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="214" viewBox="0 0 580 214" fill="none" role="img" aria-labelledby="tcTitle tcDesc">
+  <title id="tcTitle">Temp Cleaner — Fast Windows Temporary File Cleaner</title>
+  <desc id="tcDesc">Frees up disk space on Windows by scanning, reviewing, and deleting temp files, caches, crash dumps, and Recycle Bin.</desc>
+
+  <defs>
+    <linearGradient id="tcBg" x1="0" y1="0" x2="580" y2="214" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#131424"/>
+      <stop offset="100%" stop-color="#0A1222"/>
+    </linearGradient>
+
+    <linearGradient id="tcBorder" x1="0" y1="0" x2="580" y2="214" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FCD34D" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#00F2FE" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.5"/>
+    </linearGradient>
+
+    <linearGradient id="tcBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FCD34D" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="tcAura" cx="85%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#FCD34D" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#FCD34D" stop-opacity="0"/>
+    </radialGradient>
+
+    <clipPath id="tcClip">
+      <rect x="1" y="1" width="578" height="212" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#tcClip)">
+    <rect width="580" height="214" fill="url(#tcBg)"/>
+    <rect width="580" height="214" fill="url(#tcAura)"/>
+    <rect x="-200" y="1" width="240" height="3" fill="url(#tcBeam)">
+      <animate attributeName="x" values="-240;580;-240" dur="6.8s" repeatCount="indefinite"/>
+    </rect>
+
+    <g transform="translate(46, 48)">
+      <rect x="-22" y="-22" width="44" height="44" rx="12" fill="#231E22" stroke="#FCD34D" stroke-opacity="0.45" stroke-width="1.2"/>
+      <circle r="12.5" fill="none" stroke="#FCD34D" stroke-width="1.4" stroke-opacity="0.55"/>
+      <polygon points="0,-10 2.8,-2.8 10,0 2.8,2.8 0,10 -2.8,2.8 -10,0 -2.8,-2.8" fill="#FCD34D">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="180" dur="7s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.65;1;0.65" dur="2.2s" repeatCount="indefinite"/>
+      </polygon>
+    </g>
+    <g transform="translate(410, 28)">
+      <rect width="144" height="26" rx="13" fill="#241E18" stroke="#FCD34D" stroke-opacity="0.4" stroke-width="1"/>
+      <circle cx="14" cy="13" r="3" fill="#FCD34D">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.9s" repeatCount="indefinite"/>
+      </circle>
+      <text x="24" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#FCD34D" letter-spacing="0.8">PC UTILITY</text>
+    </g>
+
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+      <text x="82" y="45" fill="#F8FAFC" font-size="20.5" font-weight="800" letter-spacing="-0.4">Temp Cleaner <tspan fill="#FCD34D" font-size="17">↗</tspan></text>
+      <text x="82" y="67" fill="#FCD34D" font-size="13.5" font-weight="600">Fast Windows temp file &amp; cache cleaner</text>
+      <text x="26" y="106" fill="#CBD5E1" font-size="13.5">Double-click to scan, review, and safely clean temporary files,</text>
+      <text x="26" y="128" fill="#94A8C4" font-size="13.5">system caches, crash dumps, and Recycle Bin clutter.</text>
+
+      <g transform="translate(26, 158)" font-size="11.5" font-weight="700">
+        <rect x="0" y="0" width="80" height="28" rx="8" fill="#10253A" stroke="#234B6E"/>
+        <text x="40" y="18" text-anchor="middle" fill="#67E8F9">Windows</text>
+        <rect x="90" y="0" width="92" height="28" rx="8" fill="#2A1F14" stroke="#6B4C23"/>
+        <text x="136" y="18" text-anchor="middle" fill="#FCD34D">Disk Space</text>
+        <rect x="192" y="0" width="86" height="28" rx="8" fill="#0C2924" stroke="#1B5E4A"/>
+        <text x="235" y="18" text-anchor="middle" fill="#6EE7B7">Safe Scan</text>
+      </g>
+      <text x="554" y="177" text-anchor="end" fill="#FCD34D" font-size="12" font-weight="700">Open Project →</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="578" height="212" rx="18" stroke="url(#tcBorder)" stroke-width="1.5"/>
+</svg>

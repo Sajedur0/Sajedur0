@@ -2,27 +2,20 @@
 
 <picture>
   <source media="(max-width: 640px)" srcset="header-mobile.svg" />
-  <img src="header.svg" width="100%" alt="Sajedur Rahman Roni — Software, tools, and web builder from Bangladesh · Open Source enthusiast." />
-</picture>
-
-<br/>
-
-<picture>
-  <source media="(max-width: 768px)" srcset="assets/typing-banner-mobile.svg" />
-  <img src="assets/typing-banner.svg" width="100%" alt="Interactive terminal cycling through software, tools, web utilities, and open source projects." />
+  <img src="header.svg" width="100%" alt="Sajedur Rahman Roni — Personal profile showcasing Google Play Android apps and personal projects." />
 </picture>
 
 <br/><br/>
 
-<a href="https://www.sajedur0.online"><img src="https://img.shields.io/badge/Portfolio-sajedur0.online-00F2FE?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white&amp;labelColor=0B1325" alt="Visit my portfolio at sajedur0.online" /></a>
+<a href="https://play.google.com/store/apps/dev?id=5574132061091657048"><img src="https://img.shields.io/badge/Google_Play-Sajedur0-34D399?style=for-the-badge&amp;logo=googleplay&amp;logoColor=white&amp;labelColor=0B1325" alt="View Sajedur0 apps on Google Play" /></a>
 &nbsp;
-<a href="https://github.com/Sajedur0?tab=repositories"><img src="https://img.shields.io/badge/Open_Source-Explore_Projects-A6A0EF?style=for-the-badge&amp;logo=github&amp;logoColor=white&amp;labelColor=0B1325" alt="Explore my GitHub repositories" /></a>
+<a href="https://www.sajedur0.online"><img src="https://img.shields.io/badge/Website-sajedur0.online-00F2FE?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white&amp;labelColor=0B1325" alt="Visit sajedur0.online" /></a>
 &nbsp;
-<a href="mailto:contact@sajedur0.com"><img src="https://img.shields.io/badge/Contact-Say_Hello-3B82F6?style=for-the-badge&amp;logo=gmail&amp;logoColor=white&amp;labelColor=0B1325" alt="Email contact@sajedur0.com" /></a>
+<a href="mailto:contact@sajedur0.com"><img src="https://img.shields.io/badge/Email-contact%40sajedur0.com-A6A0EF?style=for-the-badge&amp;logo=gmail&amp;logoColor=white&amp;labelColor=0B1325" alt="Send email to contact@sajedur0.com" /></a>
 
 <br/><br/>
 
-[**About**](#about) &nbsp; · &nbsp; [**Selected work**](#selected-work) &nbsp; · &nbsp; [**Toolkit**](#toolkit) &nbsp; · &nbsp; [**Activity**](#activity) &nbsp; · &nbsp; [**Connect**](#connect)
+[**Google Play Apps**](#google-play-apps) &nbsp; · &nbsp; [**Projects**](#projects) &nbsp; · &nbsp; [**Connect**](#connect)
 
 </div>
 
@@ -33,140 +26,132 @@
   <img src="divider.svg" width="100%" alt="" />
 </picture>
 
-## About
+## Google Play Apps
 
-<picture align="right">
-  <source media="(max-width: 640px)" srcset="profile-frame-mobile.svg" />
-  <img src="profile-frame.svg" align="right" width="28%" alt="Animated orbital portrait of Sajedur Rahman Roni" />
-</picture>
+Android applications published on Google Play — fast, private, and made for everyday tasks.
 
-### Hi, I'm Roni 👋
+<div align="center">
 
-I love **building practical software, useful tools, and web solutions** from Bangladesh. I am not a professional developer or coding specialist — I simply enjoy crafting handy tools, utilities, and software that make everyday digital tasks easier.
+<a href="https://play.google.com/store/apps/details?id=com.routerpagesetup"><picture>
+  <source media="(max-width: 768px)" srcset="assets/app-router-page-setup-mobile.svg" />
+  <img src="assets/app-router-page-setup.svg" width="100%" alt="Router Page Setup — Auto-detect your Wi-Fi gateway and open router settings instantly, with live signal monitoring and ping tests." />
+</picture></a>
 
-I am an **Open Source** enthusiast passionate about creating accessible desktop applications, web utilities, and automation scripts.
+<br/>
 
-- 🛠️ **What I work with:**
-  - **Desktop & Mobile Apps:** Building software utilities and apps using **Flutter** and **Dart**.
-  - **Web & Automation:** Creating scrapers, web tools, and scripts with **Python**, **JavaScript**, **TypeScript**, and **PowerShell**.
-  - **Systems & Native Tools:** Crafting fast desktop utilities with **Rust**, **C++**, and **C#**.
-- 🔭 **Current Focus:** Practical tools like [**Project Backup Tools**](https://github.com/Sajedur0/Project-Backup-Tools), Android utilities, and web scrapers.
-- 💡 **Core Mindset:** Simple solutions, zero friction, and sharing useful tools openly (**Open Source**).
-- 🌐 **Digital home:** [**sajedur0.online**](https://www.sajedur0.online)
+<a href="https://play.google.com/store/apps/details?id=com.apkorganizer"><picture>
+  <source media="(max-width: 768px)" srcset="assets/app-apk-organizer-mobile.svg" />
+  <img src="assets/app-apk-organizer.svg" width="49%" alt="APK Organizer — Scan, inspect, organize, back up, and manage APK, XAPK, APKS, and AAB files locally on Android." />
+</picture></a>
+<a href="https://play.google.com/store/apps/details?id=com.diskcalc"><picture>
+  <source media="(max-width: 768px)" srcset="assets/app-disk-calc-mobile.svg" />
+  <img src="assets/app-disk-calc.svg" width="49%" alt="Disk Partition Calculator — Calculate exact NTFS, FAT32, and exFAT drive partition sizes with saved history." />
+</picture></a>
 
-<br clear="right"/>
+<br/>
+
+<a href="https://play.google.com/store/apps/details?id=com.mictospeaker"><picture>
+  <source media="(max-width: 768px)" srcset="assets/app-mic-to-speaker-mobile.svg" />
+  <img src="assets/app-mic-to-speaker.svg" width="49%" alt="Mic to Speaker — Stream live microphone audio to Bluetooth, AUX, or USB speakers with optional WAV recording." />
+</picture></a>
+<a href="https://play.google.com/store/apps/dev?id=5574132061091657048"><picture>
+  <source media="(max-width: 768px)" srcset="assets/app-pinsaver-mobile.svg" />
+  <img src="assets/app-pinsaver.svg" width="49%" alt="PinSaver — Save publicly shared Pinterest videos directly to your phone for offline viewing." />
+</picture></a>
+
+</div>
+
+<p align="right">
+  <a href="https://play.google.com/store/apps/dev?id=5574132061091657048"><b>Google Play Store Profile →</b></a>
+  &nbsp; · &nbsp;
+  <a href="https://sajedur0.github.io/Privacy-Policies/"><b>App Privacy Policies →</b></a>
+</p>
 
 <picture>
   <source media="(max-width: 640px)" srcset="divider-mobile.svg" />
   <img src="divider.svg" width="100%" alt="" />
 </picture>
 
-## Selected work
+## Projects
 
-Handcrafted open-source projects spanning desktop workflow utilities, cross-platform apps, native Android plugins, and systems tools. Click any card to inspect the source code and documentation.
+All desktop utilities, mobile apps, browser extensions, and web tools created by me.
 
 <div align="center">
 
 <a href="https://github.com/Sajedur0/ZeroMind"><picture>
   <source media="(max-width: 768px)" srcset="assets/card-zeromind-mobile.svg" />
-  <img src="assets/card-zeromind.svg" width="49%" alt="ZeroMind — A cross-platform chat application built with Flutter featuring multilingual conversations, customizable themes, dark mode, and local-only storage." />
+  <img src="assets/card-zeromind.svg" width="49%" alt="ZeroMind — Sleek dark-mode multi-model AI chat app with multilingual support and local history." />
 </picture></a>
 <a href="https://github.com/Sajedur0/Project-Backup-Tools"><picture>
   <source media="(max-width: 768px)" srcset="assets/card-backup-tools-mobile.svg" />
-  <img src="assets/card-backup-tools.svg" width="49%" alt="Project Backup Tools — A Flutter desktop application for backing up project workspaces with one click." />
+  <img src="assets/card-backup-tools.svg" width="49%" alt="Project Backup Tools — Windows desktop app for creating one-click timestamped ZIP backups." />
 </picture></a>
 
 <br/>
 
-<a href="https://github.com/Sajedur0/in_app_update_android"><picture>
-  <source media="(max-width: 768px)" srcset="assets/card-in-app-update-mobile.svg" />
-  <img src="assets/card-in-app-update.svg" width="49%" alt="Android In-App Update — A Flutter plugin integrating the Google Play Core In-App Update API." />
+<a href="https://github.com/Sajedur0/Temp-Cleaner"><picture>
+  <source media="(max-width: 768px)" srcset="assets/card-temp-cleaner-mobile.svg" />
+  <img src="assets/card-temp-cleaner.svg" width="49%" alt="Temp Cleaner — Fast Windows temporary file, cache, and Recycle Bin cleaner." />
 </picture></a>
 <a href="https://github.com/Sajedur0/Icon-Converter"><picture>
   <source media="(max-width: 768px)" srcset="assets/card-icon-converter-mobile.svg" />
-  <img src="assets/card-icon-converter.svg" width="49%" alt="Icon Converter — A high-speed icon conversion utility written in Rust." />
+  <img src="assets/card-icon-converter.svg" width="49%" alt="ICO Converter — Desktop utility for converting images into multi-resolution Windows .ico files." />
 </picture></a>
 
-</div>
+<br/>
+
+<a href="https://github.com/Sajedur0/Internet-Spped-Meter"><picture>
+  <source media="(max-width: 768px)" srcset="assets/card-speed-meter-mobile.svg" />
+  <img src="assets/card-speed-meter.svg" width="49%" alt="Internet Speed Meter — Lightweight live download and upload speed meter on the Windows taskbar." />
+</picture></a>
+<a href="https://github.com/Sajedur0/Payroll-Management"><picture>
+  <source media="(max-width: 768px)" srcset="assets/card-payroll-mobile.svg" />
+  <img src="assets/card-payroll.svg" width="49%" alt="Payroll Management — Windows desktop dashboard for employee records, attendance, and salary reports." />
+</picture></a>
 
 <br/>
 
-<details>
-<summary><b>⚡ More repositories from my workspace</b></summary>
+<a href="https://github.com/Sajedur0/FRP"><picture>
+  <source media="(max-width: 768px)" srcset="assets/card-frp-mobile.svg" />
+  <img src="assets/card-frp.svg" width="49%" alt="FRP Bypass Center — Direct web download hub for Android recovery utilities and tools." />
+</picture></a>
+<a href="https://github.com/Sajedur0/Excel-Space-Remover"><picture>
+  <source media="(max-width: 768px)" srcset="assets/card-excel-cleaner-mobile.svg" />
+  <img src="assets/card-excel-cleaner.svg" width="49%" alt="Excel Space Remover — Web app to detect, highlight, and remove extra spaces in Excel and CSV files." />
+</picture></a>
 
 <br/>
 
-| Project | Focus & Stack |
-| :--- | :--- |
-| [**Android SDK Installer**](https://github.com/Sajedur0/Android-SDK-Installer) | Streamlined Android SDK setup tooling · `PowerShell` |
-| [**Google Play Scrapping**](https://github.com/Sajedur0/Google-Play-Scrapping) | Play Store metadata & app scraping toolkit · `TypeScript` |
-| [**Google Photos Remover**](https://github.com/Sajedur0/Google-Photos-Remover) | Automated cloud photo cleanup utility · `JavaScript` |
-| [**Icon Maker**](https://github.com/Sajedur0/Icon-Maker) | High-speed desktop icon generation tooling · `C++` |
-| [**Payroll Management**](https://github.com/Sajedur0/Payroll-Management) | Attendance & payroll management with MS SQL · `C#` |
-| [**Python Tools**](https://github.com/Sajedur0/Python-Tools) | Collection of personal Python automation scripts · `Python` |
-
-</details>
-
-<p align="right"><a href="https://github.com/Sajedur0?tab=repositories"><b>Browse all repositories →</b></a></p>
-
-<picture>
-  <source media="(max-width: 640px)" srcset="divider-mobile.svg" />
-  <img src="divider.svg" width="100%" alt="" />
-</picture>
-
-## Toolkit
-
-<div align="center">
-
-<picture>
-  <source media="(max-width: 768px)" srcset="assets/toolkit-matrix-mobile.svg" />
-  <img src="assets/toolkit-matrix.svg" width="100%" alt="Animated toolkit architecture across Apps and UI, Web and Cloud, Automation Scripts, and Systems and Tools." />
-</picture>
+<a href="https://github.com/Sajedur0/Google-Photos-Remover"><picture>
+  <source media="(max-width: 768px)" srcset="assets/card-photos-remover-mobile.svg" />
+  <img src="assets/card-photos-remover.svg" width="49%" alt="Google Photos Remover — Browser extension for safe bulk cleanup of Google Photos." />
+</picture></a>
+<a href="https://github.com/Sajedur0/Android-SDK-Installer"><picture>
+  <source media="(max-width: 768px)" srcset="assets/card-sdk-installer-mobile.svg" />
+  <img src="assets/card-sdk-installer.svg" width="49%" alt="Android SDK Installer — Menu-driven Windows setup tool for Android utilities and virtual phone." />
+</picture></a>
 
 <br/>
 
-<picture>
-  <source media="(max-width: 768px)" srcset="https://skillicons.dev/icons?i=flutter,dart,python,rust,ts,js,cpp,cs,firebase,androidstudio,vscode,git,github,linux&amp;theme=dark&amp;perline=7" />
-  <img src="https://skillicons.dev/icons?i=flutter,dart,python,rust,ts,js,cpp,cs,firebase,androidstudio,vscode,git,github,linux&amp;theme=dark&amp;perline=14" alt="Technology icons: Flutter, Dart, Python, Rust, TypeScript, JavaScript, C++, C#, Firebase, Android Studio, VS Code, Git, GitHub, and Linux" />
-</picture>
-
-</div>
+<a href="https://github.com/Sajedur0/Google-Play-Scrapping"><picture>
+  <source media="(max-width: 768px)" srcset="assets/card-play-scraper-mobile.svg" />
+  <img src="assets/card-play-scraper.svg" width="49%" alt="Google Play Scraper — Web tool for looking up public Google Play Store app details." />
+</picture></a>
+<a href="https://github.com/Sajedur0/in_app_update_android"><picture>
+  <source media="(max-width: 768px)" srcset="assets/card-in-app-update-mobile.svg" />
+  <img src="assets/card-in-app-update.svg" width="49%" alt="Android In-App Update — Seamless Google Play flexible and immediate update module for Android apps." />
+</picture></a>
 
 <br/>
 
-| Domain | Technologies & Tools |
-| :--- | :--- |
-| **Apps & interfaces** | `Flutter` · `Dart` · `Firebase` · `Android` · `Desktop UI` |
-| **Scripts & web** | `Python` · `TypeScript` · `JavaScript` · `HTML5` · `CSS3` · `PowerShell` |
-| **Systems & native** | `Rust` · `C++` · `C#` · `MS SQL` |
-| **Tools & workflow** | `Git` · `GitHub Actions` · `VS Code` · `Android Studio` · `Linux` |
-
-<picture>
-  <source media="(max-width: 640px)" srcset="divider-mobile.svg" />
-  <img src="divider.svg" width="100%" alt="" />
-</picture>
-
-## Activity
-
-Live snapshots of my public GitHub activity and contribution graph. *(External stats cards may occasionally be cached; [my GitHub profile](https://github.com/Sajedur0) is always the source of truth.)*
-
-<div align="center">
-
-<!--
-  No width attribute on purpose: the live stat cards keep their intrinsic
-  ~467px size, so they sit side by side on a wide desktop column and stack
-  full-width (and stay readable) on a phone.
--->
-<a href="https://github.com/Sajedur0?tab=repositories"><img src="https://github-readme-stats.vercel.app/api?username=Sajedur0&amp;show_icons=true&amp;hide_border=true&amp;bg_color=091224&amp;title_color=00F2FE&amp;icon_color=A6A0EF&amp;text_color=B8C7DC&amp;border_radius=14" alt="Live GitHub statistics for Sajedur0" /></a>
-<a href="https://github.com/Sajedur0?tab=repositories"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sajedur0&amp;layout=compact&amp;langs_count=6&amp;hide_border=true&amp;bg_color=091224&amp;title_color=00F2FE&amp;text_color=B8C7DC&amp;border_radius=14" alt="Top languages across public repositories for Sajedur0" /></a>
-
-<br/><br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="github-contribution-grid-snake.svg" />
-  <img src="github-contribution-grid-snake.svg" width="100%" alt="Animated snake tracing the GitHub contribution grid" />
-</picture>
+<a href="https://github.com/Sajedur0/PC-Software"><picture>
+  <source media="(max-width: 768px)" srcset="assets/card-pc-software-mobile.svg" />
+  <img src="assets/card-pc-software.svg" width="49%" alt="PC Software Pack — Collection of everyday Windows utilities, printer helpers, and fonts." />
+</picture></a>
+<a href="https://github.com/Sajedur0/Privacy-Policies"><picture>
+  <source media="(max-width: 768px)" srcset="assets/card-privacy-hub-mobile.svg" />
+  <img src="assets/card-privacy-hub.svg" width="49%" alt="App Privacy Hub — Official plain-language privacy policy portal for Sajedur0 Android apps." />
+</picture></a>
 
 </div>
 
@@ -177,25 +162,23 @@ Live snapshots of my public GitHub activity and contribution graph. *(External s
 
 ## Connect
 
-Have an idea for a useful tool, software, web utility, or open-source collaboration? **Let's build something great together.**
-
 <div align="center">
 
-<a href="https://www.sajedur0.online"><img src="https://img.shields.io/badge/Website-sajedur0.online-00F2FE?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white&amp;labelColor=0B1325" alt="Portfolio website sajedur0.online" /></a>
+<a href="https://play.google.com/store/apps/dev?id=5574132061091657048"><img src="https://img.shields.io/badge/Google_Play-Sajedur0-34D399?style=for-the-badge&amp;logo=googleplay&amp;logoColor=white&amp;labelColor=0B1325" alt="Google Play Store profile" /></a>
+&nbsp;
+<a href="https://www.sajedur0.online"><img src="https://img.shields.io/badge/Website-sajedur0.online-00F2FE?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white&amp;labelColor=0B1325" alt="Website sajedur0.online" /></a>
 &nbsp;
 <a href="mailto:contact@sajedur0.com"><img src="https://img.shields.io/badge/Email-contact%40sajedur0.com-71DED2?style=for-the-badge&amp;logo=gmail&amp;logoColor=white&amp;labelColor=0B1325" alt="Send email to contact@sajedur0.com" /></a>
 &nbsp;
 <a href="https://linkedin.com/in/Sajedur0"><img src="https://img.shields.io/badge/LinkedIn-Sajedur0-3B82F6?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white&amp;labelColor=0B1325" alt="Connect on LinkedIn" /></a>
 &nbsp;
-<a href="https://twitter.com/Sajedur0"><img src="https://img.shields.io/badge/X-Sajedur0-A6A0EF?style=for-the-badge&amp;logo=x&amp;logoColor=white&amp;labelColor=0B1325" alt="Follow on X (Twitter)" /></a>
+<a href="https://twitter.com/Sajedur0"><img src="https://img.shields.io/badge/X-Sajedur0-A6A0EF?style=for-the-badge&amp;logo=x&amp;logoColor=white&amp;labelColor=0B1325" alt="Follow on X" /></a>
 &nbsp;
 <a href="https://facebook.com/Sajedur0"><img src="https://img.shields.io/badge/Facebook-Sajedur0-60A5FA?style=for-the-badge&amp;logo=facebook&amp;logoColor=white&amp;labelColor=0B1325" alt="Connect on Facebook" /></a>
 
 <br/><br/>
 
-**Useful software. Practical tools. Open source.**
-
-*Thanks for stopping by — see you in the commit history.*
+**Sajedur Rahman Roni**
 
 <br/>
 

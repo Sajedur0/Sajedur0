@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="214" viewBox="0 0 580 214" fill="none" role="img" aria-labelledby="ismTitle ismDesc">
+  <title id="ismTitle">Internet Speed Meter — Live Windows Taskbar Network Monitor</title>
+  <desc id="ismDesc">Lightweight Windows taskbar utility displaying live download and upload speeds right next to the system tray.</desc>
+
+  <defs>
+    <linearGradient id="ismBg" x1="0" y1="0" x2="580" y2="214" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#081526"/>
+      <stop offset="100%" stop-color="#0B1226"/>
+    </linearGradient>
+
+    <linearGradient id="ismBorder" x1="0" y1="0" x2="580" y2="214" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#34D399" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.5"/>
+    </linearGradient>
+
+    <linearGradient id="ismBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00F2FE"/>
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="ismAura" cx="85%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0"/>
+    </radialGradient>
+
+    <clipPath id="ismClip">
+      <rect x="1" y="1" width="578" height="212" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#ismClip)">
+    <rect width="580" height="214" fill="url(#ismBg)"/>
+    <rect width="580" height="214" fill="url(#ismAura)"/>
+    <rect x="-200" y="1" width="240" height="3" fill="url(#ismBeam)">
+      <animate attributeName="x" values="-240;580;-240" dur="6.3s" repeatCount="indefinite"/>
+    </rect>
+
+    <g transform="translate(46, 48)">
+      <rect x="-22" y="-22" width="44" height="44" rx="12" fill="#0D223A" stroke="#00F2FE" stroke-opacity="0.45" stroke-width="1.2"/>
+      <path d="M -12 6 A 13 13 0 1 1 12 6" fill="none" stroke="#00F2FE" stroke-width="1.8" stroke-linecap="round"/>
+      <line x1="0" y1="4" x2="7" y2="-6" stroke="#67E8F9" stroke-width="2" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" values="-35 0 4; 28 0 4; -35 0 4" dur="3.2s" repeatCount="indefinite"/>
+      </line>
+      <circle cx="0" cy="4" r="2.8" fill="#00F2FE"/>
+    </g>
+    <g transform="translate(410, 28)">
+      <rect width="144" height="26" rx="13" fill="#0E223A" stroke="#00F2FE" stroke-opacity="0.4" stroke-width="1"/>
+      <circle cx="14" cy="13" r="3" fill="#34D399">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="24" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#67E8F9" letter-spacing="0.8">TASKBAR APP</text>
+    </g>
+
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+      <text x="82" y="45" fill="#F8FAFC" font-size="20.5" font-weight="800" letter-spacing="-0.4">Internet Speed Meter <tspan fill="#00F2FE" font-size="17">↗</tspan></text>
+      <text x="82" y="67" fill="#67E8F9" font-size="13.5" font-weight="600">Live network speed on the Windows taskbar</text>
+      <text x="26" y="106" fill="#CBD5E1" font-size="13.5">Shows real-time download and upload speeds directly on your</text>
+      <text x="26" y="128" fill="#94A8C4" font-size="13.5">Windows taskbar beside the system tray with minimal resource use.</text>
+
+      <g transform="translate(26, 158)" font-size="11.5" font-weight="700">
+        <rect x="0" y="0" width="80" height="28" rx="8" fill="#10253A" stroke="#234B6E"/>
+        <text x="40" y="18" text-anchor="middle" fill="#67E8F9">Windows</text>
+        <rect x="90" y="0" width="90" height="28" rx="8" fill="#0C2924" stroke="#1B5E4A"/>
+        <text x="135" y="18" text-anchor="middle" fill="#6EE7B7">Live Speed</text>
+        <rect x="190" y="0" width="96" height="28" rx="8" fill="#16203B" stroke="#2D3F6E"/>
+        <text x="238" y="18" text-anchor="middle" fill="#93C5FD">System Tray</text>
+      </g>
+      <text x="554" y="177" text-anchor="end" fill="#67E8F9" font-size="12" font-weight="700">Open Project →</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="578" height="212" rx="18" stroke="url(#ismBorder)" stroke-width="1.5"/>
+</svg>

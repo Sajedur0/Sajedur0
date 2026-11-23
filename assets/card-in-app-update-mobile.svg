@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300" fill="none" role="img" aria-labelledby="iaumTitle iaumDesc">
-  <title id="iaumTitle">Android In-App Update — Flutter Plugin for Google Play Core</title>
-  <desc id="iaumDesc">A Flutter plugin that integrates the Google Play Core In-App Update API on Android. Compact tile for small screens.</desc>
+  <title id="iaumTitle">Android In-App Update — Seamless Google Play Update Module</title>
+  <desc id="iaumDesc">Integrates official Google Play flexible and immediate update flows to keep Android apps effortlessly current. Compact tile for mobile screens.</desc>
 
   <defs>
     <linearGradient id="iaumBg" x1="0" y1="0" x2="300" y2="300" gradientUnits="userSpaceOnUse">
@@ -33,41 +33,30 @@
   <g clip-path="url(#iaumClip)">
     <rect width="300" height="300" fill="url(#iaumBg)"/>
     <rect width="300" height="300" fill="url(#iaumAura)"/>
-
-    <!-- Top Animated Shimmer Line -->
     <rect x="-160" y="1" width="160" height="4" fill="url(#iaumBeam)">
-      <animate attributeName="x" values="-160;300;-160" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="-160;300;-160" dur="7.0s" repeatCount="indefinite"/>
     </rect>
 
-    <!-- Animated Plugin Module Icon -->
-    <g transform="translate(150, 60)">
+    <g transform="translate(150, 58)">
       <rect x="-24" y="-24" width="48" height="48" rx="12" fill="#191838" stroke="#A6A0EF" stroke-opacity="0.45" stroke-width="1.2"/>
-      <circle r="13" fill="none" stroke="#A6A0EF" stroke-width="1.4" opacity="0.5">
-        <animate attributeName="r" values="9;15;9" dur="2.8s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0.8;0.15;0.8" dur="2.8s" repeatCount="indefinite"/>
-      </circle>
-      <path d="M 0 8 V -8 M -6 -2 L 0 -8 L 6 -2" stroke="#00F2FE" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-        <animateTransform attributeName="transform" type="translate" values="0,2; 0,-2; 0,2" dur="1.8s" repeatCount="indefinite"/>
-      </path>
+      <path d="M -11 -3 A 11.5 11.5 0 0 1 9 -7" fill="none" stroke="#A6A0EF" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M 11 3 A 11.5 11.5 0 0 1 -9 7" fill="none" stroke="#C4B5FD" stroke-width="1.8" stroke-linecap="round"/>
+      <polygon points="10,-10 11.5,-3.5 5,-5.5" fill="#A6A0EF"/>
+      <polygon points="-10,10 -11.5,3.5 -5,5.5" fill="#C4B5FD"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="10s" repeatCount="indefinite"/>
     </g>
 
-    <!-- Tile Typography -->
     <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" text-anchor="middle">
-      <text x="150" y="132" fill="#F8FAFC" font-size="28" font-weight="800" letter-spacing="-0.5">In-App Update</text>
-      <text x="150" y="166" fill="#C4B5FD" font-size="18" font-weight="600">Google Play Core API</text>
-
-      <!-- Hairline Separator -->
-      <path d="M 70 190 H 230" stroke="#1E2D45" stroke-width="1.2"/>
-
-      <!-- Tech Stack Chips -->
-      <g transform="translate(65.5, 206)" font-size="15" font-weight="700">
-        <rect x="0" y="0" width="66" height="34" rx="11" fill="#16203B" stroke="#2D3F6E"/>
-        <text x="33" y="23" text-anchor="middle" fill="#93C5FD">Dart</text>
-        <rect x="76" y="0" width="93" height="34" rx="11" fill="#122832" stroke="#23535D"/>
-        <text x="122.5" y="23" text-anchor="middle" fill="#86EFAC">Android</text>
+      <text x="150" y="130" fill="#F8FAFC" font-size="27" font-weight="800" letter-spacing="-0.5">In-App Update</text>
+      <text x="150" y="164" fill="#C4B5FD" font-size="17.5" font-weight="600">Play update helper</text>
+      <path d="M 66 188 H 234" stroke="#1E2D45" stroke-width="1.2"/>
+      <g transform="translate(52, 204)" font-size="15" font-weight="700">
+        <rect x="0" y="0" width="93" height="34" rx="11" fill="#0C2924" stroke="#1B5E4A"/>
+        <text x="46.5" y="23" text-anchor="middle" fill="#6EE7B7">Android</text>
+        <rect x="103" y="0" width="93" height="34" rx="11" fill="#1E1B3A" stroke="#433878"/>
+        <text x="149.5" y="23" text-anchor="middle" fill="#C4B5FD">Updates</text>
       </g>
-
-      <text x="150" y="274" fill="#C4B5FD" font-size="15" font-weight="700">View source →</text>
+      <text x="150" y="272" fill="#C4B5FD" font-size="15" font-weight="700">Open Project →</text>
     </g>
   </g>
 

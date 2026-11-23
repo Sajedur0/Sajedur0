@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="214" viewBox="0 0 580 214" fill="none" role="img" aria-labelledby="pcsTitle pcsDesc">
+  <title id="pcsTitle">PC Software Pack — Collection of Handy Windows Utilities</title>
+  <desc id="pcsDesc">Curated collection of everyday Windows helpers, printer utilities, Bengali fonts, context menu tools, and system cleaners.</desc>
+
+  <defs>
+    <linearGradient id="pcsBg" x1="0" y1="0" x2="580" y2="214" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#131424"/>
+      <stop offset="100%" stop-color="#091324"/>
+    </linearGradient>
+
+    <linearGradient id="pcsBorder" x1="0" y1="0" x2="580" y2="214" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FCD34D" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#60A5FA" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0.45"/>
+    </linearGradient>
+
+    <linearGradient id="pcsBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FCD34D" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="pcsAura" cx="85%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#FCD34D" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#FCD34D" stop-opacity="0"/>
+    </radialGradient>
+
+    <clipPath id="pcsClip">
+      <rect x="1" y="1" width="578" height="212" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#pcsClip)">
+    <rect width="580" height="214" fill="url(#pcsBg)"/>
+    <rect width="580" height="214" fill="url(#pcsAura)"/>
+    <rect x="-200" y="1" width="240" height="3" fill="url(#pcsBeam)">
+      <animate attributeName="x" values="-240;580;-240" dur="6.8s" repeatCount="indefinite"/>
+    </rect>
+
+    <g transform="translate(46, 48)">
+      <rect x="-22" y="-22" width="44" height="44" rx="12" fill="#221E24" stroke="#60A5FA" stroke-opacity="0.45" stroke-width="1.2"/>
+      <rect x="-12" y="-6" width="24" height="17" rx="3.5" fill="none" stroke="#60A5FA" stroke-width="1.7"/>
+      <path d="M -5 -6 V -9.5 C -5 -10.8 -4 -11.8 -2.7 -11.8 H 2.7 C 4 -11.8 5 -10.8 5 -9.5 V -6" fill="none" stroke="#60A5FA" stroke-width="1.6"/>
+      <line x1="-12" y1="1.5" x2="12" y2="1.5" stroke="#60A5FA" stroke-width="1.4" opacity="0.7"/>
+      <rect x="-2.5" y="-1" width="5" height="5" rx="1.2" fill="#FCD34D">
+        <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <g transform="translate(410, 28)">
+      <rect width="144" height="26" rx="13" fill="#241E18" stroke="#FCD34D" stroke-opacity="0.4" stroke-width="1"/>
+      <circle cx="14" cy="13" r="3" fill="#FCD34D">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2.0s" repeatCount="indefinite"/>
+      </circle>
+      <text x="24" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#FCD34D" letter-spacing="0.8">PC COLLECTION</text>
+    </g>
+
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+      <text x="82" y="45" fill="#F8FAFC" font-size="20.5" font-weight="800" letter-spacing="-0.4">PC Software Pack <tspan fill="#FCD34D" font-size="17">↗</tspan></text>
+      <text x="82" y="67" fill="#93C5FD" font-size="13.5" font-weight="600">Everyday Windows utilities &amp; helpers</text>
+      <text x="26" y="106" fill="#CBD5E1" font-size="13.5">Handpicked bundle of everyday Windows helpers, printer utilities,</text>
+      <text x="26" y="128" fill="#94A8C4" font-size="13.5">Bengali fonts, context menu tweaks, and disk tools.</text>
+
+      <g transform="translate(26, 158)" font-size="11.5" font-weight="700">
+        <rect x="0" y="0" width="80" height="28" rx="8" fill="#10253A" stroke="#234B6E"/>
+        <text x="40" y="18" text-anchor="middle" fill="#67E8F9">Windows</text>
+        <rect x="90" y="0" width="92" height="28" rx="8" fill="#2A1F14" stroke="#6B4C23"/>
+        <text x="136" y="18" text-anchor="middle" fill="#FCD34D">PC Helpers</text>
+        <rect x="192" y="0" width="78" height="28" rx="8" fill="#16203B" stroke="#2D3F6E"/>
+        <text x="231" y="18" text-anchor="middle" fill="#93C5FD">Utilities</text>
+      </g>
+      <text x="554" y="177" text-anchor="end" fill="#FCD34D" font-size="12" font-weight="700">Open Project →</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="578" height="212" rx="18" stroke="url(#pcsBorder)" stroke-width="1.5"/>
+</svg>
