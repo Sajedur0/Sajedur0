@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300" fill="none" role="img" aria-labelledby="pmmTitle pmmDesc">
+  <title id="pmmTitle">Payroll Management — Windows Attendance &amp; Salary Dashboard</title>
+  <desc id="pmmDesc">Desktop management dashboard for employee records, daily attendance, payroll calculation, and Excel reporting. Compact tile for mobile screens.</desc>
+
+  <defs>
+    <linearGradient id="pmmBg" x1="0" y1="0" x2="300" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0E1128"/>
+      <stop offset="100%" stop-color="#091324"/>
+    </linearGradient>
+
+    <linearGradient id="pmmBorder" x1="0" y1="0" x2="300" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#A6A0EF" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0.45"/>
+    </linearGradient>
+
+    <linearGradient id="pmmBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A6A0EF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#A6A0EF"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="pmmAura" cx="85%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#A6A0EF" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#A6A0EF" stop-opacity="0"/>
+    </radialGradient>
+
+    <clipPath id="pmmClip">
+      <rect x="1" y="1" width="298" height="298" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#pmmClip)">
+    <rect width="300" height="300" fill="url(#pmmBg)"/>
+    <rect width="300" height="300" fill="url(#pmmAura)"/>
+    <rect x="-160" y="1" width="160" height="4" fill="url(#pmmBeam)">
+      <animate attributeName="x" values="-160;300;-160" dur="6.9s" repeatCount="indefinite"/>
+    </rect>
+
+    <g transform="translate(150, 58)">
+      <rect x="-24" y="-24" width="48" height="48" rx="12" fill="#191838" stroke="#A6A0EF" stroke-opacity="0.45" stroke-width="1.2"/>
+      <rect x="-11" y="-12" width="22" height="24" rx="4" fill="none" stroke="#A6A0EF" stroke-width="1.6"/>
+      <line x1="-6" y1="-5" x2="6" y2="-5" stroke="#C4B5FD" stroke-width="1.7" stroke-linecap="round"/>
+      <line x1="-6" y1="1" x2="6" y2="1" stroke="#A6A0EF" stroke-width="1.7" stroke-linecap="round">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" repeatCount="indefinite"/>
+      </line>
+      <line x1="-6" y1="7" x2="2" y2="7" stroke="#6EE7B7" stroke-width="1.7" stroke-linecap="round"/>
+    </g>
+
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" text-anchor="middle">
+      <text x="150" y="130" fill="#F8FAFC" font-size="27" font-weight="800" letter-spacing="-0.5">Payroll App</text>
+      <text x="150" y="164" fill="#C4B5FD" font-size="17.5" font-weight="600">Attendance &amp; salary</text>
+      <path d="M 66 188 H 234" stroke="#1E2D45" stroke-width="1.2"/>
+      <g transform="translate(52, 204)" font-size="15" font-weight="700">
+        <rect x="0" y="0" width="93" height="34" rx="11" fill="#16203B" stroke="#2D3F6E"/>
+        <text x="46.5" y="23" text-anchor="middle" fill="#93C5FD">Windows</text>
+        <rect x="103" y="0" width="93" height="34" rx="11" fill="#1E1B3A" stroke="#433878"/>
+        <text x="149.5" y="23" text-anchor="middle" fill="#C4B5FD">Reports</text>
+      </g>
+      <text x="150" y="272" fill="#C4B5FD" font-size="15" font-weight="700">Open Project →</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="298" height="298" rx="18" stroke="url(#pmmBorder)" stroke-width="1.5"/>
+</svg>

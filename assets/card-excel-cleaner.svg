@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="214" viewBox="0 0 580 214" fill="none" role="img" aria-labelledby="esrTitle esrDesc">
+  <title id="esrTitle">Excel Space Remover — Clean Unwanted Spaces in Spreadsheets</title>
+  <desc id="esrDesc">Web utility that finds, highlights, and removes unwanted leading and trailing spaces in Excel and CSV files.</desc>
+
+  <defs>
+    <linearGradient id="esrBg" x1="0" y1="0" x2="580" y2="214" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#081720"/>
+      <stop offset="100%" stop-color="#0A1224"/>
+    </linearGradient>
+
+    <linearGradient id="esrBorder" x1="0" y1="0" x2="580" y2="214" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#34D399" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#00F2FE" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.45"/>
+    </linearGradient>
+
+    <linearGradient id="esrBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34D399" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="esrAura" cx="85%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#34D399" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0"/>
+    </radialGradient>
+
+    <clipPath id="esrClip">
+      <rect x="1" y="1" width="578" height="212" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#esrClip)">
+    <rect width="580" height="214" fill="url(#esrBg)"/>
+    <rect width="580" height="214" fill="url(#esrAura)"/>
+    <rect x="-200" y="1" width="240" height="3" fill="url(#esrBeam)">
+      <animate attributeName="x" values="580;-240;580" dur="7.1s" repeatCount="indefinite"/>
+    </rect>
+
+    <g transform="translate(46, 48)">
+      <rect x="-22" y="-22" width="44" height="44" rx="12" fill="#0D262B" stroke="#34D399" stroke-opacity="0.45" stroke-width="1.2"/>
+      <rect x="-11" y="-11" width="9.5" height="9.5" rx="2.2" fill="none" stroke="#34D399" stroke-width="1.6"/>
+      <rect x="1.5" y="-11" width="9.5" height="9.5" rx="2.2" fill="#34D399" fill-opacity="0.35" stroke="#34D399" stroke-width="1.6">
+        <animate attributeName="fill-opacity" values="0.2;0.75;0.2" dur="2.2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="-11" y="1.5" width="9.5" height="9.5" rx="2.2" fill="none" stroke="#34D399" stroke-width="1.6"/>
+      <rect x="1.5" y="1.5" width="9.5" height="9.5" rx="2.2" fill="none" stroke="#6EE7B7" stroke-width="1.6"/>
+    </g>
+    <g transform="translate(410, 28)">
+      <rect width="144" height="26" rx="13" fill="#0C2824" stroke="#34D399" stroke-opacity="0.4" stroke-width="1"/>
+      <circle cx="14" cy="13" r="3" fill="#34D399">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.9s" repeatCount="indefinite"/>
+      </circle>
+      <text x="24" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#6EE7B7" letter-spacing="0.8">WEB TOOL</text>
+    </g>
+
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+      <text x="82" y="45" fill="#F8FAFC" font-size="20.5" font-weight="800" letter-spacing="-0.4">Excel Space Remover <tspan fill="#34D399" font-size="17">↗</tspan></text>
+      <text x="82" y="67" fill="#6EE7B7" font-size="13.5" font-weight="600">Clean unwanted spaces in Excel &amp; CSV files</text>
+      <text x="26" y="106" fill="#CBD5E1" font-size="13.5">Automatically scans, highlights, and trims hidden leading or</text>
+      <text x="26" y="128" fill="#94A8C4" font-size="13.5">trailing spaces across Excel and CSV spreadsheets in one click.</text>
+
+      <g transform="translate(26, 158)" font-size="11.5" font-weight="700">
+        <rect x="0" y="0" width="78" height="28" rx="8" fill="#0C2924" stroke="#1B5E4A"/>
+        <text x="39" y="18" text-anchor="middle" fill="#6EE7B7">Web App</text>
+        <rect x="88" y="0" width="96" height="28" rx="8" fill="#10253A" stroke="#234B6E"/>
+        <text x="136" y="18" text-anchor="middle" fill="#67E8F9">Excel &amp; CSV</text>
+        <rect x="194" y="0" width="86" height="28" rx="8" fill="#16203B" stroke="#2D3F6E"/>
+        <text x="237" y="18" text-anchor="middle" fill="#93C5FD">One-Click</text>
+      </g>
+      <text x="554" y="177" text-anchor="end" fill="#6EE7B7" font-size="12" font-weight="700">Open Project →</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="578" height="212" rx="18" stroke="url(#esrBorder)" stroke-width="1.5"/>
+</svg>

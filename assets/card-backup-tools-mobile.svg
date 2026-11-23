@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300" fill="none" role="img" aria-labelledby="pbmTitle pbmDesc">
-  <title id="pbmTitle">Project Backup Tools — One-Click Flutter Desktop Backup Utility</title>
-  <desc id="pbmDesc">A Flutter desktop application for backing up projects with one click, without the busywork. Compact tile for small screens.</desc>
+  <title id="pbmTitle">Project Backup Tools — One-Click Windows Backup App</title>
+  <desc id="pbmDesc">Desktop application for creating timestamped ZIP backups of project folders in one click with smart exclusions. Compact tile for mobile screens.</desc>
 
   <defs>
     <linearGradient id="pbmBg" x1="0" y1="0" x2="300" y2="300" gradientUnits="userSpaceOnUse">
@@ -33,14 +33,11 @@
   <g clip-path="url(#pbmClip)">
     <rect width="300" height="300" fill="url(#pbmBg)"/>
     <rect width="300" height="300" fill="url(#pbmAura)"/>
-
-    <!-- Top Animated Shimmer Line -->
     <rect x="-160" y="1" width="160" height="4" fill="url(#pbmBeam)">
-      <animate attributeName="x" values="-160;300;-160" dur="6.5s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="-160;300;-160" dur="6.4s" repeatCount="indefinite"/>
     </rect>
 
-    <!-- Animated Syncing Vault Icon -->
-    <g transform="translate(150, 60)">
+    <g transform="translate(150, 58)">
       <rect x="-24" y="-24" width="48" height="48" rx="12" fill="#0D2538" stroke="#71DED2" stroke-opacity="0.45" stroke-width="1.2"/>
       <circle r="13" fill="none" stroke="#71DED2" stroke-width="1.6" stroke-dasharray="16 8" stroke-linecap="round">
         <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="8s" repeatCount="indefinite"/>
@@ -50,23 +47,17 @@
       </rect>
     </g>
 
-    <!-- Tile Typography -->
     <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" text-anchor="middle">
-      <text x="150" y="132" fill="#F8FAFC" font-size="28" font-weight="800" letter-spacing="-0.5">Backup Tools</text>
-      <text x="150" y="166" fill="#71DED2" font-size="18" font-weight="600">One-click backups</text>
-
-      <!-- Hairline Separator -->
-      <path d="M 70 190 H 230" stroke="#1E2D45" stroke-width="1.2"/>
-
-      <!-- Tech Stack Chips -->
-      <g transform="translate(52, 206)" font-size="15" font-weight="700">
+      <text x="150" y="130" fill="#F8FAFC" font-size="27" font-weight="800" letter-spacing="-0.5">Backup Tools</text>
+      <text x="150" y="164" fill="#71DED2" font-size="17.5" font-weight="600">One-click ZIP backups</text>
+      <path d="M 66 188 H 234" stroke="#1E2D45" stroke-width="1.2"/>
+      <g transform="translate(56.5, 204)" font-size="15" font-weight="700">
         <rect x="0" y="0" width="93" height="34" rx="11" fill="#10253A" stroke="#234B6E"/>
-        <text x="46.5" y="23" text-anchor="middle" fill="#67E8F9">Flutter</text>
-        <rect x="103" y="0" width="93" height="34" rx="11" fill="#122832" stroke="#23535D"/>
-        <text x="149.5" y="23" text-anchor="middle" fill="#86EFAC">Desktop</text>
+        <text x="46.5" y="23" text-anchor="middle" fill="#67E8F9">Windows</text>
+        <rect x="103" y="0" width="84" height="34" rx="11" fill="#0C2924" stroke="#1B5E4A"/>
+        <text x="145" y="23" text-anchor="middle" fill="#6EE7B7">Backup</text>
       </g>
-
-      <text x="150" y="274" fill="#71DED2" font-size="15" font-weight="700">View source →</text>
+      <text x="150" y="272" fill="#71DED2" font-size="15" font-weight="700">Open Project →</text>
     </g>
   </g>
 

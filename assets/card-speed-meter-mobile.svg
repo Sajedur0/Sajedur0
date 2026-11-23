@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300" fill="none" role="img" aria-labelledby="ismmTitle ismmDesc">
+  <title id="ismmTitle">Internet Speed Meter — Live Windows Taskbar Network Monitor</title>
+  <desc id="ismmDesc">Lightweight Windows taskbar utility displaying live download and upload speeds right next to the system tray. Compact tile for mobile screens.</desc>
+
+  <defs>
+    <linearGradient id="ismmBg" x1="0" y1="0" x2="300" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#081526"/>
+      <stop offset="100%" stop-color="#0B1226"/>
+    </linearGradient>
+
+    <linearGradient id="ismmBorder" x1="0" y1="0" x2="300" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#34D399" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.5"/>
+    </linearGradient>
+
+    <linearGradient id="ismmBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00F2FE"/>
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="ismmAura" cx="85%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0"/>
+    </radialGradient>
+
+    <clipPath id="ismmClip">
+      <rect x="1" y="1" width="298" height="298" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#ismmClip)">
+    <rect width="300" height="300" fill="url(#ismmBg)"/>
+    <rect width="300" height="300" fill="url(#ismmAura)"/>
+    <rect x="-160" y="1" width="160" height="4" fill="url(#ismmBeam)">
+      <animate attributeName="x" values="-160;300;-160" dur="6.3s" repeatCount="indefinite"/>
+    </rect>
+
+    <g transform="translate(150, 58)">
+      <rect x="-24" y="-24" width="48" height="48" rx="12" fill="#0D223A" stroke="#00F2FE" stroke-opacity="0.45" stroke-width="1.2"/>
+      <path d="M -12 6 A 13 13 0 1 1 12 6" fill="none" stroke="#00F2FE" stroke-width="1.8" stroke-linecap="round"/>
+      <line x1="0" y1="4" x2="7" y2="-6" stroke="#67E8F9" stroke-width="2" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" values="-35 0 4; 28 0 4; -35 0 4" dur="3.2s" repeatCount="indefinite"/>
+      </line>
+      <circle cx="0" cy="4" r="2.8" fill="#00F2FE"/>
+    </g>
+
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" text-anchor="middle">
+      <text x="150" y="130" fill="#F8FAFC" font-size="27" font-weight="800" letter-spacing="-0.5">Speed Meter</text>
+      <text x="150" y="164" fill="#67E8F9" font-size="17.5" font-weight="600">Live taskbar speed</text>
+      <path d="M 66 188 H 234" stroke="#1E2D45" stroke-width="1.2"/>
+      <g transform="translate(52, 204)" font-size="15" font-weight="700">
+        <rect x="0" y="0" width="93" height="34" rx="11" fill="#10253A" stroke="#234B6E"/>
+        <text x="46.5" y="23" text-anchor="middle" fill="#67E8F9">Windows</text>
+        <rect x="103" y="0" width="93" height="34" rx="11" fill="#0C2924" stroke="#1B5E4A"/>
+        <text x="149.5" y="23" text-anchor="middle" fill="#6EE7B7">Taskbar</text>
+      </g>
+      <text x="150" y="272" fill="#67E8F9" font-size="15" font-weight="700">Open Project →</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="298" height="298" rx="18" stroke="url(#ismmBorder)" stroke-width="1.5"/>
+</svg>

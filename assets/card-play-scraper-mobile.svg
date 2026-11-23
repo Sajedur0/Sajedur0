@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300" fill="none" role="img" aria-labelledby="gpsmTitle gpsmDesc">
+  <title id="gpsmTitle">Google Play Scraper — App Store Info Lookup Tool</title>
+  <desc id="gpsmDesc">Web utility for extracting public app titles, icons, ratings, and store details from Google Play URLs. Compact tile for mobile screens.</desc>
+
+  <defs>
+    <linearGradient id="gpsmBg" x1="0" y1="0" x2="300" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0A1428"/>
+      <stop offset="100%" stop-color="#0E1125"/>
+    </linearGradient>
+
+    <linearGradient id="gpsmBorder" x1="0" y1="0" x2="300" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#60A5FA" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#34D399" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#A6A0EF" stop-opacity="0.45"/>
+    </linearGradient>
+
+    <linearGradient id="gpsmBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60A5FA" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="gpsmAura" cx="85%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#60A5FA" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#60A5FA" stop-opacity="0"/>
+    </radialGradient>
+
+    <clipPath id="gpsmClip">
+      <rect x="1" y="1" width="298" height="298" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#gpsmClip)">
+    <rect width="300" height="300" fill="url(#gpsmBg)"/>
+    <rect width="300" height="300" fill="url(#gpsmAura)"/>
+    <rect x="-160" y="1" width="160" height="4" fill="url(#gpsmBeam)">
+      <animate attributeName="x" values="-160;300;-160" dur="6.6s" repeatCount="indefinite"/>
+    </rect>
+
+    <g transform="translate(150, 58)">
+      <rect x="-24" y="-24" width="48" height="48" rx="12" fill="#10203A" stroke="#60A5FA" stroke-opacity="0.45" stroke-width="1.2"/>
+      <polygon points="-7,-11 11,0 -7,11" fill="#60A5FA" fill-opacity="0.28" stroke="#60A5FA" stroke-width="1.8" stroke-linejoin="round">
+        <animate attributeName="fill-opacity" values="0.2;0.6;0.2" dur="2.4s" repeatCount="indefinite"/>
+      </polygon>
+    </g>
+
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" text-anchor="middle">
+      <text x="150" y="130" fill="#F8FAFC" font-size="27" font-weight="800" letter-spacing="-0.5">Play Lookup</text>
+      <text x="150" y="164" fill="#93C5FD" font-size="17.5" font-weight="600">Store info extractor</text>
+      <path d="M 66 188 H 234" stroke="#1E2D45" stroke-width="1.2"/>
+      <g transform="translate(29.5, 204)" font-size="15" font-weight="700">
+        <rect x="0" y="0" width="102" height="34" rx="11" fill="#16203B" stroke="#2D3F6E"/>
+        <text x="51" y="23" text-anchor="middle" fill="#93C5FD">Web Tool</text>
+        <rect x="112" y="0" width="129" height="34" rx="11" fill="#0C2924" stroke="#1B5E4A"/>
+        <text x="176.5" y="23" text-anchor="middle" fill="#6EE7B7">Google Play</text>
+      </g>
+      <text x="150" y="272" fill="#93C5FD" font-size="15" font-weight="700">Open Project →</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="298" height="298" rx="18" stroke="url(#gpsmBorder)" stroke-width="1.5"/>
+</svg>
